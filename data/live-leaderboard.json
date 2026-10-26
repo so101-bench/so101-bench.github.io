@@ -1,0 +1,1602 @@
+{
+  "updated": "2026-10-23 22:14 CDT",
+  "episodes": 916,
+  "score_definition": "Equal-weight mean over 15 task-family × object-split cells.",
+  "rows": [
+    {
+      "policy": "GPT-6.1 Sol + PyRUA-Lean v9.6 + Galaxea 0.5",
+      "type": "LLM agent + VLA",
+      "n": 916,
+      "total": 916,
+      "complete": true,
+      "score": 83.19207520784934,
+      "ci_lo": 80.65619559559279,
+      "ci_hi": 85.69701708088823,
+      "successes": 756,
+      "rates": {
+        "seen": {
+          "successes": 270,
+          "n": 316,
+          "rate": 0.8544303797468354
+        },
+        "unseen_seen_class": {
+          "successes": 234,
+          "n": 285,
+          "rate": 0.8210526315789474
+        },
+        "unseen_unseen_class": {
+          "successes": 252,
+          "n": 315,
+          "rate": 0.8
+        },
+        "bin_1": {
+          "successes": 191,
+          "n": 202,
+          "rate": 0.9455445544554455
+        },
+        "bin_4": {
+          "successes": 59,
+          "n": 68,
+          "rate": 0.8676470588235294
+        },
+        "next_to": {
+          "successes": 184,
+          "n": 216,
+          "rate": 0.8518518518518519
+        },
+        "between": {
+          "successes": 175,
+          "n": 216,
+          "rate": 0.8101851851851852
+        },
+        "move": {
+          "successes": 147,
+          "n": 214,
+          "rate": 0.6869158878504673
+        },
+        "ROBUST": {
+          "successes": 146,
+          "n": 178,
+          "rate": 0.8202247191011236
+        },
+        "PLAN": {
+          "successes": 36,
+          "n": 48,
+          "rate": 0.75
+        },
+        "MEM": {
+          "successes": 41,
+          "n": 51,
+          "rate": 0.803921568627451
+        }
+      },
+      "cells": {
+        "seen/between": {
+          "successes": 63,
+          "n": 75,
+          "rate": 0.84
+        },
+        "seen/bin_1": {
+          "successes": 66,
+          "n": 67,
+          "rate": 0.9850746268656716
+        },
+        "seen/bin_4": {
+          "successes": 23,
+          "n": 24,
+          "rate": 0.9583333333333334
+        },
+        "seen/move": {
+          "successes": 54,
+          "n": 75,
+          "rate": 0.72
+        },
+        "seen/next_to": {
+          "successes": 64,
+          "n": 75,
+          "rate": 0.8533333333333334
+        },
+        "unseen_seen_class/between": {
+          "successes": 55,
+          "n": 67,
+          "rate": 0.8208955223880597
+        },
+        "unseen_seen_class/bin_1": {
+          "successes": 59,
+          "n": 64,
+          "rate": 0.921875
+        },
+        "unseen_seen_class/bin_4": {
+          "successes": 17,
+          "n": 22,
+          "rate": 0.7727272727272727
+        },
+        "unseen_seen_class/move": {
+          "successes": 42,
+          "n": 65,
+          "rate": 0.6461538461538462
+        },
+        "unseen_seen_class/next_to": {
+          "successes": 61,
+          "n": 67,
+          "rate": 0.9104477611940298
+        },
+        "unseen_unseen_class/between": {
+          "successes": 57,
+          "n": 74,
+          "rate": 0.7702702702702703
+        },
+        "unseen_unseen_class/bin_1": {
+          "successes": 66,
+          "n": 71,
+          "rate": 0.9295774647887324
+        },
+        "unseen_unseen_class/bin_4": {
+          "successes": 19,
+          "n": 22,
+          "rate": 0.8636363636363636
+        },
+        "unseen_unseen_class/move": {
+          "successes": 51,
+          "n": 74,
+          "rate": 0.6891891891891891
+        },
+        "unseen_unseen_class/next_to": {
+          "successes": 59,
+          "n": 74,
+          "rate": 0.7972972972972973
+        }
+      }
+    },
+    {
+      "policy": "DeepSeek V4.1 Flash (1017) + PyRUA-Lean v9.6 + Galaxea 0.5",
+      "type": "LLM agent + VLA",
+      "n": 916,
+      "total": 916,
+      "complete": true,
+      "score": 66.83344281464946,
+      "ci_lo": 63.75614670736069,
+      "ci_hi": 70.04984131966735,
+      "successes": 605,
+      "rates": {
+        "seen": {
+          "successes": 227,
+          "n": 316,
+          "rate": 0.7183544303797469
+        },
+        "unseen_seen_class": {
+          "successes": 188,
+          "n": 285,
+          "rate": 0.6596491228070176
+        },
+        "unseen_unseen_class": {
+          "successes": 190,
+          "n": 315,
+          "rate": 0.6031746031746031
+        },
+        "bin_1": {
+          "successes": 175,
+          "n": 202,
+          "rate": 0.8663366336633663
+        },
+        "bin_4": {
+          "successes": 48,
+          "n": 68,
+          "rate": 0.7058823529411765
+        },
+        "next_to": {
+          "successes": 133,
+          "n": 216,
+          "rate": 0.6157407407407407
+        },
+        "between": {
+          "successes": 120,
+          "n": 216,
+          "rate": 0.5555555555555556
+        },
+        "move": {
+          "successes": 129,
+          "n": 214,
+          "rate": 0.602803738317757
+        },
+        "ROBUST": {
+          "successes": 111,
+          "n": 178,
+          "rate": 0.6235955056179775
+        },
+        "PLAN": {
+          "successes": 17,
+          "n": 48,
+          "rate": 0.3541666666666667
+        },
+        "MEM": {
+          "successes": 28,
+          "n": 51,
+          "rate": 0.5490196078431373
+        }
+      },
+      "cells": {
+        "seen/between": {
+          "successes": 45,
+          "n": 75,
+          "rate": 0.6
+        },
+        "seen/bin_1": {
+          "successes": 65,
+          "n": 67,
+          "rate": 0.9701492537313433
+        },
+        "seen/bin_4": {
+          "successes": 21,
+          "n": 24,
+          "rate": 0.875
+        },
+        "seen/move": {
+          "successes": 46,
+          "n": 75,
+          "rate": 0.6133333333333333
+        },
+        "seen/next_to": {
+          "successes": 50,
+          "n": 75,
+          "rate": 0.6666666666666666
+        },
+        "unseen_seen_class/between": {
+          "successes": 33,
+          "n": 67,
+          "rate": 0.4925373134328358
+        },
+        "unseen_seen_class/bin_1": {
+          "successes": 56,
+          "n": 64,
+          "rate": 0.875
+        },
+        "unseen_seen_class/bin_4": {
+          "successes": 17,
+          "n": 22,
+          "rate": 0.7727272727272727
+        },
+        "unseen_seen_class/move": {
+          "successes": 39,
+          "n": 65,
+          "rate": 0.6
+        },
+        "unseen_seen_class/next_to": {
+          "successes": 43,
+          "n": 67,
+          "rate": 0.6417910447761194
+        },
+        "unseen_unseen_class/between": {
+          "successes": 42,
+          "n": 74,
+          "rate": 0.5675675675675675
+        },
+        "unseen_unseen_class/bin_1": {
+          "successes": 54,
+          "n": 71,
+          "rate": 0.7605633802816901
+        },
+        "unseen_unseen_class/bin_4": {
+          "successes": 10,
+          "n": 22,
+          "rate": 0.45454545454545453
+        },
+        "unseen_unseen_class/move": {
+          "successes": 44,
+          "n": 74,
+          "rate": 0.5945945945945946
+        },
+        "unseen_unseen_class/next_to": {
+          "successes": 40,
+          "n": 74,
+          "rate": 0.5405405405405406
+        }
+      }
+    },
+    {
+      "policy": "InternW0-Δ",
+      "type": "WAM",
+      "n": 916,
+      "total": 916,
+      "complete": true,
+      "score": 61.350662042271765,
+      "ci_lo": 58.54975359221207,
+      "ci_hi": 64.03402410175325,
+      "successes": 533,
+      "rates": {
+        "seen": {
+          "successes": 241,
+          "n": 316,
+          "rate": 0.7626582278481012
+        },
+        "unseen_seen_class": {
+          "successes": 160,
+          "n": 285,
+          "rate": 0.5614035087719298
+        },
+        "unseen_unseen_class": {
+          "successes": 132,
+          "n": 315,
+          "rate": 0.41904761904761906
+        },
+        "bin_1": {
+          "successes": 187,
+          "n": 202,
+          "rate": 0.9257425742574258
+        },
+        "bin_4": {
+          "successes": 54,
+          "n": 68,
+          "rate": 0.7941176470588235
+        },
+        "next_to": {
+          "successes": 90,
+          "n": 216,
+          "rate": 0.4166666666666667
+        },
+        "between": {
+          "successes": 75,
+          "n": 216,
+          "rate": 0.3472222222222222
+        },
+        "move": {
+          "successes": 127,
+          "n": 214,
+          "rate": 0.5934579439252337
+        },
+        "ROBUST": {
+          "successes": 94,
+          "n": 178,
+          "rate": 0.5280898876404494
+        },
+        "PLAN": {
+          "successes": 6,
+          "n": 48,
+          "rate": 0.125
+        },
+        "MEM": {
+          "successes": 24,
+          "n": 51,
+          "rate": 0.47058823529411764
+        }
+      },
+      "cells": {
+        "seen/between": {
+          "successes": 42,
+          "n": 75,
+          "rate": 0.56
+        },
+        "seen/bin_1": {
+          "successes": 66,
+          "n": 67,
+          "rate": 0.9850746268656716
+        },
+        "seen/bin_4": {
+          "successes": 22,
+          "n": 24,
+          "rate": 0.9166666666666666
+        },
+        "seen/move": {
+          "successes": 57,
+          "n": 75,
+          "rate": 0.76
+        },
+        "seen/next_to": {
+          "successes": 54,
+          "n": 75,
+          "rate": 0.72
+        },
+        "unseen_seen_class/between": {
+          "successes": 19,
+          "n": 67,
+          "rate": 0.2835820895522388
+        },
+        "unseen_seen_class/bin_1": {
+          "successes": 63,
+          "n": 64,
+          "rate": 0.984375
+        },
+        "unseen_seen_class/bin_4": {
+          "successes": 19,
+          "n": 22,
+          "rate": 0.8636363636363636
+        },
+        "unseen_seen_class/move": {
+          "successes": 36,
+          "n": 65,
+          "rate": 0.5538461538461539
+        },
+        "unseen_seen_class/next_to": {
+          "successes": 23,
+          "n": 67,
+          "rate": 0.34328358208955223
+        },
+        "unseen_unseen_class/between": {
+          "successes": 14,
+          "n": 74,
+          "rate": 0.1891891891891892
+        },
+        "unseen_unseen_class/bin_1": {
+          "successes": 58,
+          "n": 71,
+          "rate": 0.8169014084507042
+        },
+        "unseen_unseen_class/bin_4": {
+          "successes": 13,
+          "n": 22,
+          "rate": 0.5909090909090909
+        },
+        "unseen_unseen_class/move": {
+          "successes": 34,
+          "n": 74,
+          "rate": 0.4594594594594595
+        },
+        "unseen_unseen_class/next_to": {
+          "successes": 13,
+          "n": 74,
+          "rate": 0.17567567567567569
+        }
+      }
+    },
+    {
+      "policy": "Galaxea 0.5",
+      "type": "VLA",
+      "n": 916,
+      "total": 916,
+      "complete": true,
+      "score": 60.79172480945394,
+      "ci_lo": 57.80456415033617,
+      "ci_hi": 63.58930109398367,
+      "successes": 525,
+      "rates": {
+        "seen": {
+          "successes": 241,
+          "n": 316,
+          "rate": 0.7626582278481012
+        },
+        "unseen_seen_class": {
+          "successes": 158,
+          "n": 285,
+          "rate": 0.5543859649122806
+        },
+        "unseen_unseen_class": {
+          "successes": 126,
+          "n": 315,
+          "rate": 0.4
+        },
+        "bin_1": {
+          "successes": 182,
+          "n": 202,
+          "rate": 0.900990099009901
+        },
+        "bin_4": {
+          "successes": 55,
+          "n": 68,
+          "rate": 0.8088235294117647
+        },
+        "next_to": {
+          "successes": 94,
+          "n": 216,
+          "rate": 0.4351851851851852
+        },
+        "between": {
+          "successes": 74,
+          "n": 216,
+          "rate": 0.3425925925925926
+        },
+        "move": {
+          "successes": 120,
+          "n": 214,
+          "rate": 0.5607476635514018
+        },
+        "ROBUST": {
+          "successes": 102,
+          "n": 178,
+          "rate": 0.5730337078651685
+        },
+        "PLAN": {
+          "successes": 7,
+          "n": 48,
+          "rate": 0.14583333333333334
+        },
+        "MEM": {
+          "successes": 16,
+          "n": 51,
+          "rate": 0.3137254901960784
+        }
+      },
+      "cells": {
+        "seen/between": {
+          "successes": 47,
+          "n": 75,
+          "rate": 0.6266666666666667
+        },
+        "seen/bin_1": {
+          "successes": 65,
+          "n": 67,
+          "rate": 0.9701492537313433
+        },
+        "seen/bin_4": {
+          "successes": 22,
+          "n": 24,
+          "rate": 0.9166666666666666
+        },
+        "seen/move": {
+          "successes": 54,
+          "n": 75,
+          "rate": 0.72
+        },
+        "seen/next_to": {
+          "successes": 53,
+          "n": 75,
+          "rate": 0.7066666666666667
+        },
+        "unseen_seen_class/between": {
+          "successes": 18,
+          "n": 67,
+          "rate": 0.26865671641791045
+        },
+        "unseen_seen_class/bin_1": {
+          "successes": 59,
+          "n": 64,
+          "rate": 0.921875
+        },
+        "unseen_seen_class/bin_4": {
+          "successes": 19,
+          "n": 22,
+          "rate": 0.8636363636363636
+        },
+        "unseen_seen_class/move": {
+          "successes": 35,
+          "n": 65,
+          "rate": 0.5384615384615384
+        },
+        "unseen_seen_class/next_to": {
+          "successes": 27,
+          "n": 67,
+          "rate": 0.40298507462686567
+        },
+        "unseen_unseen_class/between": {
+          "successes": 9,
+          "n": 74,
+          "rate": 0.12162162162162163
+        },
+        "unseen_unseen_class/bin_1": {
+          "successes": 58,
+          "n": 71,
+          "rate": 0.8169014084507042
+        },
+        "unseen_unseen_class/bin_4": {
+          "successes": 14,
+          "n": 22,
+          "rate": 0.6363636363636364
+        },
+        "unseen_unseen_class/move": {
+          "successes": 31,
+          "n": 74,
+          "rate": 0.4189189189189189
+        },
+        "unseen_unseen_class/next_to": {
+          "successes": 14,
+          "n": 74,
+          "rate": 0.1891891891891892
+        }
+      }
+    },
+    {
+      "policy": "NVIDIA GR00T N1.7-3B",
+      "type": "VLA",
+      "n": 916,
+      "total": 916,
+      "complete": true,
+      "score": 45.75913658915814,
+      "ci_lo": 42.6743567682421,
+      "ci_hi": 48.89695129860938,
+      "successes": 433,
+      "rates": {
+        "seen": {
+          "successes": 210,
+          "n": 316,
+          "rate": 0.6645569620253164
+        },
+        "unseen_seen_class": {
+          "successes": 127,
+          "n": 285,
+          "rate": 0.4456140350877193
+        },
+        "unseen_unseen_class": {
+          "successes": 96,
+          "n": 315,
+          "rate": 0.3047619047619048
+        },
+        "bin_1": {
+          "successes": 151,
+          "n": 202,
+          "rate": 0.7475247524752475
+        },
+        "bin_4": {
+          "successes": 24,
+          "n": 68,
+          "rate": 0.35294117647058826
+        },
+        "next_to": {
+          "successes": 87,
+          "n": 216,
+          "rate": 0.4027777777777778
+        },
+        "between": {
+          "successes": 79,
+          "n": 216,
+          "rate": 0.36574074074074076
+        },
+        "move": {
+          "successes": 92,
+          "n": 214,
+          "rate": 0.42990654205607476
+        },
+        "ROBUST": {
+          "successes": 85,
+          "n": 178,
+          "rate": 0.47752808988764045
+        },
+        "PLAN": {
+          "successes": 8,
+          "n": 48,
+          "rate": 0.16666666666666666
+        },
+        "MEM": {
+          "successes": 22,
+          "n": 51,
+          "rate": 0.43137254901960786
+        }
+      },
+      "cells": {
+        "seen/between": {
+          "successes": 42,
+          "n": 75,
+          "rate": 0.56
+        },
+        "seen/bin_1": {
+          "successes": 63,
+          "n": 67,
+          "rate": 0.9402985074626866
+        },
+        "seen/bin_4": {
+          "successes": 16,
+          "n": 24,
+          "rate": 0.6666666666666666
+        },
+        "seen/move": {
+          "successes": 43,
+          "n": 75,
+          "rate": 0.5733333333333334
+        },
+        "seen/next_to": {
+          "successes": 46,
+          "n": 75,
+          "rate": 0.6133333333333333
+        },
+        "unseen_seen_class/between": {
+          "successes": 17,
+          "n": 67,
+          "rate": 0.2537313432835821
+        },
+        "unseen_seen_class/bin_1": {
+          "successes": 49,
+          "n": 64,
+          "rate": 0.765625
+        },
+        "unseen_seen_class/bin_4": {
+          "successes": 5,
+          "n": 22,
+          "rate": 0.22727272727272727
+        },
+        "unseen_seen_class/move": {
+          "successes": 27,
+          "n": 65,
+          "rate": 0.4153846153846154
+        },
+        "unseen_seen_class/next_to": {
+          "successes": 29,
+          "n": 67,
+          "rate": 0.43283582089552236
+        },
+        "unseen_unseen_class/between": {
+          "successes": 20,
+          "n": 74,
+          "rate": 0.2702702702702703
+        },
+        "unseen_unseen_class/bin_1": {
+          "successes": 39,
+          "n": 71,
+          "rate": 0.5492957746478874
+        },
+        "unseen_unseen_class/bin_4": {
+          "successes": 3,
+          "n": 22,
+          "rate": 0.13636363636363635
+        },
+        "unseen_unseen_class/move": {
+          "successes": 22,
+          "n": 74,
+          "rate": 0.2972972972972973
+        },
+        "unseen_unseen_class/next_to": {
+          "successes": 12,
+          "n": 74,
+          "rate": 0.16216216216216217
+        }
+      }
+    },
+    {
+      "policy": "ImageWAM-FLUX.2-4B",
+      "type": "WAM",
+      "n": 916,
+      "total": 916,
+      "complete": true,
+      "score": 42.97840612146109,
+      "ci_lo": 40.21550725465745,
+      "ci_hi": 45.73613470368779,
+      "successes": 393,
+      "rates": {
+        "seen": {
+          "successes": 205,
+          "n": 316,
+          "rate": 0.6487341772151899
+        },
+        "unseen_seen_class": {
+          "successes": 120,
+          "n": 285,
+          "rate": 0.42105263157894735
+        },
+        "unseen_unseen_class": {
+          "successes": 68,
+          "n": 315,
+          "rate": 0.21587301587301588
+        },
+        "bin_1": {
+          "successes": 144,
+          "n": 202,
+          "rate": 0.7128712871287128
+        },
+        "bin_4": {
+          "successes": 29,
+          "n": 68,
+          "rate": 0.4264705882352941
+        },
+        "next_to": {
+          "successes": 77,
+          "n": 216,
+          "rate": 0.35648148148148145
+        },
+        "between": {
+          "successes": 56,
+          "n": 216,
+          "rate": 0.25925925925925924
+        },
+        "move": {
+          "successes": 87,
+          "n": 214,
+          "rate": 0.40654205607476634
+        },
+        "ROBUST": {
+          "successes": 60,
+          "n": 178,
+          "rate": 0.33707865168539325
+        },
+        "PLAN": {
+          "successes": 4,
+          "n": 48,
+          "rate": 0.08333333333333333
+        },
+        "MEM": {
+          "successes": 14,
+          "n": 51,
+          "rate": 0.27450980392156865
+        }
+      },
+      "cells": {
+        "seen/between": {
+          "successes": 38,
+          "n": 75,
+          "rate": 0.5066666666666667
+        },
+        "seen/bin_1": {
+          "successes": 62,
+          "n": 67,
+          "rate": 0.9253731343283582
+        },
+        "seen/bin_4": {
+          "successes": 21,
+          "n": 24,
+          "rate": 0.875
+        },
+        "seen/move": {
+          "successes": 42,
+          "n": 75,
+          "rate": 0.56
+        },
+        "seen/next_to": {
+          "successes": 42,
+          "n": 75,
+          "rate": 0.56
+        },
+        "unseen_seen_class/between": {
+          "successes": 12,
+          "n": 67,
+          "rate": 0.1791044776119403
+        },
+        "unseen_seen_class/bin_1": {
+          "successes": 49,
+          "n": 64,
+          "rate": 0.765625
+        },
+        "unseen_seen_class/bin_4": {
+          "successes": 8,
+          "n": 22,
+          "rate": 0.36363636363636365
+        },
+        "unseen_seen_class/move": {
+          "successes": 27,
+          "n": 65,
+          "rate": 0.4153846153846154
+        },
+        "unseen_seen_class/next_to": {
+          "successes": 24,
+          "n": 67,
+          "rate": 0.3582089552238806
+        },
+        "unseen_unseen_class/between": {
+          "successes": 6,
+          "n": 74,
+          "rate": 0.08108108108108109
+        },
+        "unseen_unseen_class/bin_1": {
+          "successes": 33,
+          "n": 71,
+          "rate": 0.4647887323943662
+        },
+        "unseen_unseen_class/bin_4": {
+          "successes": 0,
+          "n": 22,
+          "rate": 0.0
+        },
+        "unseen_unseen_class/move": {
+          "successes": 18,
+          "n": 74,
+          "rate": 0.24324324324324326
+        },
+        "unseen_unseen_class/next_to": {
+          "successes": 11,
+          "n": 74,
+          "rate": 0.14864864864864866
+        }
+      }
+    },
+    {
+      "policy": "Physical Intelligence π0.5",
+      "type": "VLA",
+      "n": 916,
+      "total": 916,
+      "complete": true,
+      "score": 41.047196311012804,
+      "ci_lo": 37.970262322698204,
+      "ci_hi": 44.14241904484179,
+      "successes": 382,
+      "rates": {
+        "seen": {
+          "successes": 182,
+          "n": 316,
+          "rate": 0.5759493670886076
+        },
+        "unseen_seen_class": {
+          "successes": 113,
+          "n": 285,
+          "rate": 0.39649122807017545
+        },
+        "unseen_unseen_class": {
+          "successes": 87,
+          "n": 315,
+          "rate": 0.2761904761904762
+        },
+        "bin_1": {
+          "successes": 148,
+          "n": 202,
+          "rate": 0.7326732673267327
+        },
+        "bin_4": {
+          "successes": 24,
+          "n": 68,
+          "rate": 0.35294117647058826
+        },
+        "next_to": {
+          "successes": 68,
+          "n": 216,
+          "rate": 0.3148148148148148
+        },
+        "between": {
+          "successes": 54,
+          "n": 216,
+          "rate": 0.25
+        },
+        "move": {
+          "successes": 88,
+          "n": 214,
+          "rate": 0.411214953271028
+        },
+        "ROBUST": {
+          "successes": 64,
+          "n": 178,
+          "rate": 0.3595505617977528
+        },
+        "PLAN": {
+          "successes": 4,
+          "n": 48,
+          "rate": 0.08333333333333333
+        },
+        "MEM": {
+          "successes": 11,
+          "n": 51,
+          "rate": 0.21568627450980393
+        }
+      },
+      "cells": {
+        "seen/between": {
+          "successes": 32,
+          "n": 75,
+          "rate": 0.4266666666666667
+        },
+        "seen/bin_1": {
+          "successes": 57,
+          "n": 67,
+          "rate": 0.8507462686567164
+        },
+        "seen/bin_4": {
+          "successes": 14,
+          "n": 24,
+          "rate": 0.5833333333333334
+        },
+        "seen/move": {
+          "successes": 41,
+          "n": 75,
+          "rate": 0.5466666666666666
+        },
+        "seen/next_to": {
+          "successes": 38,
+          "n": 75,
+          "rate": 0.5066666666666667
+        },
+        "unseen_seen_class/between": {
+          "successes": 14,
+          "n": 67,
+          "rate": 0.208955223880597
+        },
+        "unseen_seen_class/bin_1": {
+          "successes": 46,
+          "n": 64,
+          "rate": 0.71875
+        },
+        "unseen_seen_class/bin_4": {
+          "successes": 6,
+          "n": 22,
+          "rate": 0.2727272727272727
+        },
+        "unseen_seen_class/move": {
+          "successes": 26,
+          "n": 65,
+          "rate": 0.4
+        },
+        "unseen_seen_class/next_to": {
+          "successes": 21,
+          "n": 67,
+          "rate": 0.31343283582089554
+        },
+        "unseen_unseen_class/between": {
+          "successes": 8,
+          "n": 74,
+          "rate": 0.10810810810810811
+        },
+        "unseen_unseen_class/bin_1": {
+          "successes": 45,
+          "n": 71,
+          "rate": 0.6338028169014085
+        },
+        "unseen_unseen_class/bin_4": {
+          "successes": 4,
+          "n": 22,
+          "rate": 0.18181818181818182
+        },
+        "unseen_unseen_class/move": {
+          "successes": 21,
+          "n": 74,
+          "rate": 0.28378378378378377
+        },
+        "unseen_unseen_class/next_to": {
+          "successes": 9,
+          "n": 74,
+          "rate": 0.12162162162162163
+        }
+      }
+    },
+    {
+      "policy": "LaWAM",
+      "type": "WAM",
+      "n": 916,
+      "total": 916,
+      "complete": true,
+      "score": 39.86735380726342,
+      "ci_lo": 36.81711277783381,
+      "ci_hi": 42.923934262177895,
+      "successes": 357,
+      "rates": {
+        "seen": {
+          "successes": 193,
+          "n": 316,
+          "rate": 0.6107594936708861
+        },
+        "unseen_seen_class": {
+          "successes": 104,
+          "n": 285,
+          "rate": 0.3649122807017544
+        },
+        "unseen_unseen_class": {
+          "successes": 60,
+          "n": 315,
+          "rate": 0.19047619047619047
+        },
+        "bin_1": {
+          "successes": 141,
+          "n": 202,
+          "rate": 0.698019801980198
+        },
+        "bin_4": {
+          "successes": 30,
+          "n": 68,
+          "rate": 0.4411764705882353
+        },
+        "next_to": {
+          "successes": 59,
+          "n": 216,
+          "rate": 0.27314814814814814
+        },
+        "between": {
+          "successes": 46,
+          "n": 216,
+          "rate": 0.21296296296296297
+        },
+        "move": {
+          "successes": 81,
+          "n": 214,
+          "rate": 0.37850467289719625
+        },
+        "ROBUST": {
+          "successes": 32,
+          "n": 178,
+          "rate": 0.1797752808988764
+        },
+        "PLAN": {
+          "successes": 3,
+          "n": 48,
+          "rate": 0.0625
+        },
+        "MEM": {
+          "successes": 15,
+          "n": 51,
+          "rate": 0.29411764705882354
+        }
+      },
+      "cells": {
+        "seen/between": {
+          "successes": 38,
+          "n": 75,
+          "rate": 0.5066666666666667
+        },
+        "seen/bin_1": {
+          "successes": 58,
+          "n": 67,
+          "rate": 0.8656716417910447
+        },
+        "seen/bin_4": {
+          "successes": 16,
+          "n": 24,
+          "rate": 0.6666666666666666
+        },
+        "seen/move": {
+          "successes": 42,
+          "n": 75,
+          "rate": 0.56
+        },
+        "seen/next_to": {
+          "successes": 39,
+          "n": 75,
+          "rate": 0.52
+        },
+        "unseen_seen_class/between": {
+          "successes": 6,
+          "n": 67,
+          "rate": 0.08955223880597014
+        },
+        "unseen_seen_class/bin_1": {
+          "successes": 44,
+          "n": 64,
+          "rate": 0.6875
+        },
+        "unseen_seen_class/bin_4": {
+          "successes": 10,
+          "n": 22,
+          "rate": 0.45454545454545453
+        },
+        "unseen_seen_class/move": {
+          "successes": 26,
+          "n": 65,
+          "rate": 0.4
+        },
+        "unseen_seen_class/next_to": {
+          "successes": 18,
+          "n": 67,
+          "rate": 0.26865671641791045
+        },
+        "unseen_unseen_class/between": {
+          "successes": 2,
+          "n": 74,
+          "rate": 0.02702702702702703
+        },
+        "unseen_unseen_class/bin_1": {
+          "successes": 39,
+          "n": 71,
+          "rate": 0.5492957746478874
+        },
+        "unseen_unseen_class/bin_4": {
+          "successes": 4,
+          "n": 22,
+          "rate": 0.18181818181818182
+        },
+        "unseen_unseen_class/move": {
+          "successes": 13,
+          "n": 74,
+          "rate": 0.17567567567567569
+        },
+        "unseen_unseen_class/next_to": {
+          "successes": 2,
+          "n": 74,
+          "rate": 0.02702702702702703
+        }
+      }
+    },
+    {
+      "policy": "Ai2 MolmoAct2 (base)",
+      "type": "VLA",
+      "n": 916,
+      "total": 916,
+      "complete": true,
+      "score": 23.849752852940263,
+      "ci_lo": 21.57417385428474,
+      "ci_hi": 26.152082540286763,
+      "successes": 250,
+      "rates": {
+        "seen": {
+          "successes": 99,
+          "n": 316,
+          "rate": 0.31329113924050633
+        },
+        "unseen_seen_class": {
+          "successes": 76,
+          "n": 285,
+          "rate": 0.26666666666666666
+        },
+        "unseen_unseen_class": {
+          "successes": 75,
+          "n": 315,
+          "rate": 0.23809523809523808
+        },
+        "bin_1": {
+          "successes": 99,
+          "n": 202,
+          "rate": 0.4900990099009901
+        },
+        "bin_4": {
+          "successes": 0,
+          "n": 68,
+          "rate": 0.0
+        },
+        "next_to": {
+          "successes": 47,
+          "n": 216,
+          "rate": 0.2175925925925926
+        },
+        "between": {
+          "successes": 31,
+          "n": 216,
+          "rate": 0.14351851851851852
+        },
+        "move": {
+          "successes": 73,
+          "n": 214,
+          "rate": 0.3411214953271028
+        },
+        "ROBUST": {
+          "successes": 50,
+          "n": 178,
+          "rate": 0.2808988764044944
+        },
+        "PLAN": {
+          "successes": 2,
+          "n": 48,
+          "rate": 0.041666666666666664
+        },
+        "MEM": {
+          "successes": 12,
+          "n": 51,
+          "rate": 0.23529411764705882
+        }
+      },
+      "cells": {
+        "seen/between": {
+          "successes": 20,
+          "n": 75,
+          "rate": 0.26666666666666666
+        },
+        "seen/bin_1": {
+          "successes": 38,
+          "n": 67,
+          "rate": 0.5671641791044776
+        },
+        "seen/bin_4": {
+          "successes": 0,
+          "n": 24,
+          "rate": 0.0
+        },
+        "seen/move": {
+          "successes": 27,
+          "n": 75,
+          "rate": 0.36
+        },
+        "seen/next_to": {
+          "successes": 14,
+          "n": 75,
+          "rate": 0.18666666666666668
+        },
+        "unseen_seen_class/between": {
+          "successes": 7,
+          "n": 67,
+          "rate": 0.1044776119402985
+        },
+        "unseen_seen_class/bin_1": {
+          "successes": 29,
+          "n": 64,
+          "rate": 0.453125
+        },
+        "unseen_seen_class/bin_4": {
+          "successes": 0,
+          "n": 22,
+          "rate": 0.0
+        },
+        "unseen_seen_class/move": {
+          "successes": 23,
+          "n": 65,
+          "rate": 0.35384615384615387
+        },
+        "unseen_seen_class/next_to": {
+          "successes": 17,
+          "n": 67,
+          "rate": 0.2537313432835821
+        },
+        "unseen_unseen_class/between": {
+          "successes": 4,
+          "n": 74,
+          "rate": 0.05405405405405406
+        },
+        "unseen_unseen_class/bin_1": {
+          "successes": 32,
+          "n": 71,
+          "rate": 0.4507042253521127
+        },
+        "unseen_unseen_class/bin_4": {
+          "successes": 0,
+          "n": 22,
+          "rate": 0.0
+        },
+        "unseen_unseen_class/move": {
+          "successes": 23,
+          "n": 74,
+          "rate": 0.3108108108108108
+        },
+        "unseen_unseen_class/next_to": {
+          "successes": 16,
+          "n": 74,
+          "rate": 0.21621621621621623
+        }
+      }
+    },
+    {
+      "policy": "Ai2 MolmoAct2-SO100_101",
+      "type": "VLA",
+      "n": 916,
+      "total": 916,
+      "complete": true,
+      "score": 20.925154441645926,
+      "ci_lo": 18.669401641174815,
+      "ci_hi": 23.386464888790407,
+      "successes": 219,
+      "rates": {
+        "seen": {
+          "successes": 93,
+          "n": 316,
+          "rate": 0.29430379746835444
+        },
+        "unseen_seen_class": {
+          "successes": 71,
+          "n": 285,
+          "rate": 0.24912280701754386
+        },
+        "unseen_unseen_class": {
+          "successes": 55,
+          "n": 315,
+          "rate": 0.1746031746031746
+        },
+        "bin_1": {
+          "successes": 90,
+          "n": 202,
+          "rate": 0.44554455445544555
+        },
+        "bin_4": {
+          "successes": 0,
+          "n": 68,
+          "rate": 0.0
+        },
+        "next_to": {
+          "successes": 40,
+          "n": 216,
+          "rate": 0.18518518518518517
+        },
+        "between": {
+          "successes": 34,
+          "n": 216,
+          "rate": 0.1574074074074074
+        },
+        "move": {
+          "successes": 55,
+          "n": 214,
+          "rate": 0.2570093457943925
+        },
+        "ROBUST": {
+          "successes": 47,
+          "n": 178,
+          "rate": 0.2640449438202247
+        },
+        "PLAN": {
+          "successes": 3,
+          "n": 48,
+          "rate": 0.0625
+        },
+        "MEM": {
+          "successes": 10,
+          "n": 51,
+          "rate": 0.19607843137254902
+        }
+      },
+      "cells": {
+        "seen/between": {
+          "successes": 19,
+          "n": 75,
+          "rate": 0.25333333333333335
+        },
+        "seen/bin_1": {
+          "successes": 31,
+          "n": 67,
+          "rate": 0.4626865671641791
+        },
+        "seen/bin_4": {
+          "successes": 0,
+          "n": 24,
+          "rate": 0.0
+        },
+        "seen/move": {
+          "successes": 23,
+          "n": 75,
+          "rate": 0.30666666666666664
+        },
+        "seen/next_to": {
+          "successes": 20,
+          "n": 75,
+          "rate": 0.26666666666666666
+        },
+        "unseen_seen_class/between": {
+          "successes": 11,
+          "n": 67,
+          "rate": 0.16417910447761194
+        },
+        "unseen_seen_class/bin_1": {
+          "successes": 28,
+          "n": 64,
+          "rate": 0.4375
+        },
+        "unseen_seen_class/bin_4": {
+          "successes": 0,
+          "n": 22,
+          "rate": 0.0
+        },
+        "unseen_seen_class/move": {
+          "successes": 20,
+          "n": 65,
+          "rate": 0.3076923076923077
+        },
+        "unseen_seen_class/next_to": {
+          "successes": 12,
+          "n": 67,
+          "rate": 0.1791044776119403
+        },
+        "unseen_unseen_class/between": {
+          "successes": 4,
+          "n": 74,
+          "rate": 0.05405405405405406
+        },
+        "unseen_unseen_class/bin_1": {
+          "successes": 31,
+          "n": 71,
+          "rate": 0.43661971830985913
+        },
+        "unseen_unseen_class/bin_4": {
+          "successes": 0,
+          "n": 22,
+          "rate": 0.0
+        },
+        "unseen_unseen_class/move": {
+          "successes": 12,
+          "n": 74,
+          "rate": 0.16216216216216217
+        },
+        "unseen_unseen_class/next_to": {
+          "successes": 8,
+          "n": 74,
+          "rate": 0.10810810810810811
+        }
+      }
+    },
+    {
+      "policy": "FLUX 3 Action SO-101 LoRA",
+      "type": "WAM",
+      "n": 916,
+      "total": 916,
+      "complete": true,
+      "score": 7.995057316173565,
+      "ci_lo": 6.365997893804284,
+      "ci_hi": 9.585720383471068,
+      "successes": 80,
+      "rates": {
+        "seen": {
+          "successes": 30,
+          "n": 316,
+          "rate": 0.0949367088607595
+        },
+        "unseen_seen_class": {
+          "successes": 24,
+          "n": 285,
+          "rate": 0.08421052631578947
+        },
+        "unseen_unseen_class": {
+          "successes": 26,
+          "n": 315,
+          "rate": 0.08253968253968254
+        },
+        "bin_1": {
+          "successes": 63,
+          "n": 202,
+          "rate": 0.3118811881188119
+        },
+        "bin_4": {
+          "successes": 1,
+          "n": 68,
+          "rate": 0.014705882352941176
+        },
+        "next_to": {
+          "successes": 6,
+          "n": 216,
+          "rate": 0.027777777777777776
+        },
+        "between": {
+          "successes": 3,
+          "n": 216,
+          "rate": 0.013888888888888888
+        },
+        "move": {
+          "successes": 7,
+          "n": 214,
+          "rate": 0.03271028037383177
+        },
+        "ROBUST": {
+          "successes": 7,
+          "n": 178,
+          "rate": 0.03932584269662921
+        },
+        "PLAN": {
+          "successes": 0,
+          "n": 48,
+          "rate": 0.0
+        },
+        "MEM": {
+          "successes": 3,
+          "n": 51,
+          "rate": 0.058823529411764705
+        }
+      },
+      "cells": {
+        "seen/between": {
+          "successes": 1,
+          "n": 75,
+          "rate": 0.013333333333333334
+        },
+        "seen/bin_1": {
+          "successes": 21,
+          "n": 67,
+          "rate": 0.31343283582089554
+        },
+        "seen/bin_4": {
+          "successes": 1,
+          "n": 24,
+          "rate": 0.041666666666666664
+        },
+        "seen/move": {
+          "successes": 2,
+          "n": 75,
+          "rate": 0.02666666666666667
+        },
+        "seen/next_to": {
+          "successes": 5,
+          "n": 75,
+          "rate": 0.06666666666666667
+        },
+        "unseen_seen_class/between": {
+          "successes": 0,
+          "n": 67,
+          "rate": 0.0
+        },
+        "unseen_seen_class/bin_1": {
+          "successes": 20,
+          "n": 64,
+          "rate": 0.3125
+        },
+        "unseen_seen_class/bin_4": {
+          "successes": 0,
+          "n": 22,
+          "rate": 0.0
+        },
+        "unseen_seen_class/move": {
+          "successes": 3,
+          "n": 65,
+          "rate": 0.046153846153846156
+        },
+        "unseen_seen_class/next_to": {
+          "successes": 1,
+          "n": 67,
+          "rate": 0.014925373134328358
+        },
+        "unseen_unseen_class/between": {
+          "successes": 2,
+          "n": 74,
+          "rate": 0.02702702702702703
+        },
+        "unseen_unseen_class/bin_1": {
+          "successes": 22,
+          "n": 71,
+          "rate": 0.30985915492957744
+        },
+        "unseen_unseen_class/bin_4": {
+          "successes": 0,
+          "n": 22,
+          "rate": 0.0
+        },
+        "unseen_unseen_class/move": {
+          "successes": 2,
+          "n": 74,
+          "rate": 0.02702702702702703
+        },
+        "unseen_unseen_class/next_to": {
+          "successes": 0,
+          "n": 74,
+          "rate": 0.0
+        }
+      }
+    }
+  ]
+}

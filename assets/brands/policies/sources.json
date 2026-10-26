@@ -1,0 +1,94 @@
+[
+  {
+    "key": "openai",
+    "source": "https://github.com/openai.png?size=128",
+    "path": "openai.png",
+    "sha256": "94d112956ab7a291e85111976436e0c6a7b8ced8c0ebb53be9754e91c2181d8f",
+    "size": [
+      128,
+      128
+    ]
+  },
+  {
+    "key": "deepseek",
+    "source": "https://www.deepseek.com/favicon.ico",
+    "path": "deepseek.png",
+    "sha256": "23c44894d1ce1b62cd4a05bb677943bc46886cfde05469936a54993b1adc36cf",
+    "size": [
+      128,
+      128
+    ]
+  },
+  {
+    "key": "internw0",
+    "source": "https://internrobotics.github.io/InternW0-Delta/assets/brand/internw0-delta-logo.jpg",
+    "path": "internw0.png",
+    "sha256": "9688fdafb2974260e91bdd32de93beb4953c910c5f3015d923f6cfd723ced954",
+    "size": [
+      128,
+      128
+    ]
+  },
+  {
+    "key": "galaxea",
+    "source": "https://opengalaxea.github.io/G05/images/Galaxea.png",
+    "path": "galaxea.png",
+    "sha256": "432c2e2d1a1d7aeb2a142712a5ed32fab2941e9bfb33da8d20ca8bec4a5fb125",
+    "size": [
+      128,
+      16
+    ]
+  },
+  {
+    "key": "nvidia",
+    "source": "https://www.nvidia.com/favicon.ico",
+    "path": "nvidia.png",
+    "sha256": "ef933b3647125f8c6635f327eb4814b541a61bc0be66917e9c226c84a240e56e",
+    "size": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "pi",
+    "source": "https://www.pi.website/icon.png",
+    "path": "pi.png",
+    "sha256": "a4d7e7580a4fde9a8aa240fb6302bf2996e9f7901f08ddbdb879fe8dea933eb5",
+    "size": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "ai2",
+    "source": "https://allenai.org/icon.png?56c26b049606f4e5",
+    "path": "ai2.png",
+    "sha256": "674bd5e86aaa1565f493e8b4cc929455d2903b7a0121ff39ec00238616910afa",
+    "size": [
+      128,
+      128
+    ]
+  },
+  {
+    "key": "bfl",
+    "source": "https://bfl.ai/icon1.png?5747da94009b2627",
+    "path": "bfl.png",
+    "sha256": "69c9b6a5703a50d6dbb5dcd4aad1abdbbc0602249fefb560e08a4bf8b0937c56",
+    "size": [
+      96,
+      96
+    ]
+  },
+  {
+    "key": "imagewam",
+    "source": "https://zhangwenyao1.github.io/ImageWAM/",
+    "path": "imagewam.svg",
+    "note": "Local rendering of the IW navigation lettermark."
+  },
+  {
+    "key": "rlinf",
+    "source": "https://rlinf.readthedocs.io/en/latest/_static/svg/logo.svg",
+    "path": "rlinf.svg",
+    "sha256": "792f9805223a29b0bbd0d00201e2b1a6560e6807b5f03db7a14fd4cfc1b17698"
+  }
+]

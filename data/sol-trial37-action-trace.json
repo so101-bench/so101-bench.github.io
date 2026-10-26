@@ -1,0 +1,1502 @@
+[
+  {
+    "wall_seconds": 19.422,
+    "tool": "locate",
+    "arguments": {
+      "text_prompt": "the blue toy dinosaur",
+      "camera": "overhead",
+      "min_score": 0.2
+    },
+    "feedback": {
+      "width_m": 0.0738,
+      "found": true,
+      "score": 0.969,
+      "centroid_rc": [
+        298,
+        293
+      ],
+      "center_xyz": [
+        -0.0381,
+        0.0902,
+        0.0051
+      ],
+      "top_z": 0.0101,
+      "grasp_yaw": -1.2,
+      "views": 1
+    },
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 21.19,
+    "tool": "locate",
+    "arguments": {
+      "text_prompt": "the metal tongs",
+      "camera": "overhead",
+      "min_score": 0.2
+    },
+    "feedback": {
+      "width_m": 0.0553,
+      "found": true,
+      "score": 0.957,
+      "centroid_rc": [
+        315,
+        530
+      ],
+      "center_xyz": [
+        0.2621,
+        0.0825,
+        0.0101
+      ],
+      "top_z": 0.0201,
+      "grasp_yaw": 46.8,
+      "views": 1
+    },
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 28.568,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        -0.04,
+        0.025,
+        0.2
+      ],
+      "gripper": 1,
+      "path": "line",
+      "pitch": 60.0
+    },
+    "feedback": {
+      "reached": true,
+      "dist_to_target_m": 0.008,
+      "orientation_error_deg": 2.1,
+      "final_xyz": [
+        -0.0384,
+        0.0243,
+        0.1919
+      ],
+      "path": "line",
+      "steps_used": 37,
+      "ik_error": null
+    },
+    "env_steps": 37,
+    "ok": true
+  },
+  {
+    "wall_seconds": 30.001,
+    "tool": "locate",
+    "arguments": {
+      "text_prompt": "the blue toy dinosaur",
+      "camera": "wrist",
+      "min_score": 0.2
+    },
+    "feedback": {
+      "width_m": 0.0493,
+      "found": true,
+      "score": 0.906,
+      "centroid_rc": [
+        140,
+        64
+      ],
+      "center_xyz": [
+        -0.0569,
+        0.0852,
+        0.0111
+      ],
+      "top_z": 0.0221,
+      "grasp_yaw": 9.9,
+      "views": 2
+    },
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 43.066,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        -0.057,
+        0.085,
+        0.18
+      ],
+      "gripper": 1,
+      "path": "line",
+      "pitch": 75.0
+    },
+    "feedback": {
+      "reached": false,
+      "dist_to_target_m": 0.0646,
+      "orientation_error_deg": 17.1,
+      "final_xyz": [
+        -0.0384,
+        0.0243,
+        0.1919
+      ],
+      "path": null,
+      "steps_used": 0,
+      "ik_error": "out of reach: the closest pose the arm can take is 0.002 m and 16 deg away; reachable instead: pitch=60 at this position, or z=0.120 with this orientation"
+    },
+    "env_steps": 0,
+    "ok": true
+  },
+  {
+    "wall_seconds": 43.186,
+    "tool": "locate",
+    "arguments": {
+      "text_prompt": "the blue toy dinosaur",
+      "camera": "overhead",
+      "min_score": 0.2
+    },
+    "feedback": {
+      "width_m": 0.0644,
+      "found": true,
+      "score": 0.965,
+      "centroid_rc": [
+        298,
+        293
+      ],
+      "center_xyz": [
+        -0.0378,
+        0.0775,
+        0.0221
+      ],
+      "top_z": 0.0441,
+      "grasp_yaw": -4.1,
+      "views": 2
+    },
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 53.996,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        -0.04,
+        0.078,
+        0.18
+      ],
+      "gripper": 1,
+      "path": "line",
+      "pitch": 60.0
+    },
+    "feedback": {
+      "reached": true,
+      "dist_to_target_m": 0.0034,
+      "orientation_error_deg": 2.5,
+      "final_xyz": [
+        -0.0415,
+        0.0763,
+        0.1769
+      ],
+      "path": "line",
+      "steps_used": 17,
+      "ik_error": null
+    },
+    "env_steps": 17,
+    "ok": true
+  },
+  {
+    "wall_seconds": 54.726,
+    "tool": "locate",
+    "arguments": {
+      "text_prompt": "the blue toy dinosaur",
+      "camera": "overhead",
+      "min_score": 0.2
+    },
+    "feedback": {
+      "width_m": 0.0661,
+      "found": true,
+      "score": 0.965,
+      "centroid_rc": [
+        298,
+        293
+      ],
+      "center_xyz": [
+        -0.0384,
+        0.0772,
+        0.0181
+      ],
+      "top_z": 0.0361,
+      "grasp_yaw": -2.8,
+      "views": 2
+    },
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 60.295,
+    "tool": "sol_verdict",
+    "arguments": {
+      "verdict": null,
+      "decision": "first_handoff",
+      "in_bin": 0
+    },
+    "feedback": {},
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 60.295,
+    "tool": "vla_run",
+    "arguments": {
+      "max_seconds": 5.0,
+      "neutral_roll": true,
+      "hover_check": true
+    },
+    "feedback": {
+      "steps_used": 91
+    },
+    "env_steps": 91,
+    "ok": true
+  },
+  {
+    "wall_seconds": 72.381,
+    "tool": "sol_verdict",
+    "arguments": {
+      "verdict": "progress",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 0,
+      "clock_s": 3.03,
+      "decision": "continue",
+      "reason": null
+    },
+    "feedback": {},
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 72.381,
+    "tool": "vla_run",
+    "arguments": {
+      "max_seconds": 5.0
+    },
+    "feedback": {
+      "steps_used": 5
+    },
+    "env_steps": 5,
+    "ok": true
+  },
+  {
+    "wall_seconds": 75.346,
+    "tool": "sol_verdict",
+    "arguments": {
+      "verdict": "progress",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 0,
+      "clock_s": 3.2,
+      "decision": "continue",
+      "reason": null
+    },
+    "feedback": {},
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 75.346,
+    "tool": "vla_run",
+    "arguments": {
+      "max_seconds": 5.0
+    },
+    "feedback": {
+      "steps_used": 6
+    },
+    "env_steps": 6,
+    "ok": true
+  },
+  {
+    "wall_seconds": 80.451,
+    "tool": "sol_verdict",
+    "arguments": {
+      "verdict": "progress",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 0,
+      "clock_s": 3.4,
+      "decision": "continue",
+      "reason": null
+    },
+    "feedback": {},
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 80.451,
+    "tool": "vla_run",
+    "arguments": {
+      "max_seconds": 5.0
+    },
+    "feedback": {
+      "steps_used": 4
+    },
+    "env_steps": 4,
+    "ok": true
+  },
+  {
+    "wall_seconds": 85.207,
+    "tool": "sol_verdict",
+    "arguments": {
+      "verdict": "progress",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 0,
+      "clock_s": 3.53,
+      "decision": "continue",
+      "reason": null
+    },
+    "feedback": {},
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 85.207,
+    "tool": "vla_run",
+    "arguments": {
+      "max_seconds": 5.0
+    },
+    "feedback": {
+      "steps_used": 6
+    },
+    "env_steps": 6,
+    "ok": true
+  },
+  {
+    "wall_seconds": 88.337,
+    "tool": "sol_verdict",
+    "arguments": {
+      "verdict": "progress",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 0,
+      "clock_s": 3.73,
+      "decision": "continue",
+      "reason": null
+    },
+    "feedback": {},
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 88.337,
+    "tool": "vla_run",
+    "arguments": {
+      "max_seconds": 5.0
+    },
+    "feedback": {
+      "steps_used": 9
+    },
+    "env_steps": 9,
+    "ok": true
+  },
+  {
+    "wall_seconds": 93.289,
+    "tool": "sol_verdict",
+    "arguments": {
+      "verdict": "progress",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 0,
+      "clock_s": 4.03,
+      "decision": "continue",
+      "reason": null
+    },
+    "feedback": {},
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 93.289,
+    "tool": "vla_run",
+    "arguments": {
+      "max_seconds": 5.0
+    },
+    "feedback": {
+      "steps_used": 8
+    },
+    "env_steps": 8,
+    "ok": true
+  },
+  {
+    "wall_seconds": 98.407,
+    "tool": "sol_verdict",
+    "arguments": {
+      "verdict": "progress",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 0,
+      "clock_s": 4.3,
+      "decision": "continue",
+      "reason": null
+    },
+    "feedback": {},
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 98.407,
+    "tool": "vla_run",
+    "arguments": {
+      "max_seconds": 5.0
+    },
+    "feedback": {
+      "steps_used": 11
+    },
+    "env_steps": 11,
+    "ok": true
+  },
+  {
+    "wall_seconds": 103.197,
+    "tool": "sol_verdict",
+    "arguments": {
+      "verdict": "progress",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 0,
+      "clock_s": 4.67,
+      "decision": "continue",
+      "reason": null
+    },
+    "feedback": {},
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 103.197,
+    "tool": "vla_run",
+    "arguments": {
+      "max_seconds": 5.0
+    },
+    "feedback": {
+      "steps_used": 85
+    },
+    "env_steps": 85,
+    "ok": true
+  },
+  {
+    "wall_seconds": 113.403,
+    "tool": "sol_verdict",
+    "arguments": {
+      "verdict": "stuck",
+      "object": "the blue toy dinosaur",
+      "attempts": 0,
+      "stuck_s": 2.83,
+      "in_bin": 0,
+      "clock_s": 7.5,
+      "decision": "continue",
+      "reason": null
+    },
+    "feedback": {},
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 113.403,
+    "tool": "vla_run",
+    "arguments": {
+      "max_seconds": 5.0
+    },
+    "feedback": {
+      "steps_used": 60
+    },
+    "env_steps": 60,
+    "ok": true
+  },
+  {
+    "wall_seconds": 121.92,
+    "tool": "sol_verdict",
+    "arguments": {
+      "verdict": "stuck",
+      "object": "the blue toy dinosaur",
+      "attempts": 0,
+      "stuck_s": 4.83,
+      "in_bin": 0,
+      "clock_s": 9.5,
+      "decision": "continue",
+      "reason": null
+    },
+    "feedback": {},
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 121.92,
+    "tool": "vla_run",
+    "arguments": {
+      "max_seconds": 5.5
+    },
+    "feedback": {
+      "steps_used": 5
+    },
+    "env_steps": 5,
+    "ok": true
+  },
+  {
+    "wall_seconds": 126.431,
+    "tool": "sol_verdict",
+    "arguments": {
+      "verdict": "stuck",
+      "object": "the blue toy dinosaur",
+      "attempts": 0,
+      "stuck_s": 5.0,
+      "in_bin": 0,
+      "clock_s": 9.67,
+      "decision": "continue",
+      "reason": null
+    },
+    "feedback": {},
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 126.431,
+    "tool": "vla_run",
+    "arguments": {
+      "max_seconds": 5.33
+    },
+    "feedback": {
+      "steps_used": 1
+    },
+    "env_steps": 1,
+    "ok": true
+  },
+  {
+    "wall_seconds": 131.29,
+    "tool": "sol_verdict",
+    "arguments": {
+      "verdict": "progress",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 0,
+      "clock_s": 9.7,
+      "decision": "continue",
+      "reason": null
+    },
+    "feedback": {},
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 131.29,
+    "tool": "vla_run",
+    "arguments": {
+      "max_seconds": 5.3
+    },
+    "feedback": {
+      "steps_used": 6
+    },
+    "env_steps": 6,
+    "ok": true
+  },
+  {
+    "wall_seconds": 134.75,
+    "tool": "sol_verdict",
+    "arguments": {
+      "verdict": "progress",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 0,
+      "clock_s": 9.9,
+      "decision": "continue",
+      "reason": null
+    },
+    "feedback": {},
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 134.75,
+    "tool": "vla_run",
+    "arguments": {
+      "max_seconds": 5.1
+    },
+    "feedback": {
+      "steps_used": 9
+    },
+    "env_steps": 9,
+    "ok": true
+  },
+  {
+    "wall_seconds": 140.044,
+    "tool": "sol_verdict",
+    "arguments": {
+      "verdict": "progress",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 0,
+      "clock_s": 10.2,
+      "decision": "continue",
+      "reason": null
+    },
+    "feedback": {},
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 140.044,
+    "tool": "vla_run",
+    "arguments": {
+      "max_seconds": 4.8
+    },
+    "feedback": {
+      "steps_used": 14
+    },
+    "env_steps": 14,
+    "ok": true
+  },
+  {
+    "wall_seconds": 146.375,
+    "tool": "sol_verdict",
+    "arguments": {
+      "verdict": "progress",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 0,
+      "clock_s": 10.67,
+      "decision": "continue",
+      "reason": null
+    },
+    "feedback": {},
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 146.375,
+    "tool": "vla_run",
+    "arguments": {
+      "max_seconds": 4.33
+    },
+    "feedback": {
+      "steps_used": 29
+    },
+    "env_steps": 29,
+    "ok": true
+  },
+  {
+    "wall_seconds": 153.977,
+    "tool": "sol_verdict",
+    "arguments": {
+      "verdict": "lifted",
+      "object": null,
+      "in_bin": 0,
+      "clock_s": 11.64,
+      "decision": "sol_places"
+    },
+    "feedback": {},
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 159.228,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        0.003175469385925076,
+        0.02928446991478063,
+        0.14004321763371175
+      ],
+      "gripper": 1,
+      "path": "line",
+      "pitch": 81.19,
+      "yaw": 75.97,
+      "slow": true
+    },
+    "feedback": {
+      "reached": false,
+      "dist_to_target_m": 0.0103,
+      "orientation_error_deg": 2.5,
+      "final_xyz": [
+        0.0043,
+        0.0309,
+        0.1292
+      ],
+      "path": "line",
+      "blocked": "the arm stopped short of the planned pose: something is in the way",
+      "steps_used": 25,
+      "ik_error": null
+    },
+    "env_steps": 25,
+    "ok": true
+  },
+  {
+    "wall_seconds": 160.246,
+    "tool": "locate",
+    "arguments": {
+      "text_prompt": "the metal tongs",
+      "camera": "overhead",
+      "min_score": 0.2
+    },
+    "feedback": {
+      "width_m": 0.0653,
+      "found": true,
+      "score": 0.957,
+      "centroid_rc": [
+        315,
+        530
+      ],
+      "center_xyz": [
+        0.2645,
+        0.0873,
+        0.0051
+      ],
+      "top_z": 0.0101,
+      "grasp_yaw": 47.2,
+      "views": 1
+    },
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 168.483,
+    "tool": "locate",
+    "arguments": {
+      "text_prompt": "the blue toy dinosaur",
+      "camera": "overhead",
+      "min_score": 0.2
+    },
+    "feedback": {
+      "width_m": 0.0614,
+      "found": true,
+      "score": 0.961,
+      "centroid_rc": [
+        296,
+        307
+      ],
+      "center_xyz": [
+        -0.0244,
+        0.0861,
+        0.0181
+      ],
+      "top_z": 0.0361,
+      "grasp_yaw": 15.8,
+      "views": 1
+    },
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 171.865,
+    "tool": "grip",
+    "arguments": {
+      "gripper": -1
+    },
+    "feedback": {
+      "steps_used": 20,
+      "holding": false,
+      "opening": 0.956,
+      "width_m": null
+    },
+    "env_steps": 20,
+    "ok": true
+  },
+  {
+    "wall_seconds": 187.164,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        -0.025,
+        0.065,
+        0.1
+      ],
+      "gripper": -1,
+      "path": "line",
+      "pitch": 90.0,
+      "yaw": 15.8
+    },
+    "feedback": {
+      "reached": true,
+      "dist_to_target_m": 0.0009,
+      "orientation_error_deg": 0.6,
+      "final_xyz": [
+        -0.0242,
+        0.0655,
+        0.1002
+      ],
+      "path": "line",
+      "steps_used": 30,
+      "ik_error": null
+    },
+    "env_steps": 30,
+    "ok": true
+  },
+  {
+    "wall_seconds": 193.227,
+    "tool": "locate",
+    "arguments": {
+      "text_prompt": "the blue toy dinosaur",
+      "camera": "wrist",
+      "min_score": 0.2
+    },
+    "feedback": {
+      "found": true,
+      "score": 0.906,
+      "centroid_rc": [
+        210,
+        243
+      ],
+      "views": 1
+    },
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 194.664,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        -0.025,
+        0.065,
+        0.09
+      ],
+      "gripper": -1,
+      "path": "line",
+      "pitch": 90.0,
+      "yaw": 15.8
+    },
+    "feedback": {
+      "reached": true,
+      "dist_to_target_m": 0.0022,
+      "orientation_error_deg": 1.1,
+      "final_xyz": [
+        -0.0237,
+        0.066,
+        0.0885
+      ],
+      "path": "line",
+      "steps_used": 10,
+      "ik_error": null
+    },
+    "env_steps": 10,
+    "ok": true
+  },
+  {
+    "wall_seconds": 202.613,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        -0.025,
+        0.065,
+        0.08
+      ],
+      "gripper": -1,
+      "path": "line",
+      "pitch": 90.0,
+      "yaw": 15.8
+    },
+    "feedback": {
+      "reached": true,
+      "dist_to_target_m": 0.0019,
+      "orientation_error_deg": 0.7,
+      "final_xyz": [
+        -0.0242,
+        0.0641,
+        0.0814
+      ],
+      "path": "line",
+      "steps_used": 10,
+      "ik_error": null
+    },
+    "env_steps": 10,
+    "ok": true
+  },
+  {
+    "wall_seconds": 208.079,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        -0.025,
+        0.065,
+        0.07
+      ],
+      "gripper": -1,
+      "path": "line",
+      "pitch": 90.0,
+      "yaw": 15.8
+    },
+    "feedback": {
+      "reached": true,
+      "dist_to_target_m": 0.0052,
+      "orientation_error_deg": 0.7,
+      "final_xyz": [
+        -0.0252,
+        0.0634,
+        0.0749
+      ],
+      "path": "line",
+      "steps_used": 10,
+      "ik_error": null
+    },
+    "env_steps": 10,
+    "ok": true
+  },
+  {
+    "wall_seconds": 208.514,
+    "tool": "grip",
+    "arguments": {
+      "gripper": 1
+    },
+    "feedback": {
+      "steps_used": 18,
+      "holding": false,
+      "opening": 0.017,
+      "width_m": 0.0014
+    },
+    "env_steps": 18,
+    "ok": true
+  },
+  {
+    "wall_seconds": 213.944,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        -0.025,
+        0.065,
+        0.125
+      ],
+      "gripper": 1,
+      "path": "line",
+      "pitch": 85.0,
+      "yaw": 15.8,
+      "slow": true
+    },
+    "feedback": {
+      "reached": true,
+      "dist_to_target_m": 0.0095,
+      "orientation_error_deg": 1.4,
+      "final_xyz": [
+        -0.023,
+        0.0669,
+        0.1153
+      ],
+      "path": "line",
+      "blocked": "the arm stopped short of the planned pose: something is in the way",
+      "steps_used": 20,
+      "ik_error": null
+    },
+    "env_steps": 20,
+    "ok": true
+  },
+  {
+    "wall_seconds": 233.232,
+    "tool": "grip",
+    "arguments": {
+      "gripper": -1
+    },
+    "feedback": {
+      "steps_used": 20,
+      "holding": false,
+      "opening": 0.956,
+      "width_m": null
+    },
+    "env_steps": 20,
+    "ok": true
+  },
+  {
+    "wall_seconds": 234.029,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        -0.005,
+        0.075,
+        0.1
+      ],
+      "gripper": -1,
+      "path": "line",
+      "pitch": 90.0,
+      "yaw": 15.8
+    },
+    "feedback": {
+      "reached": true,
+      "dist_to_target_m": 0.0024,
+      "orientation_error_deg": 0.2,
+      "final_xyz": [
+        -0.006,
+        0.0755,
+        0.0978
+      ],
+      "path": "line",
+      "steps_used": 12,
+      "ik_error": null
+    },
+    "env_steps": 12,
+    "ok": true
+  },
+  {
+    "wall_seconds": 240.351,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        -0.005,
+        0.075,
+        0.09
+      ],
+      "gripper": -1,
+      "path": "line",
+      "pitch": 90.0,
+      "yaw": 15.8
+    },
+    "feedback": {
+      "reached": true,
+      "dist_to_target_m": 0.0024,
+      "orientation_error_deg": 1.2,
+      "final_xyz": [
+        -0.0048,
+        0.0764,
+        0.088
+      ],
+      "path": "line",
+      "steps_used": 10,
+      "ik_error": null
+    },
+    "env_steps": 10,
+    "ok": true
+  },
+  {
+    "wall_seconds": 244.336,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        -0.005,
+        0.075,
+        0.08
+      ],
+      "gripper": -1,
+      "path": "line",
+      "pitch": 90.0,
+      "yaw": 15.8
+    },
+    "feedback": {
+      "reached": true,
+      "dist_to_target_m": 0.0028,
+      "orientation_error_deg": 1.4,
+      "final_xyz": [
+        -0.0047,
+        0.0767,
+        0.0778
+      ],
+      "path": "line",
+      "steps_used": 10,
+      "ik_error": null
+    },
+    "env_steps": 10,
+    "ok": true
+  },
+  {
+    "wall_seconds": 248.671,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        -0.005,
+        0.075,
+        0.07
+      ],
+      "gripper": -1,
+      "path": "line",
+      "pitch": 90.0,
+      "yaw": 15.8
+    },
+    "feedback": {
+      "reached": true,
+      "dist_to_target_m": 0.0036,
+      "orientation_error_deg": 1.8,
+      "final_xyz": [
+        -0.0038,
+        0.0777,
+        0.068
+      ],
+      "path": "line",
+      "steps_used": 10,
+      "ik_error": null
+    },
+    "env_steps": 10,
+    "ok": true
+  },
+  {
+    "wall_seconds": 253.591,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        -0.005,
+        0.075,
+        0.06
+      ],
+      "gripper": -1,
+      "path": "line",
+      "pitch": 90.0,
+      "yaw": 15.8
+    },
+    "feedback": {
+      "reached": true,
+      "dist_to_target_m": 0.0035,
+      "orientation_error_deg": 1.6,
+      "final_xyz": [
+        -0.0039,
+        0.0776,
+        0.0579
+      ],
+      "path": "line",
+      "steps_used": 10,
+      "ik_error": null
+    },
+    "env_steps": 10,
+    "ok": true
+  },
+  {
+    "wall_seconds": 262.021,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        -0.005,
+        0.075,
+        0.05
+      ],
+      "gripper": -1,
+      "path": "line",
+      "pitch": 90.0,
+      "yaw": 15.8
+    },
+    "feedback": {
+      "reached": true,
+      "dist_to_target_m": 0.0019,
+      "orientation_error_deg": 0.8,
+      "final_xyz": [
+        -0.0047,
+        0.0768,
+        0.0497
+      ],
+      "path": "line",
+      "steps_used": 8,
+      "ik_error": null
+    },
+    "env_steps": 8,
+    "ok": true
+  },
+  {
+    "wall_seconds": 262.432,
+    "tool": "grip",
+    "arguments": {
+      "gripper": 1
+    },
+    "feedback": {
+      "steps_used": 13,
+      "holding": true,
+      "opening": 0.403,
+      "width_m": 0.0326
+    },
+    "env_steps": 13,
+    "ok": true
+  },
+  {
+    "wall_seconds": 291.681,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        -0.005,
+        0.075,
+        0.14
+      ],
+      "gripper": 1,
+      "path": "line",
+      "pitch": 70.0,
+      "yaw": 15.8,
+      "slow": true
+    },
+    "feedback": {
+      "reached": false,
+      "path": null,
+      "steps_used": 0,
+      "ik_error": "the straight line leaves the arm's reach 50% of the way (the target itself is reachable: path='auto' swings)"
+    },
+    "env_steps": 0,
+    "ok": true
+  },
+  {
+    "wall_seconds": 297.746,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        -0.005,
+        0.015,
+        0.12
+      ],
+      "gripper": 1,
+      "path": "line",
+      "pitch": 90.0,
+      "yaw": 15.8,
+      "slow": true
+    },
+    "feedback": {
+      "reached": false,
+      "dist_to_target_m": 0.0105,
+      "orientation_error_deg": 1.6,
+      "final_xyz": [
+        -0.0033,
+        0.0203,
+        0.1107
+      ],
+      "path": "line",
+      "blocked": "the arm stopped short of the planned pose: something is in the way",
+      "steps_used": 37,
+      "ik_error": null
+    },
+    "env_steps": 37,
+    "ok": true
+  },
+  {
+    "wall_seconds": 314.745,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        0.16,
+        0.04,
+        0.16
+      ],
+      "gripper": 1,
+      "path": "line",
+      "pitch": 55.0,
+      "yaw": 47.2,
+      "slow": true
+    },
+    "feedback": {
+      "reached": true,
+      "dist_to_target_m": 0.0049,
+      "orientation_error_deg": 2.3,
+      "final_xyz": [
+        0.1583,
+        0.0407,
+        0.1555
+      ],
+      "path": "line",
+      "steps_used": 56,
+      "ik_error": null
+    },
+    "env_steps": 56,
+    "ok": true
+  },
+  {
+    "wall_seconds": 344.238,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        0.32,
+        0.16,
+        0.1
+      ],
+      "gripper": 1,
+      "path": "line",
+      "pitch": 60.0,
+      "yaw": 47.2,
+      "slow": true
+    },
+    "feedback": {
+      "reached": false,
+      "dist_to_target_m": 0.018,
+      "orientation_error_deg": 4.6,
+      "final_xyz": [
+        0.3098,
+        0.1593,
+        0.0852
+      ],
+      "path": "line",
+      "blocked": "the arm stopped short of the planned pose: something is in the way",
+      "steps_used": 70,
+      "ik_error": null
+    },
+    "env_steps": 70,
+    "ok": true
+  },
+  {
+    "wall_seconds": 361.199,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        0.31,
+        0.16,
+        0.0752
+      ],
+      "gripper": 1,
+      "path": "line",
+      "pitch": 64.6,
+      "yaw": 46.3,
+      "slow": true
+    },
+    "feedback": {
+      "reached": true,
+      "dist_to_target_m": 0.0051,
+      "orientation_error_deg": 1.6,
+      "final_xyz": [
+        0.3074,
+        0.1593,
+        0.0708
+      ],
+      "path": "line",
+      "steps_used": 12,
+      "ik_error": null
+    },
+    "env_steps": 12,
+    "ok": true
+  },
+  {
+    "wall_seconds": 367.679,
+    "tool": "grip",
+    "arguments": {
+      "gripper": -1,
+      "opening": 0.5
+    },
+    "feedback": {
+      "steps_used": 4,
+      "holding": false,
+      "opening": 0.339,
+      "width_m": null
+    },
+    "env_steps": 4,
+    "ok": true
+  },
+  {
+    "wall_seconds": 380.553,
+    "tool": "grip",
+    "arguments": {
+      "gripper": -1
+    },
+    "feedback": {
+      "steps_used": 16,
+      "holding": false,
+      "opening": 0.956,
+      "width_m": null
+    },
+    "env_steps": 16,
+    "ok": true
+  },
+  {
+    "wall_seconds": 381.237,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        0.30743576618403834,
+        0.15930778986004535,
+        0.12
+      ],
+      "gripper": -1,
+      "path": "line",
+      "pitch": 60.0,
+      "yaw": 46.3
+    },
+    "feedback": {
+      "reached": false,
+      "dist_to_target_m": 0.0202,
+      "orientation_error_deg": 5.3,
+      "final_xyz": [
+        0.3014,
+        0.1593,
+        0.1008
+      ],
+      "path": "line",
+      "blocked": "the arm stopped short of the planned pose: something is in the way",
+      "steps_used": 13,
+      "ik_error": null
+    },
+    "env_steps": 13,
+    "ok": true
+  },
+  {
+    "wall_seconds": 394.513,
+    "tool": "move_pose",
+    "arguments": {
+      "xyz": [
+        0.3014,
+        0.1593,
+        0.14
+      ],
+      "gripper": -1,
+      "path": "line",
+      "pitch": 65.3,
+      "yaw": 45.3
+    },
+    "feedback": {
+      "reached": false,
+      "dist_to_target_m": 0.0263,
+      "orientation_error_deg": 3.1,
+      "final_xyz": [
+        0.2973,
+        0.1593,
+        0.114
+      ],
+      "path": "line",
+      "steps_used": 8,
+      "ik_error": null
+    },
+    "env_steps": 7,
+    "ok": true
+  },
+  {
+    "wall_seconds": 394.902,
+    "tool": "locate",
+    "arguments": {
+      "text_prompt": "the blue toy dinosaur",
+      "camera": "overhead",
+      "min_score": 0.2
+    },
+    "feedback": {
+      "width_m": 0.1225,
+      "found": true,
+      "score": 0.973,
+      "centroid_rc": [
+        255,
+        552
+      ],
+      "center_xyz": [
+        0.3581,
+        0.153,
+        0.0529
+      ],
+      "top_z": 0.1059,
+      "grasp_yaw": 61.3,
+      "views": 2
+    },
+    "env_steps": null,
+    "ok": true
+  },
+  {
+    "wall_seconds": 397.331,
+    "tool": "locate",
+    "arguments": {
+      "text_prompt": "the metal tongs",
+      "camera": "overhead",
+      "min_score": 0.2
+    },
+    "feedback": {
+      "width_m": 0.0607,
+      "found": true,
+      "score": 0.961,
+      "centroid_rc": [
+        314,
+        530
+      ],
+      "center_xyz": [
+        0.2656,
+        0.0843,
+        0.0071
+      ],
+      "top_z": 0.0141,
+      "grasp_yaw": 46.9,
+      "views": 1
+    },
+    "env_steps": null,
+    "ok": true
+  }
+]

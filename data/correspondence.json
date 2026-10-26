@@ -1,0 +1,23 @@
+{
+  "instruction": "Place the clip next to the pen",
+  "task": "next_to",
+  "objects": [
+    "blue clip",
+    "blue screwdriver",
+    "yellow tape",
+    "blue pen"
+  ],
+  "real_outcome": "success",
+  "sim_outcome": "success",
+  "task_row": 594,
+  "episode_index": 593,
+  "task_trial_id": 613,
+  "real_trial_id": 233,
+  "policy": "NVIDIA GR00T N1.6-3B",
+  "comparison": "Independently trained real-only and sim-only policies; matched instruction and ordered object set, different initial poses.",
+  "playback_speed": 1,
+  "real_video": "assets/videos/correspondence-ep594-real-1x.mp4",
+  "sim_video": "assets/videos/correspondence-ep594-sim-1x.mp4",
+  "real_poster": "assets/videos/correspondence-ep594-real-1x.webp",
+  "sim_poster": "assets/videos/correspondence-ep594-sim-1x.webp"
+}

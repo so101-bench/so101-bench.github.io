@@ -1,0 +1,50 @@
+[
+  {
+    "id": "summary",
+    "source": "release/paper/figures/intro/so101_bench_summary.png",
+    "asset": "assets/figures/summary-0fa909a854.webp",
+    "width": 2700,
+    "height": 1644,
+    "source_sha256": "0fa909a854e7afe33e4118ac4f8f839f7319f941f46da24312c4522dfbb53d5a"
+  },
+  {
+    "id": "objects",
+    "source": "release/paper/figures/intro/objects_all.png",
+    "asset": "assets/figures/objects-f780f39fed.webp",
+    "width": 2025,
+    "height": 755,
+    "source_sha256": "f780f39fed0c505bbc2ca1dce578d77a5a26d9d36dfb3e7303f0b33781541c5e"
+  },
+  {
+    "id": "correspondence",
+    "source": "release/paper/figures/s1/s1_main.png",
+    "asset": "assets/figures/correspondence-6a9cc14cdf.webp",
+    "width": 2104,
+    "height": 1475,
+    "source_sha256": "6a9cc14cdf56c33b61fba497eac43716f8d2fa5f9177f284c8d4adcdd7ac8356"
+  },
+  {
+    "id": "transfer",
+    "source": "release/paper/figures/s2/s2_main.png",
+    "asset": "assets/figures/transfer-47d0944c49.webp",
+    "width": 1745,
+    "height": 1057,
+    "source_sha256": "47d0944c4992caf4f2c4802d4ad4b9193b3fe41aef147e7f8f86fc161dc29225"
+  },
+  {
+    "id": "leaderboard",
+    "source": "release/paper/figures/s3/s3_main.png",
+    "asset": "assets/figures/leaderboard-83fec78e1f.webp",
+    "width": 2344,
+    "height": 1022,
+    "source_sha256": "83fec78e1fc429c9cc1524a007d9a98d9ee9579cd953fe3ec020be50a9b83c4d"
+  },
+  {
+    "id": "harness",
+    "source": "release/paper/figures/s4/s4_main.png",
+    "asset": "assets/figures/harness-21c49a9d65.webp",
+    "width": 1827,
+    "height": 730,
+    "source_sha256": "21c49a9d65f2ec95c2985011023ae5d6b6d3e7b06096838bea017a98720a9764"
+  }
+]

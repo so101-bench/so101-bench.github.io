@@ -1,0 +1,986 @@
+{
+  "score_definition": "Mean success rate over 15 task-family × object-split cells, expressed as a percentage.",
+  "confidence_interval": "95% bootstrap, resampling episodes within each cell.",
+  "episodes": 916,
+  "rows": [
+    {
+      "policy": "GPT-6.1 Sol (PyRUA-Lean) + Galaxea 0.5",
+      "type": "LLM agent + VLA",
+      "score": 83.19,
+      "ci_lo": 80.66,
+      "ci_hi": 85.66,
+      "successes": 756,
+      "n": 916,
+      "seen_succ": 270,
+      "seen_n": 316,
+      "unseen_seen_class_succ": 234,
+      "unseen_seen_class_n": 285,
+      "unseen_unseen_class_succ": 252,
+      "unseen_unseen_class_n": 315,
+      "bin_1_succ": 191,
+      "bin_1_n": 202,
+      "bin_4_succ": 59,
+      "bin_4_n": 68,
+      "next_to_succ": 184,
+      "next_to_n": 216,
+      "between_succ": 175,
+      "between_n": 216,
+      "move_succ": 147,
+      "move_n": 214,
+      "ROBUST_succ": 146,
+      "ROBUST_n": 178,
+      "PLAN_succ": 36,
+      "PLAN_n": 48,
+      "MEM_succ": 41,
+      "MEM_n": 51,
+      "bin4_progress": 0.9375,
+      "rates": {
+        "seen": {
+          "successes": 270,
+          "n": 316,
+          "rate": 0.8544303797468354
+        },
+        "unseen_seen_class": {
+          "successes": 234,
+          "n": 285,
+          "rate": 0.8210526315789474
+        },
+        "unseen_unseen_class": {
+          "successes": 252,
+          "n": 315,
+          "rate": 0.8
+        },
+        "bin_1": {
+          "successes": 191,
+          "n": 202,
+          "rate": 0.9455445544554455
+        },
+        "bin_4": {
+          "successes": 59,
+          "n": 68,
+          "rate": 0.8676470588235294
+        },
+        "next_to": {
+          "successes": 184,
+          "n": 216,
+          "rate": 0.8518518518518519
+        },
+        "between": {
+          "successes": 175,
+          "n": 216,
+          "rate": 0.8101851851851852
+        },
+        "move": {
+          "successes": 147,
+          "n": 214,
+          "rate": 0.6869158878504673
+        },
+        "ROBUST": {
+          "successes": 146,
+          "n": 178,
+          "rate": 0.8202247191011236
+        },
+        "PLAN": {
+          "successes": 36,
+          "n": 48,
+          "rate": 0.75
+        },
+        "MEM": {
+          "successes": 41,
+          "n": 51,
+          "rate": 0.803921568627451
+        }
+      }
+    },
+    {
+      "policy": "DeepSeek V4.1 Flash (PyRUA-Lean) + Galaxea 0.5",
+      "type": "LLM agent + VLA",
+      "score": 66.83,
+      "ci_lo": 63.74,
+      "ci_hi": 69.86,
+      "successes": 605,
+      "n": 916,
+      "seen_succ": 227,
+      "seen_n": 316,
+      "unseen_seen_class_succ": 188,
+      "unseen_seen_class_n": 285,
+      "unseen_unseen_class_succ": 190,
+      "unseen_unseen_class_n": 315,
+      "bin_1_succ": 175,
+      "bin_1_n": 202,
+      "bin_4_succ": 48,
+      "bin_4_n": 68,
+      "next_to_succ": 133,
+      "next_to_n": 216,
+      "between_succ": 120,
+      "between_n": 216,
+      "move_succ": 129,
+      "move_n": 214,
+      "ROBUST_succ": 111,
+      "ROBUST_n": 178,
+      "PLAN_succ": 17,
+      "PLAN_n": 48,
+      "MEM_succ": 28,
+      "MEM_n": 51,
+      "bin4_progress": 0.8088,
+      "rates": {
+        "seen": {
+          "successes": 227,
+          "n": 316,
+          "rate": 0.7183544303797469
+        },
+        "unseen_seen_class": {
+          "successes": 188,
+          "n": 285,
+          "rate": 0.6596491228070176
+        },
+        "unseen_unseen_class": {
+          "successes": 190,
+          "n": 315,
+          "rate": 0.6031746031746031
+        },
+        "bin_1": {
+          "successes": 175,
+          "n": 202,
+          "rate": 0.8663366336633663
+        },
+        "bin_4": {
+          "successes": 48,
+          "n": 68,
+          "rate": 0.7058823529411765
+        },
+        "next_to": {
+          "successes": 133,
+          "n": 216,
+          "rate": 0.6157407407407407
+        },
+        "between": {
+          "successes": 120,
+          "n": 216,
+          "rate": 0.5555555555555556
+        },
+        "move": {
+          "successes": 129,
+          "n": 214,
+          "rate": 0.602803738317757
+        },
+        "ROBUST": {
+          "successes": 111,
+          "n": 178,
+          "rate": 0.6235955056179775
+        },
+        "PLAN": {
+          "successes": 17,
+          "n": 48,
+          "rate": 0.3541666666666667
+        },
+        "MEM": {
+          "successes": 28,
+          "n": 51,
+          "rate": 0.5490196078431373
+        }
+      }
+    },
+    {
+      "policy": "InternW0-Δ",
+      "type": "WAM (video generation)",
+      "score": 61.35,
+      "ci_lo": 58.49,
+      "ci_hi": 64.11,
+      "successes": 533,
+      "n": 916,
+      "seen_succ": 241,
+      "seen_n": 316,
+      "unseen_seen_class_succ": 160,
+      "unseen_seen_class_n": 285,
+      "unseen_unseen_class_succ": 132,
+      "unseen_unseen_class_n": 315,
+      "bin_1_succ": 187,
+      "bin_1_n": 202,
+      "bin_4_succ": 54,
+      "bin_4_n": 68,
+      "next_to_succ": 90,
+      "next_to_n": 216,
+      "between_succ": 75,
+      "between_n": 216,
+      "move_succ": 127,
+      "move_n": 214,
+      "ROBUST_succ": 94,
+      "ROBUST_n": 178,
+      "PLAN_succ": 6,
+      "PLAN_n": 48,
+      "MEM_succ": 24,
+      "MEM_n": 51,
+      "bin4_progress": 0.9118,
+      "rates": {
+        "seen": {
+          "successes": 241,
+          "n": 316,
+          "rate": 0.7626582278481012
+        },
+        "unseen_seen_class": {
+          "successes": 160,
+          "n": 285,
+          "rate": 0.5614035087719298
+        },
+        "unseen_unseen_class": {
+          "successes": 132,
+          "n": 315,
+          "rate": 0.41904761904761906
+        },
+        "bin_1": {
+          "successes": 187,
+          "n": 202,
+          "rate": 0.9257425742574258
+        },
+        "bin_4": {
+          "successes": 54,
+          "n": 68,
+          "rate": 0.7941176470588235
+        },
+        "next_to": {
+          "successes": 90,
+          "n": 216,
+          "rate": 0.4166666666666667
+        },
+        "between": {
+          "successes": 75,
+          "n": 216,
+          "rate": 0.3472222222222222
+        },
+        "move": {
+          "successes": 127,
+          "n": 214,
+          "rate": 0.5934579439252337
+        },
+        "ROBUST": {
+          "successes": 94,
+          "n": 178,
+          "rate": 0.5280898876404494
+        },
+        "PLAN": {
+          "successes": 6,
+          "n": 48,
+          "rate": 0.125
+        },
+        "MEM": {
+          "successes": 24,
+          "n": 51,
+          "rate": 0.47058823529411764
+        }
+      }
+    },
+    {
+      "policy": "Galaxea 0.5",
+      "type": "VLA",
+      "score": 60.79,
+      "ci_lo": 57.91,
+      "ci_hi": 63.56,
+      "successes": 525,
+      "n": 916,
+      "seen_succ": 241,
+      "seen_n": 316,
+      "unseen_seen_class_succ": 158,
+      "unseen_seen_class_n": 285,
+      "unseen_unseen_class_succ": 126,
+      "unseen_unseen_class_n": 315,
+      "bin_1_succ": 182,
+      "bin_1_n": 202,
+      "bin_4_succ": 55,
+      "bin_4_n": 68,
+      "next_to_succ": 94,
+      "next_to_n": 216,
+      "between_succ": 74,
+      "between_n": 216,
+      "move_succ": 120,
+      "move_n": 214,
+      "ROBUST_succ": 102,
+      "ROBUST_n": 178,
+      "PLAN_succ": 7,
+      "PLAN_n": 48,
+      "MEM_succ": 16,
+      "MEM_n": 51,
+      "bin4_progress": 0.8971,
+      "rates": {
+        "seen": {
+          "successes": 241,
+          "n": 316,
+          "rate": 0.7626582278481012
+        },
+        "unseen_seen_class": {
+          "successes": 158,
+          "n": 285,
+          "rate": 0.5543859649122806
+        },
+        "unseen_unseen_class": {
+          "successes": 126,
+          "n": 315,
+          "rate": 0.4
+        },
+        "bin_1": {
+          "successes": 182,
+          "n": 202,
+          "rate": 0.900990099009901
+        },
+        "bin_4": {
+          "successes": 55,
+          "n": 68,
+          "rate": 0.8088235294117647
+        },
+        "next_to": {
+          "successes": 94,
+          "n": 216,
+          "rate": 0.4351851851851852
+        },
+        "between": {
+          "successes": 74,
+          "n": 216,
+          "rate": 0.3425925925925926
+        },
+        "move": {
+          "successes": 120,
+          "n": 214,
+          "rate": 0.5607476635514018
+        },
+        "ROBUST": {
+          "successes": 102,
+          "n": 178,
+          "rate": 0.5730337078651685
+        },
+        "PLAN": {
+          "successes": 7,
+          "n": 48,
+          "rate": 0.14583333333333334
+        },
+        "MEM": {
+          "successes": 16,
+          "n": 51,
+          "rate": 0.3137254901960784
+        }
+      }
+    },
+    {
+      "policy": "NVIDIA GR00T N1.7-3B",
+      "type": "VLA",
+      "score": 45.76,
+      "ci_lo": 42.62,
+      "ci_hi": 48.84,
+      "successes": 433,
+      "n": 916,
+      "seen_succ": 210,
+      "seen_n": 316,
+      "unseen_seen_class_succ": 127,
+      "unseen_seen_class_n": 285,
+      "unseen_unseen_class_succ": 96,
+      "unseen_unseen_class_n": 315,
+      "bin_1_succ": 151,
+      "bin_1_n": 202,
+      "bin_4_succ": 24,
+      "bin_4_n": 68,
+      "next_to_succ": 87,
+      "next_to_n": 216,
+      "between_succ": 79,
+      "between_n": 216,
+      "move_succ": 92,
+      "move_n": 214,
+      "ROBUST_succ": 85,
+      "ROBUST_n": 178,
+      "PLAN_succ": 8,
+      "PLAN_n": 48,
+      "MEM_succ": 22,
+      "MEM_n": 51,
+      "bin4_progress": 0.5221,
+      "rates": {
+        "seen": {
+          "successes": 210,
+          "n": 316,
+          "rate": 0.6645569620253164
+        },
+        "unseen_seen_class": {
+          "successes": 127,
+          "n": 285,
+          "rate": 0.4456140350877193
+        },
+        "unseen_unseen_class": {
+          "successes": 96,
+          "n": 315,
+          "rate": 0.3047619047619048
+        },
+        "bin_1": {
+          "successes": 151,
+          "n": 202,
+          "rate": 0.7475247524752475
+        },
+        "bin_4": {
+          "successes": 24,
+          "n": 68,
+          "rate": 0.35294117647058826
+        },
+        "next_to": {
+          "successes": 87,
+          "n": 216,
+          "rate": 0.4027777777777778
+        },
+        "between": {
+          "successes": 79,
+          "n": 216,
+          "rate": 0.36574074074074076
+        },
+        "move": {
+          "successes": 92,
+          "n": 214,
+          "rate": 0.42990654205607476
+        },
+        "ROBUST": {
+          "successes": 85,
+          "n": 178,
+          "rate": 0.47752808988764045
+        },
+        "PLAN": {
+          "successes": 8,
+          "n": 48,
+          "rate": 0.16666666666666666
+        },
+        "MEM": {
+          "successes": 22,
+          "n": 51,
+          "rate": 0.43137254901960786
+        }
+      }
+    },
+    {
+      "policy": "ImageWAM",
+      "type": "WAM (image editing)",
+      "score": 42.98,
+      "ci_lo": 40.17,
+      "ci_hi": 45.75,
+      "successes": 393,
+      "n": 916,
+      "seen_succ": 205,
+      "seen_n": 316,
+      "unseen_seen_class_succ": 120,
+      "unseen_seen_class_n": 285,
+      "unseen_unseen_class_succ": 68,
+      "unseen_unseen_class_n": 315,
+      "bin_1_succ": 144,
+      "bin_1_n": 202,
+      "bin_4_succ": 29,
+      "bin_4_n": 68,
+      "next_to_succ": 77,
+      "next_to_n": 216,
+      "between_succ": 56,
+      "between_n": 216,
+      "move_succ": 87,
+      "move_n": 214,
+      "ROBUST_succ": 60,
+      "ROBUST_n": 178,
+      "PLAN_succ": 4,
+      "PLAN_n": 48,
+      "MEM_succ": 14,
+      "MEM_n": 51,
+      "bin4_progress": 0.5846,
+      "rates": {
+        "seen": {
+          "successes": 205,
+          "n": 316,
+          "rate": 0.6487341772151899
+        },
+        "unseen_seen_class": {
+          "successes": 120,
+          "n": 285,
+          "rate": 0.42105263157894735
+        },
+        "unseen_unseen_class": {
+          "successes": 68,
+          "n": 315,
+          "rate": 0.21587301587301588
+        },
+        "bin_1": {
+          "successes": 144,
+          "n": 202,
+          "rate": 0.7128712871287128
+        },
+        "bin_4": {
+          "successes": 29,
+          "n": 68,
+          "rate": 0.4264705882352941
+        },
+        "next_to": {
+          "successes": 77,
+          "n": 216,
+          "rate": 0.35648148148148145
+        },
+        "between": {
+          "successes": 56,
+          "n": 216,
+          "rate": 0.25925925925925924
+        },
+        "move": {
+          "successes": 87,
+          "n": 214,
+          "rate": 0.40654205607476634
+        },
+        "ROBUST": {
+          "successes": 60,
+          "n": 178,
+          "rate": 0.33707865168539325
+        },
+        "PLAN": {
+          "successes": 4,
+          "n": 48,
+          "rate": 0.08333333333333333
+        },
+        "MEM": {
+          "successes": 14,
+          "n": 51,
+          "rate": 0.27450980392156865
+        }
+      }
+    },
+    {
+      "policy": "Physical Intelligence π₀.₅",
+      "type": "VLA",
+      "score": 41.05,
+      "ci_lo": 37.8,
+      "ci_hi": 44.25,
+      "successes": 382,
+      "n": 916,
+      "seen_succ": 182,
+      "seen_n": 316,
+      "unseen_seen_class_succ": 113,
+      "unseen_seen_class_n": 285,
+      "unseen_unseen_class_succ": 87,
+      "unseen_unseen_class_n": 315,
+      "bin_1_succ": 148,
+      "bin_1_n": 202,
+      "bin_4_succ": 24,
+      "bin_4_n": 68,
+      "next_to_succ": 68,
+      "next_to_n": 216,
+      "between_succ": 54,
+      "between_n": 216,
+      "move_succ": 88,
+      "move_n": 214,
+      "ROBUST_succ": 64,
+      "ROBUST_n": 178,
+      "PLAN_succ": 4,
+      "PLAN_n": 48,
+      "MEM_succ": 11,
+      "MEM_n": 51,
+      "bin4_progress": 0.6471,
+      "rates": {
+        "seen": {
+          "successes": 182,
+          "n": 316,
+          "rate": 0.5759493670886076
+        },
+        "unseen_seen_class": {
+          "successes": 113,
+          "n": 285,
+          "rate": 0.39649122807017545
+        },
+        "unseen_unseen_class": {
+          "successes": 87,
+          "n": 315,
+          "rate": 0.2761904761904762
+        },
+        "bin_1": {
+          "successes": 148,
+          "n": 202,
+          "rate": 0.7326732673267327
+        },
+        "bin_4": {
+          "successes": 24,
+          "n": 68,
+          "rate": 0.35294117647058826
+        },
+        "next_to": {
+          "successes": 68,
+          "n": 216,
+          "rate": 0.3148148148148148
+        },
+        "between": {
+          "successes": 54,
+          "n": 216,
+          "rate": 0.25
+        },
+        "move": {
+          "successes": 88,
+          "n": 214,
+          "rate": 0.411214953271028
+        },
+        "ROBUST": {
+          "successes": 64,
+          "n": 178,
+          "rate": 0.3595505617977528
+        },
+        "PLAN": {
+          "successes": 4,
+          "n": 48,
+          "rate": 0.08333333333333333
+        },
+        "MEM": {
+          "successes": 11,
+          "n": 51,
+          "rate": 0.21568627450980393
+        }
+      }
+    },
+    {
+      "policy": "LaWAM",
+      "type": "WAM (latent action)",
+      "score": 39.87,
+      "ci_lo": 36.78,
+      "ci_hi": 42.92,
+      "successes": 357,
+      "n": 916,
+      "seen_succ": 193,
+      "seen_n": 316,
+      "unseen_seen_class_succ": 104,
+      "unseen_seen_class_n": 285,
+      "unseen_unseen_class_succ": 60,
+      "unseen_unseen_class_n": 315,
+      "bin_1_succ": 141,
+      "bin_1_n": 202,
+      "bin_4_succ": 30,
+      "bin_4_n": 68,
+      "next_to_succ": 59,
+      "next_to_n": 216,
+      "between_succ": 46,
+      "between_n": 216,
+      "move_succ": 81,
+      "move_n": 214,
+      "ROBUST_succ": 32,
+      "ROBUST_n": 178,
+      "PLAN_succ": 3,
+      "PLAN_n": 48,
+      "MEM_succ": 15,
+      "MEM_n": 51,
+      "bin4_progress": 0.6029,
+      "rates": {
+        "seen": {
+          "successes": 193,
+          "n": 316,
+          "rate": 0.6107594936708861
+        },
+        "unseen_seen_class": {
+          "successes": 104,
+          "n": 285,
+          "rate": 0.3649122807017544
+        },
+        "unseen_unseen_class": {
+          "successes": 60,
+          "n": 315,
+          "rate": 0.19047619047619047
+        },
+        "bin_1": {
+          "successes": 141,
+          "n": 202,
+          "rate": 0.698019801980198
+        },
+        "bin_4": {
+          "successes": 30,
+          "n": 68,
+          "rate": 0.4411764705882353
+        },
+        "next_to": {
+          "successes": 59,
+          "n": 216,
+          "rate": 0.27314814814814814
+        },
+        "between": {
+          "successes": 46,
+          "n": 216,
+          "rate": 0.21296296296296297
+        },
+        "move": {
+          "successes": 81,
+          "n": 214,
+          "rate": 0.37850467289719625
+        },
+        "ROBUST": {
+          "successes": 32,
+          "n": 178,
+          "rate": 0.1797752808988764
+        },
+        "PLAN": {
+          "successes": 3,
+          "n": 48,
+          "rate": 0.0625
+        },
+        "MEM": {
+          "successes": 15,
+          "n": 51,
+          "rate": 0.29411764705882354
+        }
+      }
+    },
+    {
+      "policy": "Allen AI MolmoAct2 (base)",
+      "type": "VLA",
+      "score": 23.85,
+      "ci_lo": 21.49,
+      "ci_hi": 26.12,
+      "successes": 250,
+      "n": 916,
+      "seen_succ": 99,
+      "seen_n": 316,
+      "unseen_seen_class_succ": 76,
+      "unseen_seen_class_n": 285,
+      "unseen_unseen_class_succ": 75,
+      "unseen_unseen_class_n": 315,
+      "bin_1_succ": 99,
+      "bin_1_n": 202,
+      "bin_4_succ": 0,
+      "bin_4_n": 68,
+      "next_to_succ": 47,
+      "next_to_n": 216,
+      "between_succ": 31,
+      "between_n": 216,
+      "move_succ": 73,
+      "move_n": 214,
+      "ROBUST_succ": 50,
+      "ROBUST_n": 178,
+      "PLAN_succ": 2,
+      "PLAN_n": 48,
+      "MEM_succ": 12,
+      "MEM_n": 51,
+      "bin4_progress": 0.1838,
+      "rates": {
+        "seen": {
+          "successes": 99,
+          "n": 316,
+          "rate": 0.31329113924050633
+        },
+        "unseen_seen_class": {
+          "successes": 76,
+          "n": 285,
+          "rate": 0.26666666666666666
+        },
+        "unseen_unseen_class": {
+          "successes": 75,
+          "n": 315,
+          "rate": 0.23809523809523808
+        },
+        "bin_1": {
+          "successes": 99,
+          "n": 202,
+          "rate": 0.4900990099009901
+        },
+        "bin_4": {
+          "successes": 0,
+          "n": 68,
+          "rate": 0.0
+        },
+        "next_to": {
+          "successes": 47,
+          "n": 216,
+          "rate": 0.2175925925925926
+        },
+        "between": {
+          "successes": 31,
+          "n": 216,
+          "rate": 0.14351851851851852
+        },
+        "move": {
+          "successes": 73,
+          "n": 214,
+          "rate": 0.3411214953271028
+        },
+        "ROBUST": {
+          "successes": 50,
+          "n": 178,
+          "rate": 0.2808988764044944
+        },
+        "PLAN": {
+          "successes": 2,
+          "n": 48,
+          "rate": 0.041666666666666664
+        },
+        "MEM": {
+          "successes": 12,
+          "n": 51,
+          "rate": 0.23529411764705882
+        }
+      }
+    },
+    {
+      "policy": "Allen AI MolmoAct2-SO100/101",
+      "type": "VLA",
+      "score": 20.93,
+      "ci_lo": 18.65,
+      "ci_hi": 23.18,
+      "successes": 219,
+      "n": 916,
+      "seen_succ": 93,
+      "seen_n": 316,
+      "unseen_seen_class_succ": 71,
+      "unseen_seen_class_n": 285,
+      "unseen_unseen_class_succ": 55,
+      "unseen_unseen_class_n": 315,
+      "bin_1_succ": 90,
+      "bin_1_n": 202,
+      "bin_4_succ": 0,
+      "bin_4_n": 68,
+      "next_to_succ": 40,
+      "next_to_n": 216,
+      "between_succ": 34,
+      "between_n": 216,
+      "move_succ": 55,
+      "move_n": 214,
+      "ROBUST_succ": 47,
+      "ROBUST_n": 178,
+      "PLAN_succ": 3,
+      "PLAN_n": 48,
+      "MEM_succ": 10,
+      "MEM_n": 51,
+      "bin4_progress": 0.2243,
+      "rates": {
+        "seen": {
+          "successes": 93,
+          "n": 316,
+          "rate": 0.29430379746835444
+        },
+        "unseen_seen_class": {
+          "successes": 71,
+          "n": 285,
+          "rate": 0.24912280701754386
+        },
+        "unseen_unseen_class": {
+          "successes": 55,
+          "n": 315,
+          "rate": 0.1746031746031746
+        },
+        "bin_1": {
+          "successes": 90,
+          "n": 202,
+          "rate": 0.44554455445544555
+        },
+        "bin_4": {
+          "successes": 0,
+          "n": 68,
+          "rate": 0.0
+        },
+        "next_to": {
+          "successes": 40,
+          "n": 216,
+          "rate": 0.18518518518518517
+        },
+        "between": {
+          "successes": 34,
+          "n": 216,
+          "rate": 0.1574074074074074
+        },
+        "move": {
+          "successes": 55,
+          "n": 214,
+          "rate": 0.2570093457943925
+        },
+        "ROBUST": {
+          "successes": 47,
+          "n": 178,
+          "rate": 0.2640449438202247
+        },
+        "PLAN": {
+          "successes": 3,
+          "n": 48,
+          "rate": 0.0625
+        },
+        "MEM": {
+          "successes": 10,
+          "n": 51,
+          "rate": 0.19607843137254902
+        }
+      }
+    },
+    {
+      "policy": "FLUX 3 Action SO-101 LoRA",
+      "type": "WAM (video generation)",
+      "score": 8.0,
+      "ci_lo": 6.52,
+      "ci_hi": 9.55,
+      "successes": 80,
+      "n": 916,
+      "seen_succ": 30,
+      "seen_n": 316,
+      "unseen_seen_class_succ": 24,
+      "unseen_seen_class_n": 285,
+      "unseen_unseen_class_succ": 26,
+      "unseen_unseen_class_n": 315,
+      "bin_1_succ": 63,
+      "bin_1_n": 202,
+      "bin_4_succ": 1,
+      "bin_4_n": 68,
+      "next_to_succ": 6,
+      "next_to_n": 216,
+      "between_succ": 3,
+      "between_n": 216,
+      "move_succ": 7,
+      "move_n": 214,
+      "ROBUST_succ": 7,
+      "ROBUST_n": 178,
+      "PLAN_succ": 0,
+      "PLAN_n": 48,
+      "MEM_succ": 3,
+      "MEM_n": 51,
+      "bin4_progress": 0.1544,
+      "rates": {
+        "seen": {
+          "successes": 30,
+          "n": 316,
+          "rate": 0.0949367088607595
+        },
+        "unseen_seen_class": {
+          "successes": 24,
+          "n": 285,
+          "rate": 0.08421052631578947
+        },
+        "unseen_unseen_class": {
+          "successes": 26,
+          "n": 315,
+          "rate": 0.08253968253968254
+        },
+        "bin_1": {
+          "successes": 63,
+          "n": 202,
+          "rate": 0.3118811881188119
+        },
+        "bin_4": {
+          "successes": 1,
+          "n": 68,
+          "rate": 0.014705882352941176
+        },
+        "next_to": {
+          "successes": 6,
+          "n": 216,
+          "rate": 0.027777777777777776
+        },
+        "between": {
+          "successes": 3,
+          "n": 216,
+          "rate": 0.013888888888888888
+        },
+        "move": {
+          "successes": 7,
+          "n": 214,
+          "rate": 0.03271028037383177
+        },
+        "ROBUST": {
+          "successes": 7,
+          "n": 178,
+          "rate": 0.03932584269662921
+        },
+        "PLAN": {
+          "successes": 0,
+          "n": 48,
+          "rate": 0.0
+        },
+        "MEM": {
+          "successes": 3,
+          "n": 51,
+          "rate": 0.058823529411764705
+        }
+      }
+    }
+  ]
+}

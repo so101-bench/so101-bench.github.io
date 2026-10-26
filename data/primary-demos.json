@@ -1,0 +1,102 @@
+[
+  {
+    "family": "bin",
+    "trial_id": 85,
+    "policy": "Galaxea 0.5",
+    "robot_color": "yellow",
+    "background_index": 11,
+    "instruction": "Place each object in the plastic bin",
+    "objects": [
+      "white die",
+      "brown sunglasses case",
+      "white pen",
+      "pink eraser"
+    ],
+    "appearance": "varied",
+    "outcome": "success",
+    "start_seconds": 90.66666666666667,
+    "end_seconds": 137.96666666666667,
+    "frames": 1419,
+    "playback_speed": 1,
+    "timebase": "simulation time",
+    "video": "assets/videos/primary-bin-g05-ep85-varied-v2.mp4",
+    "poster": "assets/videos/primary-bin-g05-ep85-varied-v2.webp",
+    "sha256": "5b85968708526848000cb26b2fb52514ae114f436c5c822d79bc608d5b4724dc",
+    "duration_seconds": 47.3
+  },
+  {
+    "family": "next",
+    "trial_id": 123,
+    "policy": "NVIDIA GR00T N1.7-3B",
+    "robot_color": "red",
+    "background_index": 15,
+    "instruction": "Place the flower pot next to the bottle opener",
+    "objects": [
+      "flower pot",
+      "grey toy car",
+      "brown bow tie",
+      "brown bottle opener"
+    ],
+    "appearance": "varied",
+    "outcome": "success",
+    "start_seconds": 293.56666666666666,
+    "end_seconds": 311.1333333333333,
+    "frames": 527,
+    "playback_speed": 1,
+    "timebase": "simulation time",
+    "video": "assets/videos/primary-next-groot-ep123-varied-v2.mp4",
+    "poster": "assets/videos/primary-next-groot-ep123-varied-v2.webp",
+    "sha256": "ae821fcc00acfabb92a82fb0ac3a4575476ea6d840b121331aba74eb79aa06ca",
+    "duration_seconds": 17.566666666666666
+  },
+  {
+    "family": "between",
+    "trial_id": 215,
+    "policy": "InternW0-\u0394",
+    "robot_color": "white",
+    "background_index": 6,
+    "instruction": "Place the harmonica between the toy boat and the air pump",
+    "objects": [
+      "pink harmonica",
+      "white air pump",
+      "grey toy boat",
+      "pink eraser"
+    ],
+    "appearance": "varied",
+    "outcome": "success",
+    "start_seconds": 0.5,
+    "end_seconds": 15.366666666666667,
+    "frames": 446,
+    "playback_speed": 1,
+    "timebase": "simulation time",
+    "video": "assets/videos/primary-between-internw0-ep215-varied-v3-clean.mp4",
+    "poster": "assets/videos/primary-between-internw0-ep215-varied-v3-clean.webp",
+    "sha256": "2f93a821920264c4bdedc1dd479f90b27b5f6b82d035d09e66ccd1e800f5f285",
+    "duration_seconds": 14.866666666666667
+  },
+  {
+    "family": "move",
+    "trial_id": 276,
+    "policy": "Physical Intelligence \u03c00.5",
+    "robot_color": "turquoise",
+    "background_index": 5,
+    "instruction": "Move the sponge backwards",
+    "objects": [
+      "yellow wires",
+      "green sponge",
+      "yellow toy car",
+      "black pen"
+    ],
+    "appearance": "varied",
+    "outcome": "success",
+    "start_seconds": 15.9,
+    "end_seconds": 33.36666666666667,
+    "frames": 524,
+    "playback_speed": 1,
+    "timebase": "simulation time",
+    "video": "assets/videos/primary-move-pi05-ep276-varied-v2.mp4",
+    "poster": "assets/videos/primary-move-pi05-ep276-varied-v2.webp",
+    "sha256": "63ca0536b5d86e8a974fd09e395e5b655b60c42beb91a7f60de64c6069a7cc74",
+    "duration_seconds": 17.466666666666665
+  }
+]

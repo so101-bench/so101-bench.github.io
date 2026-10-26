@@ -1,0 +1,170 @@
+{
+  "real-robot": {
+    "path": "assets/real-robot.webp",
+    "width": 860,
+    "height": 646,
+    "bytes": 49500
+  },
+  "simulation": {
+    "path": "assets/simulation.webp",
+    "width": 640,
+    "height": 480,
+    "bytes": 26942
+  },
+  "real-robot-crop": {
+    "path": "assets/real-robot-crop.webp",
+    "width": 601,
+    "height": 451,
+    "bytes": 28706
+  },
+  "simulation-crop": {
+    "path": "assets/simulation-crop.webp",
+    "width": 450,
+    "height": 337,
+    "bytes": 14308
+  },
+  "real-trial": {
+    "path": "assets/real-trial.webp",
+    "width": 640,
+    "height": 480,
+    "bytes": 33310
+  },
+  "sim-trial": {
+    "path": "assets/sim-trial.webp",
+    "width": 640,
+    "height": 480,
+    "bytes": 36190
+  },
+  "real-wrist": {
+    "path": "assets/real-wrist.webp",
+    "width": 640,
+    "height": 480,
+    "bytes": 27008
+  },
+  "sim-wrist": {
+    "path": "assets/sim-wrist.webp",
+    "width": 640,
+    "height": 480,
+    "bytes": 22086
+  },
+  "tasks-strip": {
+    "path": "assets/tasks-strip.webp",
+    "width": 2117,
+    "height": 636,
+    "bytes": 150328
+  },
+  "task-bin": {
+    "path": "assets/task-bin.webp",
+    "width": 1035,
+    "height": 255,
+    "bytes": 30364
+  },
+  "task-next-to": {
+    "path": "assets/task-next-to.webp",
+    "width": 1033,
+    "height": 255,
+    "bytes": 33364
+  },
+  "task-between": {
+    "path": "assets/task-between.webp",
+    "width": 1035,
+    "height": 255,
+    "bytes": 32698
+  },
+  "task-move": {
+    "path": "assets/task-move.webp",
+    "width": 1033,
+    "height": 255,
+    "bytes": 30194
+  },
+  "task-bin-0": {
+    "path": "assets/task-bin-0.webp",
+    "width": 343,
+    "height": 255,
+    "bytes": 10462
+  },
+  "task-bin-1": {
+    "path": "assets/task-bin-1.webp",
+    "width": 343,
+    "height": 255,
+    "bytes": 10384
+  },
+  "task-bin-2": {
+    "path": "assets/task-bin-2.webp",
+    "width": 343,
+    "height": 255,
+    "bytes": 9358
+  },
+  "task-next-to-0": {
+    "path": "assets/task-next-to-0.webp",
+    "width": 342,
+    "height": 255,
+    "bytes": 10386
+  },
+  "task-next-to-1": {
+    "path": "assets/task-next-to-1.webp",
+    "width": 343,
+    "height": 255,
+    "bytes": 11884
+  },
+  "task-next-to-2": {
+    "path": "assets/task-next-to-2.webp",
+    "width": 342,
+    "height": 255,
+    "bytes": 10868
+  },
+  "task-between-0": {
+    "path": "assets/task-between-0.webp",
+    "width": 343,
+    "height": 255,
+    "bytes": 11192
+  },
+  "task-between-1": {
+    "path": "assets/task-between-1.webp",
+    "width": 343,
+    "height": 255,
+    "bytes": 11446
+  },
+  "task-between-2": {
+    "path": "assets/task-between-2.webp",
+    "width": 343,
+    "height": 255,
+    "bytes": 10502
+  },
+  "task-move-0": {
+    "path": "assets/task-move-0.webp",
+    "width": 342,
+    "height": 255,
+    "bytes": 10108
+  },
+  "task-move-1": {
+    "path": "assets/task-move-1.webp",
+    "width": 343,
+    "height": 255,
+    "bytes": 10528
+  },
+  "task-move-2": {
+    "path": "assets/task-move-2.webp",
+    "width": 342,
+    "height": 255,
+    "bytes": 10084
+  },
+  "plan-memory": {
+    "path": "assets/plan-memory.webp",
+    "width": 2036,
+    "height": 349,
+    "bytes": 98502
+  },
+  "plan": {
+    "path": "assets/plan.webp",
+    "width": 988,
+    "height": 245,
+    "bytes": 38096
+  },
+  "memory": {
+    "path": "assets/memory.webp",
+    "width": 986,
+    "height": 245,
+    "bytes": 33788
+  }
+}

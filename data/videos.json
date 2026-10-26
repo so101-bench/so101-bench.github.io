@@ -1,0 +1,64 @@
+[
+  {
+    "id": "plan",
+    "subset": "PLAN",
+    "policy": "GPT-6.1 Sol + PyRUA-Lean v9.6 + Galaxea 0.5",
+    "trial": 529,
+    "instruction": "Place the toy boat between the pill planner and the camera",
+    "objects": [
+      "white toy boat",
+      "black camera",
+      "white pill planner",
+      "red pen"
+    ],
+    "appearance": "canonical",
+    "outcome": "success",
+    "video": "assets/videos/plan-trial529-1x-v5-clean.mp4",
+    "poster": "assets/videos/plan-trial529-1x-v5-clean.webp",
+    "width": 640,
+    "height": 480,
+    "duration_seconds": 22.3,
+    "playback_speed": 1,
+    "start_seconds": 0.5,
+    "end_seconds": 22.8,
+    "crop": [
+      120,
+      110,
+      600,
+      470
+    ],
+    "sha256": "d94efdc72e143ced37dcae481ee51c0cc71b76b98283822122101dc5edb37d1e",
+    "provenance": "Successful official primary-evaluation subset episode; public objects and training appearance; one continuous native-speed interval matching paper imagery."
+  },
+  {
+    "id": "memory",
+    "subset": "MEM",
+    "policy": "ImageWAM",
+    "trial": 300,
+    "instruction": "Move the tape backwards",
+    "objects": [
+      "red tape",
+      "purple pill planner",
+      "yellow screwdriver",
+      "pink harmonica"
+    ],
+    "appearance": "varied",
+    "outcome": "success",
+    "video": "assets/videos/mem-trial300-1x-v5-clean.mp4",
+    "poster": "assets/videos/mem-trial300-1x-v5-clean.webp",
+    "width": 640,
+    "height": 480,
+    "duration_seconds": 25.3,
+    "playback_speed": 1,
+    "start_seconds": 278.0,
+    "end_seconds": 303.3,
+    "crop": [
+      120,
+      110,
+      600,
+      470
+    ],
+    "sha256": "fe4724af503b2bf74f562924e54d4ab6d6c5b564a560b22111d2c5ccff1a679a",
+    "provenance": "Successful official primary-evaluation subset episode; public objects and training appearance; one continuous native-speed interval matching paper imagery."
+  }
+]

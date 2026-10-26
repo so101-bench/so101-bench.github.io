@@ -1,0 +1,253 @@
+{
+  "latency_definition": "Server-reported dt_ms per returned action chunk over916 scored episodes; first queries retained; excludes transport/simulation. PNG decoding placement varies by server.",
+  "learned_policies": [
+    {
+      "policy": "GR00T N1.7",
+      "hardware": "workstation RTX 3090, 1 worker",
+      "n_episodes": 916,
+      "executed_steps": 16,
+      "returned_steps": [],
+      "query_ms": null,
+      "status": "not recorded"
+    },
+    {
+      "policy": "\u03c00.5",
+      "hardware": "RunPod RTX A5000 secure, 1 worker",
+      "n_episodes": 916,
+      "executed_steps": 15,
+      "returned_steps": [
+        30
+      ],
+      "query_ms": {
+        "n": 44334,
+        "median": 337.0,
+        "mean": 334.42302972887626,
+        "p95": 376.9,
+        "total": 14826310.599999929
+      },
+      "status": "measured"
+    },
+    {
+      "policy": "Galaxea 0.5",
+      "hardware": "RunPod RTX A5000 secure, 1 worker",
+      "n_episodes": 916,
+      "executed_steps": 15,
+      "returned_steps": [
+        27
+      ],
+      "query_ms": {
+        "n": 33422,
+        "median": 791.8,
+        "mean": 821.6707468134762,
+        "p95": 933.8,
+        "total": 27461879.69999989
+      },
+      "status": "measured"
+    },
+    {
+      "policy": "MolmoAct2-SO101",
+      "hardware": "RunPod RTX A5000, 1 worker",
+      "n_episodes": 916,
+      "executed_steps": 30,
+      "returned_steps": [
+        30
+      ],
+      "query_ms": {
+        "n": 26046,
+        "median": 696.8,
+        "mean": 699.8170390846964,
+        "p95": 741.3,
+        "total": 18227434.599999998
+      },
+      "status": "measured"
+    },
+    {
+      "policy": "MolmoAct2 base",
+      "hardware": "RunPod RTX A5000, 1 worker",
+      "n_episodes": 916,
+      "executed_steps": 30,
+      "returned_steps": [
+        30
+      ],
+      "query_ms": {
+        "n": 25661,
+        "median": 775.3,
+        "mean": 761.1718483301509,
+        "p95": 818.6,
+        "total": 19532430.80000006
+      },
+      "status": "measured"
+    },
+    {
+      "policy": "FLUX 3 Action SO-101 LoRA",
+      "hardware": "RunPod A40, 1 worker",
+      "n_episodes": 916,
+      "executed_steps": 32,
+      "returned_steps": [
+        42
+      ],
+      "query_ms": {
+        "n": 25080,
+        "median": 2894.0,
+        "mean": 2787.185861244019,
+        "p95": 3129.4,
+        "total": 69902621.39999989
+      },
+      "status": "measured"
+    },
+    {
+      "policy": "ImageWAM",
+      "hardware": "RunPod RTX A5000, 1 worker",
+      "n_episodes": 916,
+      "executed_steps": 16,
+      "returned_steps": [
+        16
+      ],
+      "query_ms": {
+        "n": 41721,
+        "median": 322.5,
+        "mean": 330.7787037702836,
+        "p95": 410.0,
+        "total": 13800418.300000077
+      },
+      "status": "measured"
+    },
+    {
+      "policy": "LaWAM",
+      "hardware": "RunPod RTX A5000, 1 worker",
+      "n_episodes": 916,
+      "executed_steps": 36,
+      "returned_steps": [
+        36
+      ],
+      "query_ms": {
+        "n": 18651,
+        "median": 274.1,
+        "mean": 278.07691276607153,
+        "p95": 333.45,
+        "total": 5186412.499999992
+      },
+      "status": "measured"
+    },
+    {
+      "policy": "InternW0-Delta",
+      "hardware": "RunPod A40, 1 worker",
+      "n_episodes": 916,
+      "executed_steps": 16,
+      "returned_steps": [
+        16
+      ],
+      "query_ms": {
+        "n": 34378,
+        "median": 986.5,
+        "mean": 985.1160276921286,
+        "p95": 1089.8,
+        "total": 33866318.79999978
+      },
+      "status": "measured"
+    }
+  ],
+  "sim2real_real_policies": [
+    {
+      "policy": "GPT-6.1 Sol + PyRUA-Lean + Galaxea 0.5",
+      "n": 45,
+      "successes": 29,
+      "wall_s": {
+        "n": 45,
+        "median": 196.56090966599731,
+        "mean": 203.95303091606684,
+        "p95": 391.8462949890003,
+        "total": 9177.886391223008
+      },
+      "recording_duration_s": {
+        "n": 45,
+        "median": 197.734,
+        "mean": 206.47224444444444,
+        "p95": 392.83399999999995,
+        "total": 9291.251000000002
+      },
+      "recordings_shorter_than_trace": 0
+    },
+    {
+      "policy": "Galaxea 0.5",
+      "n": 45,
+      "successes": 24,
+      "wall_s": {
+        "n": 45,
+        "median": 37.525544915988576,
+        "mean": 49.85849537140328,
+        "p95": 116.5409168845741,
+        "total": 2243.6322917131474
+      },
+      "recording_duration_s": {
+        "n": 45,
+        "median": 37.567,
+        "mean": 49.692933333333336,
+        "p95": 116.60059999999999,
+        "total": 2236.1820000000007
+      },
+      "recordings_shorter_than_trace": 1
+    },
+    {
+      "policy": "GR00T N1.7",
+      "n": 45,
+      "successes": 11,
+      "wall_s": {
+        "n": 45,
+        "median": 37.93920858000638,
+        "mean": 42.72709257324976,
+        "p95": 95.76564690035302,
+        "total": 1922.7191657962394
+      },
+      "recording_duration_s": {
+        "n": 45,
+        "median": 38.734,
+        "mean": 43.46551111111111,
+        "p95": 95.8068,
+        "total": 1955.9480000000003
+      },
+      "recordings_shorter_than_trace": 0
+    },
+    {
+      "policy": "\u03c00.5",
+      "n": 45,
+      "successes": 8,
+      "wall_s": {
+        "n": 45,
+        "median": 59.07826122402912,
+        "mean": 64.39552531328518,
+        "p95": 153.31595910378962,
+        "total": 2897.798639097833
+      },
+      "recording_duration_s": {
+        "n": 45,
+        "median": 59.134,
+        "mean": 64.49300000000001,
+        "p95": 153.367,
+        "total": 2902.1850000000004
+      },
+      "recordings_shorter_than_trace": 0
+    },
+    {
+      "policy": "MolmoAct2-SO101",
+      "n": 45,
+      "successes": 7,
+      "wall_s": {
+        "n": 45,
+        "median": 56.04515871201875,
+        "mean": 65.90312845789207,
+        "p95": 137.98179110437633,
+        "total": 2965.640780605143
+      },
+      "recording_duration_s": {
+        "n": 45,
+        "median": 56.0,
+        "mean": 62.14182222222223,
+        "p95": 138.034,
+        "total": 2796.3819999999996
+      },
+      "recordings_shorter_than_trace": 2
+    }
+  ],
+  "real_time_definition": "Episode start to last timestamped control command on45 matched real-robot layouts per policy, successes and failures. Includes model/API waits and within-rollout stalls; excludes server/model startup, scene resets and subsequent scoring. Checked against original recordings. Three older recordings omit elapsed gaps; use monotonic control timestamps consistently for every episode."
+}

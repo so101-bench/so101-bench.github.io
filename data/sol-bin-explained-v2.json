@@ -1,0 +1,1126 @@
+{
+  "trial_id": 18,
+  "instruction": "Place each object in the plastic bin",
+  "objects": [
+    "yellow tape",
+    "red pen",
+    "white shoes",
+    "blue screwdriver"
+  ],
+  "native_success": true,
+  "timing": "Complete 1x simulation motion, with explicitly labeled added explanation holds. Not wall-clock playback.",
+  "source_frames": 1914,
+  "output_frames": 3504,
+  "source_duration_seconds": 63.8,
+  "duration_seconds": 116.8,
+  "controller_spans": [
+    {
+      "actor": "HOLD",
+      "start": 0,
+      "end": 45,
+      "tool": "initial settling"
+    },
+    {
+      "actor": "G0.5",
+      "start": 45,
+      "end": 164,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 119
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 164,
+      "end": 314,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 150
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 314,
+      "end": 393,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 79
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 393,
+      "end": 495,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 3.4
+      },
+      "feedback": {
+        "steps_used": 102
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 495,
+      "end": 538,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.2455,
+          0.238,
+          0.105
+        ],
+        "gripper": 0,
+        "path": "line",
+        "pitch": 78.0,
+        "yaw": 52.0,
+        "step_rad": 0.015
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0046,
+        "orientation_error_deg": 1.5,
+        "final_xyz": [
+          0.2435,
+          0.2371,
+          0.101
+        ],
+        "path": "line",
+        "steps_used": 43,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 538,
+      "end": 551,
+      "tool": "grip",
+      "kwargs": {
+        "gripper": -1
+      },
+      "feedback": {
+        "steps_used": 13,
+        "holding": false,
+        "opening": 0.961,
+        "width_m": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 551,
+      "end": 569,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.253,
+          0.189,
+          0.12
+        ],
+        "gripper": 0,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 27.5
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0043,
+        "orientation_error_deg": 3.4,
+        "final_xyz": [
+          0.2514,
+          0.1887,
+          0.1155
+        ],
+        "path": "line",
+        "steps_used": 18,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 569,
+      "end": 583,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.268,
+          0.214,
+          0.075
+        ],
+        "gripper": -1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 30.0
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.005,
+        "orientation_error_deg": 1.6,
+        "final_xyz": [
+          0.2655,
+          0.2133,
+          0.0707
+        ],
+        "path": "line",
+        "steps_used": 14,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 583,
+      "end": 600,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.253,
+          0.175,
+          0.04
+        ],
+        "gripper": -1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 33.5
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0024,
+        "orientation_error_deg": 0.6,
+        "final_xyz": [
+          0.2522,
+          0.1747,
+          0.0377
+        ],
+        "path": "line",
+        "steps_used": 17,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 600,
+      "end": 605,
+      "tool": "grip",
+      "kwargs": {
+        "gripper": 1
+      },
+      "feedback": {
+        "steps_used": 5,
+        "holding": true,
+        "opening": 0.665,
+        "width_m": 0.0538
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 605,
+      "end": 621,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.253,
+          0.175,
+          0.09
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 33.5
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0053,
+        "orientation_error_deg": 1.8,
+        "final_xyz": [
+          0.2504,
+          0.1748,
+          0.0853
+        ],
+        "path": "line",
+        "steps_used": 16,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 621,
+      "end": 656,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.2,
+          0.1,
+          0.18
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 55.0,
+        "yaw": 33.5
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0051,
+        "orientation_error_deg": 2.0,
+        "final_xyz": [
+          0.1984,
+          0.1008,
+          0.1752
+        ],
+        "path": "line",
+        "steps_used": 35,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 656,
+      "end": 692,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.015,
+          -0.035,
+          0.2
+        ],
+        "gripper": 1,
+        "path": "auto",
+        "pitch": 45.0,
+        "yaw": 33.5
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.009,
+        "orientation_error_deg": 3.0,
+        "final_xyz": [
+          0.0155,
+          -0.0335,
+          0.1911
+        ],
+        "path": "joint",
+        "blocked": "the arm stopped short of the planned pose: something is in the way",
+        "steps_used": 36,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 692,
+      "end": 729,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.17,
+          -0.045,
+          0.19
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 40.0,
+        "yaw": 33.5
+      },
+      "feedback": {
+        "reached": false,
+        "dist_to_target_m": 0.0165,
+        "orientation_error_deg": 4.2,
+        "final_xyz": [
+          -0.1693,
+          -0.0444,
+          0.1735
+        ],
+        "path": "line",
+        "blocked": "the arm stopped short of the planned pose: something is in the way",
+        "steps_used": 37,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 729,
+      "end": 741,
+      "tool": "grip",
+      "kwargs": {
+        "gripper": -1
+      },
+      "feedback": {
+        "steps_used": 12,
+        "holding": false,
+        "opening": 0.963,
+        "width_m": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 741,
+      "end": 759,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.12,
+          0.02,
+          0.22
+        ],
+        "gripper": -1,
+        "path": "line",
+        "pitch": 35.0
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0044,
+        "orientation_error_deg": 1.2,
+        "final_xyz": [
+          -0.1203,
+          0.0198,
+          0.2156
+        ],
+        "path": "line",
+        "steps_used": 18,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "HARNESS RESET",
+      "start": 759,
+      "end": 763,
+      "tool": "grip",
+      "kwargs": {
+        "gripper": -1
+      },
+      "feedback": {
+        "steps_used": 4,
+        "holding": false,
+        "opening": 0.997,
+        "width_m": null
+      }
+    },
+    {
+      "actor": "HARNESS RESET",
+      "start": 763,
+      "end": 787,
+      "tool": "home",
+      "kwargs": {},
+      "feedback": {
+        "reached": true,
+        "steps_used": 24,
+        "max_joint_error_rad": 0.0116
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 787,
+      "end": 937,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 150
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 937,
+      "end": 989,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 52
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 989,
+      "end": 1139,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 150
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 1139,
+      "end": 1180,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 41
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 1180,
+      "end": 1330,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 150
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 1330,
+      "end": 1424,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 94
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 1424,
+      "end": 1539,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 115
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 1539,
+      "end": 1630,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 91
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 1630,
+      "end": 1772,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 142
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 1772,
+      "end": 1871,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 99
+      }
+    },
+    {
+      "actor": "HARNESS CLEARANCE",
+      "start": 1871,
+      "end": 1888,
+      "tool": "grip",
+      "kwargs": {
+        "gripper": -1
+      },
+      "feedback": {
+        "steps_used": 17,
+        "holding": false,
+        "opening": 0.96,
+        "width_m": null
+      }
+    },
+    {
+      "actor": "HARNESS CLEARANCE",
+      "start": 1888,
+      "end": 1907,
+      "tool": "home",
+      "kwargs": {},
+      "feedback": {
+        "reached": true,
+        "steps_used": 19,
+        "max_joint_error_rad": 0.0138
+      }
+    },
+    {
+      "actor": "HOLD",
+      "start": 1907,
+      "end": 1914,
+      "tool": "native goal confirmation"
+    }
+  ],
+  "controller_steps": {
+    "HOLD": 52,
+    "G0.5": 1534,
+    "SOL": 264,
+    "HARNESS RESET": 28,
+    "HARNESS CLEARANCE": 36
+  },
+  "chapters": [
+    {
+      "seconds": 0.0,
+      "title": "Four task objects, including a pair of shoes",
+      "source_frame": 0,
+      "explanation_hold_seconds": 3
+    },
+    {
+      "seconds": 13.467,
+      "title": "An apparent lift is not a completed grasp",
+      "source_frame": 314,
+      "explanation_hold_seconds": 5
+    },
+    {
+      "seconds": 24.5,
+      "title": "Failed shoe grasp: G0.5 -> Sol",
+      "source_frame": 495,
+      "explanation_hold_seconds": 8
+    },
+    {
+      "seconds": 34.967,
+      "title": "SAM3 grounds the manual recovery",
+      "source_frame": 569,
+      "explanation_hold_seconds": 7
+    },
+    {
+      "seconds": 43.7,
+      "title": "Recovered grasp: confirm lift",
+      "source_frame": 621,
+      "explanation_hold_seconds": 5
+    },
+    {
+      "seconds": 53.3,
+      "title": "Placement confirmed: Sol -> G0.5",
+      "source_frame": 759,
+      "explanation_hold_seconds": 6
+    },
+    {
+      "seconds": 66.967,
+      "title": "G0.5 resumes the bin task",
+      "source_frame": 989,
+      "explanation_hold_seconds": 5
+    },
+    {
+      "seconds": 93.333,
+      "title": "Report a missed pickup; allow a retry",
+      "source_frame": 1630,
+      "explanation_hold_seconds": 5
+    },
+    {
+      "seconds": 103.067,
+      "title": "The remaining shoe lands in the bin",
+      "source_frame": 1772,
+      "explanation_hold_seconds": 5
+    },
+    {
+      "seconds": 112.8,
+      "title": "Native benchmark: 4 / 4, SUCCESS",
+      "source_frame": 1914,
+      "explanation_hold_seconds": 4
+    }
+  ],
+  "public_messages": [
+    {
+      "frame": 45,
+      "text": "I\u2019ll let the learned policy start, then check each grasp and bin placement from the camera views."
+    },
+    {
+      "frame": 314,
+      "text": "The policy has gripped the gray shoes and started lifting them. I\u2019m checking that they stay held during the transfer."
+    },
+    {
+      "frame": 495,
+      "text": "The shoes are still on the table, and the policy is struggling around their openings. I\u2019ll take over when the controller hands back the arm."
+    },
+    {
+      "frame": 569,
+      "text": "I\u2019ve lifted clear of the shoes. I\u2019m lining up a grasp across one shoe\u2019s side so the pads can hold it securely."
+    },
+    {
+      "frame": 656,
+      "text": "The shoes are now visibly off the table and held securely. I\u2019ll carry them above the bin rim before releasing them."
+    },
+    {
+      "frame": 937,
+      "text": "One shoe is in the bin; the other remains on the table. The policy is now approaching the red pen."
+    },
+    {
+      "frame": 1180,
+      "text": "The pen and yellow tape roll have both landed in the bin. The remaining shoe and blue screwdriver are still on the table."
+    },
+    {
+      "frame": 1539,
+      "text": "The screwdriver is in the bin. Only the second shoe remains; the policy\u2019s latest grasp did not lift it."
+    },
+    {
+      "frame": 1772,
+      "text": "The second shoe has landed in the bin. I\u2019m checking the final scene and letting the arm withdraw so it touches none of the objects."
+    },
+    {
+      "frame": 1907,
+      "text": "All objects are in the plastic bin, and the arm is clear of them."
+    }
+  ],
+  "localization": [
+    {
+      "frame": 495,
+      "prompt": "the gray shoes",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.0934,
+        "found": true,
+        "score": 0.883,
+        "centroid_rc": [
+          256,
+          482
+        ],
+        "center_xyz": [
+          0.2578,
+          0.1895,
+          0.0101
+        ],
+        "top_z": 0.0201,
+        "grasp_yaw": 27.5,
+        "views": 1
+      }
+    },
+    {
+      "frame": 495,
+      "prompt": "the plastic bin",
+      "camera": "overhead",
+      "summary": {
+        "found": true,
+        "score": 0.52,
+        "centroid_rc": [
+          137,
+          159
+        ],
+        "views": 1
+      }
+    },
+    {
+      "frame": 538,
+      "prompt": "the gray shoes",
+      "camera": "wrist",
+      "summary": {
+        "found": false
+      }
+    },
+    {
+      "frame": 569,
+      "prompt": "the pair of gray shoes",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.1374,
+        "found": true,
+        "score": 0.969,
+        "centroid_rc": [
+          247,
+          486
+        ],
+        "center_xyz": [
+          0.2655,
+          0.2143,
+          0.0101
+        ],
+        "top_z": 0.0201,
+        "grasp_yaw": 1.3,
+        "views": 1
+      }
+    },
+    {
+      "frame": 569,
+      "prompt": "the gray shoes",
+      "camera": "wrist",
+      "summary": {
+        "width_m": 0.0534,
+        "found": true,
+        "score": 0.559,
+        "centroid_rc": [
+          138,
+          190
+        ],
+        "center_xyz": [
+          0.2796,
+          0.2367,
+          0.0211
+        ],
+        "top_z": 0.0421,
+        "grasp_yaw": 41.6,
+        "views": 2
+      }
+    },
+    {
+      "frame": 569,
+      "prompt": "shoes",
+      "camera": "wrist",
+      "summary": {
+        "width_m": 0.0546,
+        "found": true,
+        "score": 0.816,
+        "centroid_rc": [
+          138,
+          190
+        ],
+        "center_xyz": [
+          0.2793,
+          0.2383,
+          0.0201
+        ],
+        "top_z": 0.0401,
+        "grasp_yaw": 41.3,
+        "views": 2
+      }
+    },
+    {
+      "frame": 569,
+      "prompt": "shoes",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.0634,
+        "found": true,
+        "score": 0.836,
+        "centroid_rc": [
+          254,
+          481
+        ],
+        "center_xyz": [
+          0.2528,
+          0.1747,
+          0.0221
+        ],
+        "top_z": 0.0441,
+        "grasp_yaw": 33.5,
+        "views": 2
+      }
+    }
+  ],
+  "verdicts": [
+    {
+      "frame": 45,
+      "verdict": null,
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 0,
+      "clock_s": 0.0,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 164,
+      "verdict": "progress",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 0,
+      "clock_s": 3.97,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 314,
+      "verdict": "lifted",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 0,
+      "clock_s": 8.97,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 393,
+      "verdict": "stuck",
+      "object": "the gray shoes",
+      "attempts": 0,
+      "stuck_s": 2.63,
+      "in_bin": 0,
+      "clock_s": 11.6,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 495,
+      "verdict": "stuck",
+      "object": "the gray shoes",
+      "attempts": 0,
+      "stuck_s": 6.03,
+      "in_bin": 0,
+      "clock_s": 15.0,
+      "decision": "takeover",
+      "reason": "15 s clock"
+    },
+    {
+      "frame": 759,
+      "verdict": "placed",
+      "object": "the gray shoes",
+      "by": "sol",
+      "in_bin": 1,
+      "decision": "restart_policy"
+    },
+    {
+      "frame": 937,
+      "verdict": "progress",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 1,
+      "clock_s": 5.0,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 989,
+      "verdict": "placed",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 2,
+      "clock_s": 0.0,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 1139,
+      "verdict": "lifted",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 2,
+      "clock_s": 5.0,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 1180,
+      "verdict": "placed",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 3,
+      "clock_s": 0.0,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 1330,
+      "verdict": "progress",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 3,
+      "clock_s": 5.0,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 1424,
+      "verdict": "placed",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 4,
+      "clock_s": 0.0,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 1539,
+      "verdict": "failed_attempt",
+      "object": "the gray shoe",
+      "attempts": 1,
+      "stuck_s": 0.0,
+      "in_bin": 4,
+      "clock_s": 3.83,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 1630,
+      "verdict": "failed_attempt",
+      "object": "the gray shoe",
+      "attempts": 2,
+      "stuck_s": 0.0,
+      "in_bin": 4,
+      "clock_s": 6.86,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 1772,
+      "verdict": "placed",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 5,
+      "clock_s": 0.0,
+      "decision": "continue",
+      "reason": null
+    }
+  ],
+  "sam3_replay": [
+    {
+      "native_step": 495,
+      "prompt": "the gray shoes",
+      "logged_feedback": {
+        "width_m": 0.0934,
+        "found": true,
+        "score": 0.883,
+        "centroid_rc": [
+          256,
+          482
+        ],
+        "center_xyz": [
+          0.2578,
+          0.1895,
+          0.0101
+        ],
+        "top_z": 0.0201,
+        "grasp_yaw": 27.5,
+        "views": 1
+      },
+      "replayed_segmentation": {
+        "found": true,
+        "score": 0.8828125,
+        "box": [
+          437.3687438964844,
+          219.2506103515625,
+          526.4156494140625,
+          290.105224609375
+        ],
+        "reason": null,
+        "mask_area_px": 3421,
+        "centroid_rc": [
+          256.4659456299328,
+          482.2195264542531
+        ],
+        "elapsed_s": 1.001823902130127
+      }
+    },
+    {
+      "native_step": 495,
+      "prompt": "the plastic bin",
+      "logged_feedback": {
+        "found": true,
+        "score": 0.52,
+        "centroid_rc": [
+          137,
+          159
+        ],
+        "views": 1
+      },
+      "replayed_segmentation": {
+        "found": true,
+        "score": 0.51953125,
+        "box": [
+          117.24189758300781,
+          96.66083526611328,
+          191.4059295654297,
+          184.9426727294922
+        ],
+        "reason": null,
+        "mask_area_px": 4371,
+        "centroid_rc": [
+          137.25509036833677,
+          159.54701441317775
+        ],
+        "elapsed_s": 0.1650104522705078
+      }
+    },
+    {
+      "native_step": 569,
+      "prompt": "the pair of gray shoes",
+      "logged_feedback": {
+        "width_m": 0.1374,
+        "found": true,
+        "score": 0.969,
+        "centroid_rc": [
+          247,
+          486
+        ],
+        "center_xyz": [
+          0.2655,
+          0.2143,
+          0.0101
+        ],
+        "top_z": 0.0201,
+        "grasp_yaw": 1.3,
+        "views": 1
+      },
+      "replayed_segmentation": {
+        "found": true,
+        "score": 0.96875,
+        "box": [
+          437.30950927734375,
+          203.9788055419922,
+          534.4485473632812,
+          290.1669921875
+        ],
+        "reason": null,
+        "mask_area_px": 5346,
+        "centroid_rc": [
+          247.29910213243548,
+          486.4713804713805
+        ],
+        "elapsed_s": 0.2917904853820801
+      }
+    },
+    {
+      "native_step": 569,
+      "prompt": "shoes",
+      "logged_feedback": {
+        "width_m": 0.0634,
+        "found": true,
+        "score": 0.836,
+        "centroid_rc": [
+          254,
+          481
+        ],
+        "center_xyz": [
+          0.2528,
+          0.1747,
+          0.0221
+        ],
+        "top_z": 0.0441,
+        "grasp_yaw": 33.5,
+        "views": 2
+      },
+      "replayed_segmentation": {
+        "found": true,
+        "score": 0.8359375,
+        "box": [
+          437.17010498046875,
+          219.2830810546875,
+          526.5943603515625,
+          290.35455322265625
+        ],
+        "reason": null,
+        "mask_area_px": 3627,
+        "centroid_rc": [
+          254.82244279018474,
+          481.00027570995314
+        ],
+        "elapsed_s": 0.1660301685333252
+      }
+    }
+  ],
+  "sam3_note": "Masks replayed on recorded RGB using the original checkpoint. Sol originally received geometry and confidence, not these colored explanatory overlays. Calibrated RGB geometry; no depth image.",
+  "planning_note": "Task-level plans are editorial summaries. Quotes are recorded public assistant messages."
+}

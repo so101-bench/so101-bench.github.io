@@ -1,0 +1,42 @@
+{
+  "title": "SO-101 Bench: Accessible Spatial Manipulation",
+  "author": "Truman Hickok",
+  "affiliation": "Independent",
+  "tex_source": "release/paper/main.tex",
+  "tex_sha256": "6586e155d66090fa23ca5560acefe371f4a81dc3b54bf40038235fae70de7cad",
+  "pdf_source": "release/paper/main.pdf",
+  "pdf_asset": "assets/paper-a114e17f28.pdf",
+  "pdf_sha256": "a114e17f280ca61b464bcd1e45f10f52b30fee9e6951bc5c6e82f088229672fc",
+  "figures": [
+    {
+      "id": "summary",
+      "source": "release/paper/figures/intro/so101_bench_summary.png",
+      "source_sha256": "0fa909a854e7afe33e4118ac4f8f839f7319f941f46da24312c4522dfbb53d5a"
+    },
+    {
+      "id": "objects",
+      "source": "release/paper/figures/intro/objects_all.png",
+      "source_sha256": "f780f39fed0c505bbc2ca1dce578d77a5a26d9d36dfb3e7303f0b33781541c5e"
+    },
+    {
+      "id": "correspondence",
+      "source": "release/paper/figures/s1/s1_main.png",
+      "source_sha256": "6a9cc14cdf56c33b61fba497eac43716f8d2fa5f9177f284c8d4adcdd7ac8356"
+    },
+    {
+      "id": "transfer",
+      "source": "release/paper/figures/s2/s2_main.png",
+      "source_sha256": "47d0944c4992caf4f2c4802d4ad4b9193b3fe41aef147e7f8f86fc161dc29225"
+    },
+    {
+      "id": "leaderboard",
+      "source": "release/paper/figures/s3/s3_main.png",
+      "source_sha256": "83fec78e1fc429c9cc1524a007d9a98d9ee9579cd953fe3ec020be50a9b83c4d"
+    },
+    {
+      "id": "harness",
+      "source": "release/paper/figures/s4/s4_main.png",
+      "source_sha256": "21c49a9d65f2ec95c2985011023ae5d6b6d3e7b06096838bea017a98720a9764"
+    }
+  ]
+}
