@@ -11,8 +11,8 @@
       "purple pacifier"
     ],
     "success": true,
-    "video": "assets/videos/sol-between-explained-v5.mp4",
-    "poster": "assets/videos/sol-between-explained-v5.webp",
+    "video": "assets/videos/sol-between-explained-v6.mp4",
+    "poster": "assets/videos/sol-between-explained-v6.webp",
     "chapters": [
       {
         "seconds": 0.0,
@@ -93,19 +93,19 @@
         "explanation_hold_seconds": 4
       }
     ],
-    "chapter_track": "assets/videos/sol-between-explained-v5-chapters.vtt",
-    "captions": "assets/videos/sol-between-explained-v5-captions.vtt",
-    "trace": "data/sol-between-explained-v5.json",
+    "chapter_track": "assets/videos/sol-between-explained-v6-chapters.vtt",
+    "captions": "assets/videos/sol-between-explained-v6-captions.vtt",
+    "trace": "data/sol-between-explained-v6.json",
     "width": 1920,
-    "height": 1080,
+    "height": 900,
     "duration_seconds": 80.834,
     "source_duration_seconds": 28.833333333333332,
     "source_frames": 865,
     "output_frames": 2425,
     "added_hold_seconds": 52,
-    "output_sha256": "56358be8551d4edba681ffc6c8160727de79eb9135930d4c93b2704deba2fd7b",
-    "bytes": 6456201,
-    "verification": "Every source frame included exactly once in order; only labeled still holds added. Public objects allowlisted, actor spans reconciled to call and cell step counts. 1080p H.264, 30fps, faststart.",
+    "output_sha256": "6e81f2d1fdfc8b013cac24980cb0f6ce2f154c0a4e7a60ed2b66e1321a4897f7",
+    "bytes": 5891174,
+    "verification": "Every source frame included exactly once in order; only labeled still holds added. Public objects allowlisted, actor spans reconciled to call and cell step counts. 1920\u00d7900 H.264, 30fps, faststart.",
     "timing": "Complete 1x simulation motion, with explicitly labeled added explanation holds. Not wall-clock playback.",
     "planning_note": "Task-level plans are editorial summaries. Quotes are recorded public assistant messages.",
     "sam3_note": "Masks replayed on recorded RGB using the original checkpoint. Sol originally received geometry and confidence, not these colored explanatory overlays. Calibrated RGB geometry; no depth image."
@@ -122,8 +122,8 @@
       "silver battery"
     ],
     "success": true,
-    "video": "assets/videos/sol-bin-explained-v5.mp4",
-    "poster": "assets/videos/sol-bin-explained-v5.webp",
+    "video": "assets/videos/sol-bin-explained-v6.mp4",
+    "poster": "assets/videos/sol-bin-explained-v6.webp",
     "chapters": [
       {
         "seconds": 0.0,
@@ -198,19 +198,19 @@
         "explanation_hold_seconds": 4
       }
     ],
-    "chapter_track": "assets/videos/sol-bin-explained-v5-chapters.vtt",
-    "captions": "assets/videos/sol-bin-explained-v5-captions.vtt",
-    "trace": "data/sol-bin-explained-v5.json",
+    "chapter_track": "assets/videos/sol-bin-explained-v6-chapters.vtt",
+    "captions": "assets/videos/sol-bin-explained-v6-captions.vtt",
+    "trace": "data/sol-bin-explained-v6.json",
     "width": 1920,
-    "height": 1080,
+    "height": 900,
     "duration_seconds": 104.2,
     "source_duration_seconds": 53.2,
     "source_frames": 1596,
     "output_frames": 3126,
     "added_hold_seconds": 51,
-    "output_sha256": "64396aa08d4e6efc9e1dcfa22902f4f0d05fb1837ada96d0bbfb186091d71818",
-    "bytes": 14308112,
-    "verification": "Every source frame included exactly once in order; only labeled still holds added. Public objects allowlisted, actor spans reconciled to call and cell step counts. 1080p H.264, 30fps, faststart.",
+    "output_sha256": "7ee04fbb383a43ab8d81685210bfd7183b02a51bd127b1032ad5450ad3864b10",
+    "bytes": 12611766,
+    "verification": "Every source frame included exactly once in order; only labeled still holds added. Public objects allowlisted, actor spans reconciled to call and cell step counts. 1920\u00d7900 H.264, 30fps, faststart.",
     "timing": "Complete 1x simulation motion, with explicitly labeled added explanation holds. Not wall-clock playback.",
     "planning_note": "Task-level plans are editorial summaries. Quotes are recorded public assistant messages.",
     "sam3_note": "Masks replayed on recorded RGB using the original checkpoint. Sol originally received geometry and confidence, not these colored explanatory overlays. Calibrated RGB geometry; no depth image."
