@@ -1,0 +1,1507 @@
+{
+  "trial_id": 534,
+  "instruction": "Place the walkie talkie between the tape and the pacifier",
+  "objects": [
+    "blue tape",
+    "yellow walkie talkie",
+    "blue harmonica",
+    "purple pacifier"
+  ],
+  "native_success": true,
+  "timing": "Complete 1x simulation motion, with explicitly labeled added explanation holds. Not wall-clock playback.",
+  "source_frames": 865,
+  "output_frames": 2245,
+  "source_duration_seconds": 28.833333333333332,
+  "duration_seconds": 74.834,
+  "controller_spans": [
+    {
+      "actor": "HOLD",
+      "start": 0,
+      "end": 45,
+      "tool": "initial settling"
+    },
+    {
+      "actor": "SOL",
+      "start": 45,
+      "end": 83,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.024,
+          0.0645,
+          0.09509999999999999
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 68.3
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0033,
+        "orientation_error_deg": 1.2,
+        "final_xyz": [
+          -0.0226,
+          0.0659,
+          0.0925
+        ],
+        "path": "line",
+        "steps_used": 38,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 83,
+      "end": 214,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0,
+        "neutral_roll": true,
+        "hover_check": true
+      },
+      "feedback": {
+        "steps_used": 131
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 214,
+      "end": 231,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.016776707830612816,
+          0.08253366403272641,
+          0.075
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 85.36,
+        "yaw": 62.8,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0049,
+        "orientation_error_deg": 1.7,
+        "final_xyz": [
+          -0.0141,
+          0.0848,
+          0.0716
+        ],
+        "path": "line",
+        "steps_used": 17,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 231,
+      "end": 278,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.045,
+          -0.015,
+          0.075
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 84.0,
+        "yaw": 63.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0065,
+        "orientation_error_deg": 2.2,
+        "final_xyz": [
+          0.0456,
+          -0.0113,
+          0.0697
+        ],
+        "path": "line",
+        "steps_used": 47,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 278,
+      "end": 307,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.12,
+          -0.03,
+          0.06968101330421467
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 81.81,
+        "yaw": 63.07,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.007,
+        "orientation_error_deg": 2.2,
+        "final_xyz": [
+          0.1192,
+          -0.0265,
+          0.0636
+        ],
+        "path": "line",
+        "steps_used": 29,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 307,
+      "end": 346,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.11917852274993104,
+          -0.026530022069105156,
+          0.075
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 80.0,
+        "yaw": 12.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0064,
+        "orientation_error_deg": 1.7,
+        "final_xyz": [
+          0.1185,
+          -0.0239,
+          0.0692
+        ],
+        "path": "line",
+        "steps_used": 39,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 346,
+      "end": 371,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.17,
+          -0.045,
+          0.14
+        ],
+        "gripper": 1,
+        "path": "auto",
+        "pitch": 55.0,
+        "yaw": 12.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": false,
+        "dist_to_target_m": 0.0109,
+        "orientation_error_deg": 3.3,
+        "final_xyz": [
+          0.1684,
+          -0.0415,
+          0.1298
+        ],
+        "path": "joint",
+        "blocked": "the arm stopped short of the planned pose: something is in the way",
+        "steps_used": 25,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 371,
+      "end": 385,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.18,
+          -0.046,
+          0.105
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 65.0,
+        "yaw": 12.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": false,
+        "dist_to_target_m": 0.0107,
+        "orientation_error_deg": 3.1,
+        "final_xyz": [
+          0.1778,
+          -0.0416,
+          0.0955
+        ],
+        "path": "line",
+        "blocked": "the arm stopped short of the planned pose: something is in the way",
+        "steps_used": 14,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 385,
+      "end": 400,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.165,
+          -0.046,
+          0.09
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 75.0,
+        "yaw": 0.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0094,
+        "orientation_error_deg": 2.8,
+        "final_xyz": [
+          0.1632,
+          -0.0418,
+          0.0818
+        ],
+        "path": "line",
+        "blocked": "the arm stopped short of the planned pose: something is in the way",
+        "steps_used": 15,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 400,
+      "end": 416,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.165,
+          -0.046,
+          0.0737951065860949
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 85.0,
+        "yaw": 0.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0087,
+        "orientation_error_deg": 2.5,
+        "final_xyz": [
+          0.1633,
+          -0.0421,
+          0.0661
+        ],
+        "path": "line",
+        "blocked": "the arm stopped short of the planned pose: something is in the way",
+        "steps_used": 16,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 416,
+      "end": 426,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.165,
+          -0.046,
+          0.05814535095246983
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 88.0,
+        "yaw": 0.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0089,
+        "orientation_error_deg": 1.5,
+        "final_xyz": [
+          0.1631,
+          -0.0418,
+          0.0506
+        ],
+        "path": "line",
+        "blocked": "the arm stopped short of the planned pose: something is in the way",
+        "steps_used": 10,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 426,
+      "end": 439,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.19014630311283848,
+          -0.04176404754798406,
+          0.05055475099327235
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 89.0,
+        "yaw": 0.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0092,
+        "orientation_error_deg": 0.5,
+        "final_xyz": [
+          0.1878,
+          -0.0377,
+          0.0427
+        ],
+        "path": "line",
+        "blocked": "the arm stopped short of the planned pose: something is in the way",
+        "steps_used": 13,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 439,
+      "end": 450,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.1878270707159396,
+          -0.03768108663848091,
+          0.03669624038340873
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 0.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0073,
+        "orientation_error_deg": 2.0,
+        "final_xyz": [
+          0.1861,
+          -0.0338,
+          0.0308
+        ],
+        "path": "line",
+        "steps_used": 11,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 450,
+      "end": 461,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.18612836239906733,
+          -0.03376166215877175,
+          0.024805239397973765
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 0.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0086,
+        "orientation_error_deg": 2.2,
+        "final_xyz": [
+          0.184,
+          -0.0292,
+          0.0178
+        ],
+        "path": "line",
+        "blocked": "the arm stopped short of the planned pose: something is in the way",
+        "steps_used": 11,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 461,
+      "end": 466,
+      "tool": "grip",
+      "kwargs": {
+        "gripper": -1,
+        "opening": 0.75
+      },
+      "feedback": {
+        "steps_used": 5,
+        "holding": false,
+        "opening": 0.698,
+        "width_m": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 466,
+      "end": 482,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.18422473985283705,
+          -0.03019578983042294,
+          0.075
+        ],
+        "gripper": 0,
+        "path": "line",
+        "pitch": 88.0,
+        "yaw": 0.0
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0057,
+        "orientation_error_deg": 1.7,
+        "final_xyz": [
+          0.1829,
+          -0.028,
+          0.07
+        ],
+        "path": "line",
+        "steps_used": 16,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 482,
+      "end": 530,
+      "tool": "home",
+      "kwargs": {},
+      "feedback": {
+        "reached": true,
+        "steps_used": 48,
+        "max_joint_error_rad": 0.0152
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 530,
+      "end": 593,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.184,
+          -0.029,
+          0.08
+        ],
+        "gripper": 0,
+        "path": "line",
+        "pitch": 88.0,
+        "yaw": 0.0
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0057,
+        "orientation_error_deg": 1.7,
+        "final_xyz": [
+          0.1827,
+          -0.0267,
+          0.075
+        ],
+        "path": "line",
+        "steps_used": 63,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 593,
+      "end": 602,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.184,
+          -0.029,
+          0.06497603723631741
+        ],
+        "gripper": 0,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 0.0
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0059,
+        "orientation_error_deg": 1.8,
+        "final_xyz": [
+          0.1825,
+          -0.0263,
+          0.06
+        ],
+        "path": "line",
+        "steps_used": 9,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 602,
+      "end": 616,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.171,
+          -0.016,
+          0.04996105872998794
+        ],
+        "gripper": 0,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 0.0
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0055,
+        "orientation_error_deg": 1.6,
+        "final_xyz": [
+          0.1694,
+          -0.013,
+          0.0457
+        ],
+        "path": "line",
+        "steps_used": 14,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 616,
+      "end": 628,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.145,
+          -0.012,
+          0.04569950002560501
+        ],
+        "gripper": 0,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 0.0
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.005,
+        "orientation_error_deg": 1.5,
+        "final_xyz": [
+          0.1437,
+          -0.0088,
+          0.042
+        ],
+        "path": "line",
+        "steps_used": 12,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 628,
+      "end": 638,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.1437196867342967,
+          -0.008847382345609046,
+          0.032981306575793255
+        ],
+        "gripper": 0,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 0.0
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0051,
+        "orientation_error_deg": 1.5,
+        "final_xyz": [
+          0.1424,
+          -0.0055,
+          0.0295
+        ],
+        "path": "line",
+        "steps_used": 10,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 638,
+      "end": 648,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.1423533058328649,
+          -0.005483717852737546,
+          0.023458893422027387
+        ],
+        "gripper": 0,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 0.0
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.005,
+        "orientation_error_deg": 1.4,
+        "final_xyz": [
+          0.1409,
+          -0.002,
+          0.0201
+        ],
+        "path": "line",
+        "steps_used": 10,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 648,
+      "end": 652,
+      "tool": "grip",
+      "kwargs": {
+        "gripper": 1
+      },
+      "feedback": {
+        "steps_used": 4,
+        "holding": true,
+        "opening": 0.584,
+        "width_m": 0.0472
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 652,
+      "end": 669,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.14272865270967203,
+          -0.0036240655220286504,
+          0.065
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 0.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0074,
+        "orientation_error_deg": 2.4,
+        "final_xyz": [
+          0.1408,
+          0.0009,
+          0.0595
+        ],
+        "path": "line",
+        "steps_used": 17,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 669,
+      "end": 684,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.15284894947065478,
+          -0.02607614135736457,
+          0.05947948631222942
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 0.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0086,
+        "orientation_error_deg": 2.6,
+        "final_xyz": [
+          0.1508,
+          -0.0212,
+          0.0528
+        ],
+        "path": "line",
+        "blocked": "the arm stopped short of the planned pose: something is in the way",
+        "steps_used": 15,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 684,
+      "end": 696,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.153,
+          -0.035,
+          0.04478054150610062
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 0.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0093,
+        "orientation_error_deg": 2.7,
+        "final_xyz": [
+          0.1508,
+          -0.0294,
+          0.0377
+        ],
+        "path": "line",
+        "blocked": "the arm stopped short of the planned pose: something is in the way",
+        "steps_used": 12,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 696,
+      "end": 707,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.153,
+          -0.035,
+          0.03067880996370457
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 0.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0095,
+        "orientation_error_deg": 2.7,
+        "final_xyz": [
+          0.1506,
+          -0.029,
+          0.0238
+        ],
+        "path": "line",
+        "blocked": "the arm stopped short of the planned pose: something is in the way",
+        "steps_used": 11,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 707,
+      "end": 715,
+      "tool": "grip",
+      "kwargs": {
+        "gripper": -1,
+        "opening": 0.75
+      },
+      "feedback": {
+        "steps_used": 8,
+        "holding": false,
+        "opening": 0.72,
+        "width_m": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 715,
+      "end": 731,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.15092394874833545,
+          -0.0305668259979882,
+          0.075
+        ],
+        "gripper": 0,
+        "path": "line",
+        "pitch": 88.0,
+        "yaw": 0.0
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0052,
+        "orientation_error_deg": 1.7,
+        "final_xyz": [
+          0.1499,
+          -0.0281,
+          0.0705
+        ],
+        "path": "line",
+        "steps_used": 16,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 731,
+      "end": 772,
+      "tool": "home",
+      "kwargs": {},
+      "feedback": {
+        "reached": true,
+        "steps_used": 41,
+        "max_joint_error_rad": 0.0151
+      }
+    },
+    {
+      "actor": "HARNESS CLEARANCE",
+      "start": 772,
+      "end": 782,
+      "tool": "grip",
+      "kwargs": {
+        "gripper": -1
+      },
+      "feedback": {
+        "steps_used": 10,
+        "holding": false,
+        "opening": 0.963,
+        "width_m": null
+      }
+    },
+    {
+      "actor": "HARNESS CLEARANCE",
+      "start": 782,
+      "end": 783,
+      "tool": "home",
+      "kwargs": {},
+      "feedback": {
+        "reached": true,
+        "steps_used": 1,
+        "max_joint_error_rad": 0.0151
+      }
+    },
+    {
+      "actor": "HOLD",
+      "start": 783,
+      "end": 865,
+      "tool": "native goal confirmation"
+    }
+  ],
+  "controller_steps": {
+    "HOLD": 127,
+    "SOL": 596,
+    "G0.5": 131,
+    "HARNESS CLEARANCE": 11
+  },
+  "chapters": [
+    {
+      "seconds": 0.0,
+      "title": "The division of labor",
+      "source_frame": 0,
+      "explanation_hold_seconds": 3
+    },
+    {
+      "seconds": 4.5,
+      "title": "SAM3 grounds words in the camera image",
+      "source_frame": 45,
+      "explanation_hold_seconds": 5
+    },
+    {
+      "seconds": 10.767,
+      "title": "Sol hands the grasp to G0.5",
+      "source_frame": 83,
+      "explanation_hold_seconds": 4
+    },
+    {
+      "seconds": 19.133,
+      "title": "Lift confirmed: G0.5 -> Sol",
+      "source_frame": 214,
+      "explanation_hold_seconds": 5
+    },
+    {
+      "seconds": 28.533,
+      "title": "Sol changes the reachable carry pose",
+      "source_frame": 346,
+      "explanation_hold_seconds": 5
+    },
+    {
+      "seconds": 35.867,
+      "title": "Careful placement is Sol's job",
+      "source_frame": 416,
+      "explanation_hold_seconds": 5
+    },
+    {
+      "seconds": 44.667,
+      "title": "Inspect the result, then correct it",
+      "source_frame": 530,
+      "explanation_hold_seconds": 5
+    },
+    {
+      "seconds": 54.3,
+      "title": "A second grasp makes the correction",
+      "source_frame": 669,
+      "explanation_hold_seconds": 5
+    },
+    {
+      "seconds": 62.733,
+      "title": "Final geometry and stability check",
+      "source_frame": 772,
+      "explanation_hold_seconds": 5
+    },
+    {
+      "seconds": 70.833,
+      "title": "Native benchmark: SUCCESS",
+      "source_frame": 865,
+      "explanation_hold_seconds": 4
+    }
+  ],
+  "public_messages": [
+    {
+      "frame": 45,
+      "text": "I\u2019ll measure the walkie talkie and both referents, let the grasping policy pick it up, then place it carefully on the line between them."
+    },
+    {
+      "frame": 214,
+      "text": "The policy has lifted the walkie talkie. I\u2019m taking control for placement and checking the gap between the tape and pacifier."
+    },
+    {
+      "frame": 231,
+      "text": "The walkie talkie is secure. The arm needs a little more distance from its base to lift higher, so I\u2019m moving outward before crossing toward the placement spot."
+    },
+    {
+      "frame": 346,
+      "text": "The walkie talkie is turned so its narrow side fits between the referents. Several straight lift paths are outside the arm\u2019s reach; I\u2019m using a higher reachable pose, then I\u2019ll descend in small steps."
+    },
+    {
+      "frame": 416,
+      "text": "The walkie talkie is above the gap and nearly level with the table. I\u2019m lowering it a few millimetres at a time, checking clearance on both sides before release."
+    },
+    {
+      "frame": 530,
+      "text": "The walkie talkie is released and clear of both referents. Its centre is about 2 cm off their connecting line, so I\u2019ll make one small adjustment toward the midpoint."
+    },
+    {
+      "frame": 669,
+      "text": "The second grasp is secure. I\u2019m shifting it about 2.5 cm toward the line, with a small sideways adjustment to keep clearance from the tape."
+    },
+    {
+      "frame": 772,
+      "text": "The final measurement puts the walkie talkie\u2019s centre on the line between the tape and pacifier. It is released, and the arm is clear. I\u2019m ending the episode for the stability check."
+    },
+    {
+      "frame": 783,
+      "text": "Placed the walkie talkie between the tape and pacifier, aligned with their centres, and moved the arm clear."
+    }
+  ],
+  "localization": [
+    {
+      "frame": 45,
+      "prompt": "the yellow walkie talkie",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.0509,
+        "found": true,
+        "score": 0.789,
+        "centroid_rc": [
+          306,
+          300
+        ],
+        "center_xyz": [
+          -0.024,
+          0.0645,
+          0.0101
+        ],
+        "top_z": 0.0201,
+        "grasp_yaw": 68.3,
+        "views": 2
+      }
+    },
+    {
+      "frame": 45,
+      "prompt": "the blue tape roll",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.115,
+        "found": true,
+        "score": 0.969,
+        "centroid_rc": [
+          407,
+          398
+        ],
+        "center_xyz": [
+          0.0863,
+          -0.0775,
+          0.0111
+        ],
+        "top_z": 0.0221,
+        "grasp_yaw": -17.5,
+        "views": 2
+      }
+    },
+    {
+      "frame": 45,
+      "prompt": "the purple pacifier",
+      "camera": "overhead",
+      "summary": {
+        "found": false
+      }
+    },
+    {
+      "frame": 45,
+      "prompt": "the pacifier with a purple ring and yellow nipple",
+      "camera": "overhead",
+      "summary": {
+        "found": false
+      }
+    },
+    {
+      "frame": 83,
+      "prompt": "the yellow walkie talkie",
+      "camera": "wrist",
+      "summary": {
+        "width_m": 0.0499,
+        "found": true,
+        "score": 0.934,
+        "centroid_rc": [
+          133,
+          346
+        ],
+        "center_xyz": [
+          -0.0465,
+          0.0743,
+          0.0091
+        ],
+        "top_z": 0.0181,
+        "grasp_yaw": 66.2,
+        "views": 2
+      }
+    },
+    {
+      "frame": 214,
+      "prompt": "the light purple ring",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.0504,
+        "found": true,
+        "score": 0.734,
+        "centroid_rc": [
+          389,
+          522
+        ],
+        "center_xyz": [
+          0.2426,
+          -0.0509,
+          0.0041
+        ],
+        "top_z": 0.0081,
+        "grasp_yaw": -17.9,
+        "views": 1
+      }
+    },
+    {
+      "frame": 214,
+      "prompt": "the blue tape roll",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.0974,
+        "found": true,
+        "score": 0.969,
+        "centroid_rc": [
+          407,
+          398
+        ],
+        "center_xyz": [
+          0.0833,
+          -0.0869,
+          0.024
+        ],
+        "top_z": 0.0481,
+        "grasp_yaw": 72.8,
+        "views": 1
+      }
+    },
+    {
+      "frame": 214,
+      "prompt": "the purple and yellow baby soother",
+      "camera": "overhead",
+      "summary": {
+        "found": false
+      }
+    },
+    {
+      "frame": 231,
+      "prompt": "the lavender pacifier",
+      "camera": "overhead",
+      "summary": {
+        "found": false
+      }
+    },
+    {
+      "frame": 371,
+      "prompt": "the purple pacifier",
+      "camera": "wrist",
+      "summary": {
+        "found": false
+      }
+    },
+    {
+      "frame": 371,
+      "prompt": "the yellow walkie talkie",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.0878,
+        "found": true,
+        "score": 0.236,
+        "centroid_rc": [
+          315,
+          472
+        ],
+        "center_xyz": [
+          0.213,
+          0.0598,
+          0.0021
+        ],
+        "top_z": 0.0041,
+        "grasp_yaw": 44.8,
+        "views": 1
+      }
+    },
+    {
+      "frame": 426,
+      "prompt": "the yellow walkie talkie",
+      "camera": "wrist",
+      "summary": {
+        "width_m": 0.1269,
+        "found": true,
+        "score": 0.562,
+        "centroid_rc": [
+          247,
+          445
+        ],
+        "center_xyz": [
+          0.1324,
+          0.0177,
+          0.0101
+        ],
+        "top_z": 0.0201,
+        "grasp_yaw": 15.9,
+        "views": 1
+      }
+    },
+    {
+      "frame": 530,
+      "prompt": "the yellow walkie talkie",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.0561,
+        "found": true,
+        "score": 0.758,
+        "centroid_rc": [
+          369,
+          459
+        ],
+        "center_xyz": [
+          0.1706,
+          -0.0348,
+          0.0061
+        ],
+        "top_z": 0.0121,
+        "grasp_yaw": 8.3,
+        "views": 1
+      }
+    },
+    {
+      "frame": 530,
+      "prompt": "the blue tape roll",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.1151,
+        "found": true,
+        "score": 0.969,
+        "centroid_rc": [
+          407,
+          396
+        ],
+        "center_xyz": [
+          0.0841,
+          -0.0776,
+          0.0111
+        ],
+        "top_z": 0.0221,
+        "grasp_yaw": -10.5,
+        "views": 2
+      }
+    },
+    {
+      "frame": 530,
+      "prompt": "the light purple ring",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.0505,
+        "found": true,
+        "score": 0.711,
+        "centroid_rc": [
+          389,
+          523
+        ],
+        "center_xyz": [
+          0.2428,
+          -0.0509,
+          0.0041
+        ],
+        "top_z": 0.0081,
+        "grasp_yaw": -18.7,
+        "views": 1
+      }
+    },
+    {
+      "frame": 772,
+      "prompt": "the yellow walkie talkie",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.0556,
+        "found": true,
+        "score": 0.844,
+        "centroid_rc": [
+          390,
+          468
+        ],
+        "center_xyz": [
+          0.1723,
+          -0.0631,
+          0.0071
+        ],
+        "top_z": 0.0141,
+        "grasp_yaw": 6.4,
+        "views": 1
+      }
+    },
+    {
+      "frame": 772,
+      "prompt": "the blue tape roll",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.1147,
+        "found": true,
+        "score": 0.973,
+        "centroid_rc": [
+          407,
+          393
+        ],
+        "center_xyz": [
+          0.0808,
+          -0.0778,
+          0.0111
+        ],
+        "top_z": 0.0221,
+        "grasp_yaw": -6.0,
+        "views": 2
+      }
+    },
+    {
+      "frame": 772,
+      "prompt": "the light purple ring",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.0507,
+        "found": true,
+        "score": 0.746,
+        "centroid_rc": [
+          389,
+          523
+        ],
+        "center_xyz": [
+          0.2417,
+          -0.0528,
+          0.0051
+        ],
+        "top_z": 0.0101,
+        "grasp_yaw": -5.9,
+        "views": 1
+      }
+    }
+  ],
+  "verdicts": [
+    {
+      "frame": 83,
+      "verdict": null,
+      "decision": "first_handoff",
+      "in_bin": 0
+    },
+    {
+      "frame": 214,
+      "verdict": "lifted",
+      "object": null,
+      "in_bin": 0,
+      "clock_s": 4.37,
+      "decision": "sol_places"
+    }
+  ],
+  "sam3_replay": [
+    {
+      "native_step": 45,
+      "prompt": "the yellow walkie talkie",
+      "logged_feedback": {
+        "width_m": 0.0509,
+        "found": true,
+        "score": 0.789,
+        "centroid_rc": [
+          306,
+          300
+        ],
+        "center_xyz": [
+          -0.024,
+          0.0645,
+          0.0101
+        ],
+        "top_z": 0.0201,
+        "grasp_yaw": 68.3,
+        "views": 2
+      },
+      "replayed_segmentation": {
+        "found": true,
+        "score": 0.7890625,
+        "box": [
+          251.48252868652344,
+          279.23516845703125,
+          368.7740478515625,
+          335.57086181640625
+        ],
+        "reason": null,
+        "mask_area_px": 3193,
+        "centroid_rc": [
+          306.8333855308487,
+          300.16066395239585
+        ],
+        "elapsed_s": 0.5597777366638184
+      }
+    },
+    {
+      "native_step": 45,
+      "prompt": "the blue tape roll",
+      "logged_feedback": {
+        "width_m": 0.115,
+        "found": true,
+        "score": 0.969,
+        "centroid_rc": [
+          407,
+          398
+        ],
+        "center_xyz": [
+          0.0863,
+          -0.0775,
+          0.0111
+        ],
+        "top_z": 0.0221,
+        "grasp_yaw": -17.5,
+        "views": 2
+      },
+      "replayed_segmentation": {
+        "found": true,
+        "score": 0.96875,
+        "box": [
+          344.829833984375,
+          354.067626953125,
+          452.6211242675781,
+          461.5016784667969
+        ],
+        "reason": null,
+        "mask_area_px": 6744,
+        "centroid_rc": [
+          407.6091340450771,
+          398.1082443653618
+        ],
+        "elapsed_s": 0.17374682426452637
+      }
+    },
+    {
+      "native_step": 45,
+      "prompt": "the purple pacifier",
+      "logged_feedback": {
+        "found": false
+      },
+      "replayed_segmentation": {
+        "found": false,
+        "score": 0.03173828125,
+        "box": [
+          502.3813171386719,
+          357.0379943847656,
+          586.6114501953125,
+          416.0435485839844
+        ],
+        "reason": "top score 0.032 is below min_score 0.200",
+        "mask_area_px": 0,
+        "centroid_rc": null,
+        "elapsed_s": 0.17476201057434082
+      }
+    },
+    {
+      "native_step": 214,
+      "prompt": "the light purple ring",
+      "logged_feedback": {
+        "width_m": 0.0504,
+        "found": true,
+        "score": 0.734,
+        "centroid_rc": [
+          389,
+          522
+        ],
+        "center_xyz": [
+          0.2426,
+          -0.0509,
+          0.0041
+        ],
+        "top_z": 0.0081,
+        "grasp_yaw": -17.9,
+        "views": 1
+      },
+      "replayed_segmentation": {
+        "found": true,
+        "score": 0.73828125,
+        "box": [
+          501.86541748046875,
+          367.3057556152344,
+          551.2896118164062,
+          411.2319030761719
+        ],
+        "reason": null,
+        "mask_area_px": 763,
+        "centroid_rc": [
+          389.913499344692,
+          522.9213630406291
+        ],
+        "elapsed_s": 0.29384374618530273
+      }
+    }
+  ],
+  "sam3_note": "Masks replayed on recorded RGB using the original checkpoint. Sol originally received geometry and confidence, not these colored explanatory overlays. Calibrated RGB geometry; no depth image.",
+  "planning_note": "Task-level plans are editorial summaries. Quotes are recorded public assistant messages."
+}

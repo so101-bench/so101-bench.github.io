@@ -1,0 +1,31 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.500
+The division of labor
+
+00:00:04.500 --> 00:00:19.500
+G0.5 handles complete bin cycles
+
+00:00:19.500 --> 00:00:29.500
+Sol checks the failed attempt
+
+00:00:29.500 --> 00:00:38.067
+15-second deadline: G0.5 -> Sol
+
+00:00:38.067 --> 00:00:48.967
+SAM3 helps Sol plan a manual recovery
+
+00:00:48.967 --> 00:01:01.567
+Battery placed: Sol -> G0.5
+
+00:01:01.567 --> 00:01:16.567
+Remote in: two objects remain
+
+00:01:16.567 --> 00:01:26.800
+Sol monitors each completed drop
+
+00:01:26.800 --> 00:01:36.200
+All four objects are visibly in the bin
+
+00:01:36.200 --> 00:01:40.200
+Native benchmark: 4 / 4, SUCCESS

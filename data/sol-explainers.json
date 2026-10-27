@@ -11,8 +11,8 @@
       "purple pacifier"
     ],
     "success": true,
-    "video": "assets/videos/sol-between-explained-v3.mp4",
-    "poster": "assets/videos/sol-between-explained-v3.webp",
+    "video": "assets/videos/sol-between-explained-v4.mp4",
+    "poster": "assets/videos/sol-between-explained-v4.webp",
     "chapters": [
       {
         "seconds": 0.0,
@@ -75,9 +75,9 @@
         "explanation_hold_seconds": 4
       }
     ],
-    "chapter_track": "assets/videos/sol-between-explained-v3-chapters.vtt",
-    "captions": "assets/videos/sol-between-explained-v3-captions.vtt",
-    "trace": "data/sol-between-explained-v3.json",
+    "chapter_track": "assets/videos/sol-between-explained-v4-chapters.vtt",
+    "captions": "assets/videos/sol-between-explained-v4-captions.vtt",
+    "trace": "data/sol-between-explained-v4.json",
     "width": 1920,
     "height": 1080,
     "duration_seconds": 74.834,
@@ -85,8 +85,8 @@
     "source_frames": 865,
     "output_frames": 2245,
     "added_hold_seconds": 46,
-    "output_sha256": "6f3d077872831279076a51547aec8b413271be19faa818a433d05f4b5243d7e9",
-    "bytes": 4140233,
+    "output_sha256": "da54553eee74056ebc11d9fd20a4f23fdce495a7d7f748948516916b85e5e834",
+    "bytes": 4111606,
     "verification": "Every source frame included exactly once in order; only labeled still holds added. Public objects allowlisted, actor spans reconciled to call and cell step counts. 1080p H.264, 30fps, faststart.",
     "timing": "Complete 1x simulation motion, with explicitly labeled added explanation holds. Not wall-clock playback.",
     "planning_note": "Task-level plans are editorial summaries. Quotes are recorded public assistant messages.",
@@ -104,8 +104,8 @@
       "silver battery"
     ],
     "success": true,
-    "video": "assets/videos/sol-bin-explained-v3.mp4",
-    "poster": "assets/videos/sol-bin-explained-v3.webp",
+    "video": "assets/videos/sol-bin-explained-v4.mp4",
+    "poster": "assets/videos/sol-bin-explained-v4.webp",
     "chapters": [
       {
         "seconds": 0.0,
@@ -168,9 +168,9 @@
         "explanation_hold_seconds": 4
       }
     ],
-    "chapter_track": "assets/videos/sol-bin-explained-v3-chapters.vtt",
-    "captions": "assets/videos/sol-bin-explained-v3-captions.vtt",
-    "trace": "data/sol-bin-explained-v3.json",
+    "chapter_track": "assets/videos/sol-bin-explained-v4-chapters.vtt",
+    "captions": "assets/videos/sol-bin-explained-v4-captions.vtt",
+    "trace": "data/sol-bin-explained-v4.json",
     "width": 1920,
     "height": 1080,
     "duration_seconds": 100.2,
@@ -178,8 +178,8 @@
     "source_frames": 1596,
     "output_frames": 3006,
     "added_hold_seconds": 47,
-    "output_sha256": "911bfe6d68c30e758bbaa0f45981058e2d7391632f9e340fb476e9daac2c09a8",
-    "bytes": 8658884,
+    "output_sha256": "5049b2f40e8f8989193cc9a6bace93d13643371c14b357e52970a56b93a3e38f",
+    "bytes": 8756150,
     "verification": "Every source frame included exactly once in order; only labeled still holds added. Public objects allowlisted, actor spans reconciled to call and cell step counts. 1080p H.264, 30fps, faststart.",
     "timing": "Complete 1x simulation motion, with explicitly labeled added explanation holds. Not wall-clock playback.",
     "planning_note": "Task-level plans are editorial summaries. Quotes are recorded public assistant messages.",

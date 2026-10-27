@@ -1,0 +1,1153 @@
+{
+  "trial_id": 81,
+  "instruction": "Place each object in the plastic bin",
+  "objects": [
+    "blue pliers",
+    "black remote",
+    "red candy cane",
+    "silver battery"
+  ],
+  "native_success": true,
+  "timing": "Complete 1x simulation motion, with explicitly labeled added explanation holds. Not wall-clock playback.",
+  "source_frames": 1596,
+  "output_frames": 3006,
+  "source_duration_seconds": 53.2,
+  "duration_seconds": 100.2,
+  "controller_spans": [
+    {
+      "actor": "HOLD",
+      "start": 0,
+      "end": 45,
+      "tool": "initial settling"
+    },
+    {
+      "actor": "G0.5",
+      "start": 45,
+      "end": 195,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 150
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 195,
+      "end": 345,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 150
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 345,
+      "end": 495,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 150
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 495,
+      "end": 544,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.2447,
+          0.1833,
+          0.09
+        ],
+        "gripper": 0,
+        "path": "line",
+        "pitch": 80.0,
+        "yaw": 55.5,
+        "step_rad": 0.015
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0042,
+        "orientation_error_deg": 1.5,
+        "final_xyz": [
+          0.2426,
+          0.183,
+          0.0863
+        ],
+        "path": "line",
+        "steps_used": 49,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 544,
+      "end": 558,
+      "tool": "grip",
+      "kwargs": {
+        "gripper": -1
+      },
+      "feedback": {
+        "steps_used": 14,
+        "holding": false,
+        "opening": 0.963,
+        "width_m": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 558,
+      "end": 602,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.0003,
+          -0.0142,
+          0.12
+        ],
+        "gripper": 0,
+        "path": "auto",
+        "pitch": 75.0,
+        "yaw": -43.3
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0046,
+        "orientation_error_deg": 1.6,
+        "final_xyz": [
+          0.0011,
+          -0.0124,
+          0.1159
+        ],
+        "path": "joint",
+        "steps_used": 44,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 602,
+      "end": 618,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.0003,
+          -0.0142,
+          0.065
+        ],
+        "gripper": 0,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": -43.3
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0049,
+        "orientation_error_deg": 1.6,
+        "final_xyz": [
+          0.0015,
+          -0.0115,
+          0.0611
+        ],
+        "path": "line",
+        "steps_used": 16,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 618,
+      "end": 632,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.0,
+          -0.0149,
+          0.031
+        ],
+        "gripper": 0,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": -45.7
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0053,
+        "orientation_error_deg": 1.5,
+        "final_xyz": [
+          0.0015,
+          -0.0115,
+          0.0272
+        ],
+        "path": "line",
+        "steps_used": 14,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 632,
+      "end": 643,
+      "tool": "grip",
+      "kwargs": {
+        "gripper": 1
+      },
+      "feedback": {
+        "steps_used": 11,
+        "holding": true,
+        "opening": 0.183,
+        "width_m": 0.0148
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 643,
+      "end": 660,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.0,
+          -0.0149,
+          0.085
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": -45.7
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0053,
+        "orientation_error_deg": 1.7,
+        "final_xyz": [
+          0.0011,
+          -0.0124,
+          0.0805
+        ],
+        "path": "line",
+        "steps_used": 17,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 660,
+      "end": 679,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.04,
+          -0.03,
+          0.11
+        ],
+        "gripper": 1,
+        "path": "auto",
+        "pitch": 60.0,
+        "yaw": -45.7
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0067,
+        "orientation_error_deg": 2.0,
+        "final_xyz": [
+          0.0406,
+          -0.0268,
+          0.1042
+        ],
+        "path": "joint",
+        "steps_used": 19,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 679,
+      "end": 742,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.32,
+          0.02,
+          0.16
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 45.0,
+        "yaw": -45.7
+      },
+      "feedback": {
+        "reached": false,
+        "dist_to_target_m": 0.0105,
+        "orientation_error_deg": 2.7,
+        "final_xyz": [
+          0.3183,
+          0.021,
+          0.1497
+        ],
+        "path": "line",
+        "blocked": "the arm stopped short of the planned pose: something is in the way",
+        "steps_used": 63,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 742,
+      "end": 759,
+      "tool": "grip",
+      "kwargs": {
+        "gripper": -1
+      },
+      "feedback": {
+        "steps_used": 17,
+        "holding": false,
+        "opening": 0.961,
+        "width_m": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 759,
+      "end": 779,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.25,
+          0.07,
+          0.18
+        ],
+        "gripper": 0,
+        "path": "line",
+        "pitch": 45.0,
+        "yaw": -45.7
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0051,
+        "orientation_error_deg": 1.6,
+        "final_xyz": [
+          0.2491,
+          0.0705,
+          0.175
+        ],
+        "path": "line",
+        "steps_used": 20,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "HARNESS RESET",
+      "start": 779,
+      "end": 783,
+      "tool": "grip",
+      "kwargs": {
+        "gripper": -1
+      },
+      "feedback": {
+        "steps_used": 4,
+        "holding": false,
+        "opening": 0.998,
+        "width_m": null
+      }
+    },
+    {
+      "actor": "HARNESS RESET",
+      "start": 783,
+      "end": 801,
+      "tool": "home",
+      "kwargs": {},
+      "feedback": {
+        "reached": true,
+        "steps_used": 18,
+        "max_joint_error_rad": 0.0186
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 801,
+      "end": 951,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 150
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 951,
+      "end": 1007,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 56
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 1007,
+      "end": 1157,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 150
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 1157,
+      "end": 1307,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 150
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 1307,
+      "end": 1457,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 150
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 1457,
+      "end": 1464,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 7
+      }
+    },
+    {
+      "actor": "HARNESS CLEARANCE",
+      "start": 1464,
+      "end": 1481,
+      "tool": "grip",
+      "kwargs": {
+        "gripper": -1
+      },
+      "feedback": {
+        "steps_used": 17,
+        "holding": false,
+        "opening": 0.963,
+        "width_m": null
+      }
+    },
+    {
+      "actor": "HARNESS CLEARANCE",
+      "start": 1481,
+      "end": 1516,
+      "tool": "home",
+      "kwargs": {},
+      "feedback": {
+        "reached": true,
+        "steps_used": 35,
+        "max_joint_error_rad": 0.0191
+      }
+    },
+    {
+      "actor": "HOLD",
+      "start": 1516,
+      "end": 1596,
+      "tool": "native goal confirmation"
+    }
+  ],
+  "controller_steps": {
+    "HOLD": 125,
+    "G0.5": 1113,
+    "SOL": 284,
+    "HARNESS RESET": 22,
+    "HARNESS CLEARANCE": 52
+  },
+  "chapters": [
+    {
+      "seconds": 0.0,
+      "title": "The division of labor",
+      "source_frame": 0,
+      "explanation_hold_seconds": 3
+    },
+    {
+      "seconds": 4.5,
+      "title": "G0.5 handles complete bin cycles",
+      "source_frame": 45,
+      "explanation_hold_seconds": 5
+    },
+    {
+      "seconds": 19.5,
+      "title": "Sol checks the failed attempt",
+      "source_frame": 345,
+      "explanation_hold_seconds": 5
+    },
+    {
+      "seconds": 29.5,
+      "title": "15-second deadline: G0.5 -> Sol",
+      "source_frame": 495,
+      "explanation_hold_seconds": 5
+    },
+    {
+      "seconds": 38.067,
+      "title": "SAM3 helps Sol plan a manual recovery",
+      "source_frame": 602,
+      "explanation_hold_seconds": 5
+    },
+    {
+      "seconds": 48.967,
+      "title": "Battery placed: Sol -> G0.5",
+      "source_frame": 779,
+      "explanation_hold_seconds": 5
+    },
+    {
+      "seconds": 61.567,
+      "title": "Remote in: two objects remain",
+      "source_frame": 1007,
+      "explanation_hold_seconds": 5
+    },
+    {
+      "seconds": 76.567,
+      "title": "Sol monitors each completed drop",
+      "source_frame": 1307,
+      "explanation_hold_seconds": 5
+    },
+    {
+      "seconds": 86.8,
+      "title": "All four objects are visibly in the bin",
+      "source_frame": 1464,
+      "explanation_hold_seconds": 5
+    },
+    {
+      "seconds": 96.2,
+      "title": "Native benchmark: 4 / 4, SUCCESS",
+      "source_frame": 1596,
+      "explanation_hold_seconds": 4
+    }
+  ],
+  "public_messages": [
+    {
+      "frame": 45,
+      "text": "I\u2019ll let the policy handle the grasps and bin drops, checking each placement and taking over if it gets stuck."
+    },
+    {
+      "frame": 345,
+      "text": "The policy is working on the small green object near the base. I\u2019m checking whether it has a secure hold before letting it continue."
+    },
+    {
+      "frame": 495,
+      "text": "The policy has spent 15 simulated seconds without lifting an object. I\u2019ll take over when the harness hands back control."
+    },
+    {
+      "frame": 602,
+      "text": "I have control now, and all four objects are still on the table. I\u2019m starting with the battery, then I\u2019ll return control to the policy after placing it."
+    },
+    {
+      "frame": 779,
+      "text": "The battery is in the bin, and the gripper is clear. The pliers, candy cane, and remote remain on the table."
+    },
+    {
+      "frame": 1007,
+      "text": "The policy lifted the remote and released it inside the bin. Two objects remain."
+    },
+    {
+      "frame": 1307,
+      "text": "The candy cane is held off the table. I\u2019m letting the policy carry it to the bin while watching for the release."
+    },
+    {
+      "frame": 1457,
+      "text": "The candy cane is in the bin. The policy is now working on the blue pliers, the last object."
+    },
+    {
+      "frame": 1464,
+      "text": "All four objects are visible inside the bin. I\u2019ll withdraw the arm so it touches none of them and allow the required five-second hold."
+    },
+    {
+      "frame": 1516,
+      "text": "All four objects are in the plastic bin. The gripper is open and the arm is clear."
+    }
+  ],
+  "localization": [
+    {
+      "frame": 495,
+      "prompt": "the blue pliers",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.0577,
+        "found": true,
+        "score": 0.965,
+        "centroid_rc": [
+          273,
+          263
+        ],
+        "center_xyz": [
+          -0.0871,
+          0.1428,
+          0.0031
+        ],
+        "top_z": 0.0061,
+        "grasp_yaw": 78.4,
+        "views": 1
+      }
+    },
+    {
+      "frame": 495,
+      "prompt": "the black remote control",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.0424,
+        "found": true,
+        "score": 0.98,
+        "centroid_rc": [
+          413,
+          384
+        ],
+        "center_xyz": [
+          0.0794,
+          -0.0824,
+          0.0111
+        ],
+        "top_z": 0.0221,
+        "grasp_yaw": -44.4,
+        "views": 1
+      }
+    },
+    {
+      "frame": 495,
+      "prompt": "the gray battery",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.0149,
+        "found": true,
+        "score": 0.918,
+        "centroid_rc": [
+          349,
+          321
+        ],
+        "center_xyz": [
+          0.0003,
+          -0.0142,
+          0.0211
+        ],
+        "top_z": 0.0421,
+        "grasp_yaw": -43.3,
+        "views": 1
+      }
+    },
+    {
+      "frame": 495,
+      "prompt": "the red and white candy cane",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.0356,
+        "found": true,
+        "score": 0.949,
+        "centroid_rc": [
+          379,
+          237
+        ],
+        "center_xyz": [
+          -0.0992,
+          -0.0265,
+          0.0091
+        ],
+        "top_z": 0.0181,
+        "grasp_yaw": 8.5,
+        "views": 1
+      }
+    },
+    {
+      "frame": 495,
+      "prompt": "the gray plastic bin",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.1194,
+        "found": true,
+        "score": 0.875,
+        "centroid_rc": [
+          346,
+          594
+        ],
+        "center_xyz": [
+          0.3309,
+          0.0047,
+          0.0341
+        ],
+        "top_z": 0.0681,
+        "grasp_yaw": -22.0,
+        "views": 1
+      }
+    },
+    {
+      "frame": 495,
+      "prompt": "the green object",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.0052,
+        "found": true,
+        "score": 0.719,
+        "centroid_rc": [
+          450,
+          328
+        ],
+        "center_xyz": [
+          0.008,
+          -0.1279,
+          0.003
+        ],
+        "top_z": 0.0061,
+        "grasp_yaw": -84.9,
+        "views": 1
+      }
+    },
+    {
+      "frame": 602,
+      "prompt": "the gray battery",
+      "camera": "wrist",
+      "summary": {
+        "width_m": 0.0181,
+        "found": true,
+        "score": 0.224,
+        "centroid_rc": [
+          54,
+          311
+        ],
+        "center_xyz": [
+          -0.0137,
+          -0.0312,
+          0.0081
+        ],
+        "top_z": 0.0161,
+        "grasp_yaw": -43.9,
+        "views": 1
+      }
+    },
+    {
+      "frame": 602,
+      "prompt": "the upright rectangular gray battery",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.0141,
+        "found": true,
+        "score": 0.859,
+        "centroid_rc": [
+          349,
+          321
+        ],
+        "center_xyz": [
+          0.0,
+          -0.0149,
+          0.0221
+        ],
+        "top_z": 0.0441,
+        "grasp_yaw": -45.7,
+        "views": 2
+      }
+    },
+    {
+      "frame": 660,
+      "prompt": "the gray plastic bin",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.1198,
+        "found": true,
+        "score": 0.91,
+        "centroid_rc": [
+          346,
+          594
+        ],
+        "center_xyz": [
+          0.3307,
+          0.003,
+          0.0341
+        ],
+        "top_z": 0.0681,
+        "grasp_yaw": -21.7,
+        "views": 1
+      }
+    },
+    {
+      "frame": 742,
+      "prompt": "the gray plastic bin",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.1387,
+        "found": true,
+        "score": 0.863,
+        "centroid_rc": [
+          351,
+          593
+        ],
+        "center_xyz": [
+          0.3446,
+          0.0056,
+          0.0251
+        ],
+        "top_z": 0.0501,
+        "grasp_yaw": -18.4,
+        "views": 1
+      }
+    }
+  ],
+  "verdicts": [
+    {
+      "frame": 45,
+      "verdict": null,
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 0,
+      "clock_s": 0.0,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 195,
+      "verdict": "progress",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 0,
+      "clock_s": 5.0,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 345,
+      "verdict": "progress",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 0,
+      "clock_s": 10.0,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 495,
+      "verdict": "stuck",
+      "object": "the green object",
+      "attempts": 0,
+      "stuck_s": 5.0,
+      "in_bin": 0,
+      "clock_s": 15.0,
+      "decision": "takeover",
+      "reason": "15 s clock"
+    },
+    {
+      "frame": 779,
+      "verdict": "placed",
+      "object": "the green object",
+      "by": "sol",
+      "in_bin": 1,
+      "decision": "restart_policy"
+    },
+    {
+      "frame": 951,
+      "verdict": "lifted",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 1,
+      "clock_s": 5.0,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 1007,
+      "verdict": "placed",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 2,
+      "clock_s": 0.0,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 1157,
+      "verdict": "lifted",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 2,
+      "clock_s": 5.0,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 1307,
+      "verdict": "placed",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 3,
+      "clock_s": 0.0,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 1457,
+      "verdict": "placed",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 4,
+      "clock_s": 0.0,
+      "decision": "continue",
+      "reason": null
+    }
+  ],
+  "sam3_replay": [
+    {
+      "native_step": 495,
+      "prompt": "the blue pliers",
+      "logged_feedback": {
+        "width_m": 0.0577,
+        "found": true,
+        "score": 0.965,
+        "centroid_rc": [
+          273,
+          263
+        ],
+        "center_xyz": [
+          -0.0871,
+          0.1428,
+          0.0031
+        ],
+        "top_z": 0.0061,
+        "grasp_yaw": 78.4,
+        "views": 1
+      },
+      "replayed_segmentation": {
+        "found": true,
+        "score": 0.96484375,
+        "box": [
+          225.7776641845703,
+          256.392333984375,
+          303.9425964355469,
+          285.5187072753906
+        ],
+        "reason": null,
+        "mask_area_px": 980,
+        "centroid_rc": [
+          273.89591836734695,
+          263.71836734693875
+        ],
+        "elapsed_s": 0.5707943439483643
+      }
+    },
+    {
+      "native_step": 495,
+      "prompt": "the black remote control",
+      "logged_feedback": {
+        "width_m": 0.0424,
+        "found": true,
+        "score": 0.98,
+        "centroid_rc": [
+          413,
+          384
+        ],
+        "center_xyz": [
+          0.0794,
+          -0.0824,
+          0.0111
+        ],
+        "top_z": 0.0221,
+        "grasp_yaw": -44.4,
+        "views": 1
+      },
+      "replayed_segmentation": {
+        "found": true,
+        "score": 0.98046875,
+        "box": [
+          316.9134826660156,
+          340.19488525390625,
+          455.27264404296875,
+          479.0037536621094
+        ],
+        "reason": null,
+        "mask_area_px": 7092,
+        "centroid_rc": [
+          413.88268471517205,
+          384.6137901861252
+        ],
+        "elapsed_s": 0.16875052452087402
+      }
+    },
+    {
+      "native_step": 495,
+      "prompt": "the gray battery",
+      "logged_feedback": {
+        "width_m": 0.0149,
+        "found": true,
+        "score": 0.918,
+        "centroid_rc": [
+          349,
+          321
+        ],
+        "center_xyz": [
+          0.0003,
+          -0.0142,
+          0.0211
+        ],
+        "top_z": 0.0421,
+        "grasp_yaw": -43.3,
+        "views": 1
+      },
+      "replayed_segmentation": {
+        "found": true,
+        "score": 0.91796875,
+        "box": [
+          311.51678466796875,
+          331.337158203125,
+          332.92474365234375,
+          370.2998352050781
+        ],
+        "reason": null,
+        "mask_area_px": 643,
+        "centroid_rc": [
+          349.88802488335926,
+          321.9393468118196
+        ],
+        "elapsed_s": 0.16683149337768555
+      }
+    },
+    {
+      "native_step": 495,
+      "prompt": "the red and white candy cane",
+      "logged_feedback": {
+        "width_m": 0.0356,
+        "found": true,
+        "score": 0.949,
+        "centroid_rc": [
+          379,
+          237
+        ],
+        "center_xyz": [
+          -0.0992,
+          -0.0265,
+          0.0091
+        ],
+        "top_z": 0.0181,
+        "grasp_yaw": 8.5,
+        "views": 1
+      },
+      "replayed_segmentation": {
+        "found": true,
+        "score": 0.94921875,
+        "box": [
+          223.73516845703125,
+          319.4396057128906,
+          258.6803894042969,
+          418.58343505859375
+        ],
+        "reason": null,
+        "mask_area_px": 1133,
+        "centroid_rc": [
+          378.97969991173875,
+          237.55075022065313
+        ],
+        "elapsed_s": 0.167555570602417
+      }
+    },
+    {
+      "native_step": 495,
+      "prompt": "the gray plastic bin",
+      "logged_feedback": {
+        "width_m": 0.1194,
+        "found": true,
+        "score": 0.875,
+        "centroid_rc": [
+          346,
+          594
+        ],
+        "center_xyz": [
+          0.3309,
+          0.0047,
+          0.0341
+        ],
+        "top_z": 0.0681,
+        "grasp_yaw": -22.0,
+        "views": 1
+      },
+      "replayed_segmentation": {
+        "found": true,
+        "score": 0.875,
+        "box": [
+          525.8138427734375,
+          251.1478271484375,
+          640.548828125,
+          480.3584289550781
+        ],
+        "reason": null,
+        "mask_area_px": 18882,
+        "centroid_rc": [
+          346.4099671644953,
+          594.2608833809978
+        ],
+        "elapsed_s": 0.16904306411743164
+      }
+    },
+    {
+      "native_step": 602,
+      "prompt": "the upright rectangular gray battery",
+      "logged_feedback": {
+        "width_m": 0.0141,
+        "found": true,
+        "score": 0.859,
+        "centroid_rc": [
+          349,
+          321
+        ],
+        "center_xyz": [
+          0.0,
+          -0.0149,
+          0.0221
+        ],
+        "top_z": 0.0441,
+        "grasp_yaw": -45.7,
+        "views": 2
+      },
+      "replayed_segmentation": {
+        "found": true,
+        "score": 0.859375,
+        "box": [
+          311.560791015625,
+          331.2576904296875,
+          333.1286926269531,
+          370.34649658203125
+        ],
+        "reason": null,
+        "mask_area_px": 646,
+        "centroid_rc": [
+          349.86842105263156,
+          321.9520123839009
+        ],
+        "elapsed_s": 0.2970294952392578
+      }
+    }
+  ],
+  "sam3_note": "Masks replayed on recorded RGB using the original checkpoint. Sol originally received geometry and confidence, not these colored explanatory overlays. Calibrated RGB geometry; no depth image.",
+  "planning_note": "Task-level plans are editorial summaries. Quotes are recorded public assistant messages."
+}
