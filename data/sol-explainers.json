@@ -11,8 +11,8 @@
       "purple pacifier"
     ],
     "success": true,
-    "video": "assets/videos/sol-between-explained-v1.mp4",
-    "poster": "assets/videos/sol-between-explained-v1.webp",
+    "video": "assets/videos/sol-between-explained-v3.mp4",
+    "poster": "assets/videos/sol-between-explained-v3.webp",
     "chapters": [
       {
         "seconds": 0.0,
@@ -24,69 +24,69 @@
         "seconds": 4.5,
         "title": "SAM3 grounds words in the camera image",
         "source_frame": 45,
-        "explanation_hold_seconds": 8
+        "explanation_hold_seconds": 5
       },
       {
-        "seconds": 13.767,
+        "seconds": 10.767,
         "title": "Sol hands the grasp to G0.5",
         "source_frame": 83,
         "explanation_hold_seconds": 4
       },
       {
-        "seconds": 22.133,
+        "seconds": 19.133,
         "title": "Lift confirmed: G0.5 -> Sol",
         "source_frame": 214,
-        "explanation_hold_seconds": 8
+        "explanation_hold_seconds": 5
       },
       {
-        "seconds": 34.533,
+        "seconds": 28.533,
         "title": "Sol changes the reachable carry pose",
         "source_frame": 346,
-        "explanation_hold_seconds": 6
+        "explanation_hold_seconds": 5
       },
       {
-        "seconds": 42.867,
+        "seconds": 35.867,
         "title": "Careful placement is Sol's job",
         "source_frame": 416,
         "explanation_hold_seconds": 5
       },
       {
-        "seconds": 51.667,
+        "seconds": 44.667,
         "title": "Inspect the result, then correct it",
         "source_frame": 530,
-        "explanation_hold_seconds": 7
+        "explanation_hold_seconds": 5
       },
       {
-        "seconds": 63.3,
+        "seconds": 54.3,
         "title": "A second grasp makes the correction",
         "source_frame": 669,
         "explanation_hold_seconds": 5
       },
       {
-        "seconds": 71.733,
+        "seconds": 62.733,
         "title": "Final geometry and stability check",
         "source_frame": 772,
-        "explanation_hold_seconds": 7
+        "explanation_hold_seconds": 5
       },
       {
-        "seconds": 81.833,
+        "seconds": 70.833,
         "title": "Native benchmark: SUCCESS",
         "source_frame": 865,
         "explanation_hold_seconds": 4
       }
     ],
-    "chapter_track": "assets/videos/sol-between-explained-v1-chapters.vtt",
-    "captions": "assets/videos/sol-between-explained-v1-captions.vtt",
-    "trace": "data/sol-between-explained-v1.json",
+    "chapter_track": "assets/videos/sol-between-explained-v3-chapters.vtt",
+    "captions": "assets/videos/sol-between-explained-v3-captions.vtt",
+    "trace": "data/sol-between-explained-v3.json",
     "width": 1920,
     "height": 1080,
-    "duration_seconds": 85.834,
+    "duration_seconds": 74.834,
     "source_duration_seconds": 28.833333333333332,
     "source_frames": 865,
-    "output_frames": 2575,
-    "added_hold_seconds": 57,
-    "output_sha256": "e2aa712dda2a05a81c8e6db41b17a7d3fdd8ece0f120422383acf40afa6bd308",
-    "bytes": 5030466,
+    "output_frames": 2245,
+    "added_hold_seconds": 46,
+    "output_sha256": "6f3d077872831279076a51547aec8b413271be19faa818a433d05f4b5243d7e9",
+    "bytes": 4140233,
     "verification": "Every source frame included exactly once in order; only labeled still holds added. Public objects allowlisted, actor spans reconciled to call and cell step counts. 1080p H.264, 30fps, faststart.",
     "timing": "Complete 1x simulation motion, with explicitly labeled added explanation holds. Not wall-clock playback.",
     "planning_note": "Task-level plans are editorial summaries. Quotes are recorded public assistant messages.",
@@ -104,8 +104,8 @@
       "silver battery"
     ],
     "success": true,
-    "video": "assets/videos/sol-bin-explained-v1.mp4",
-    "poster": "assets/videos/sol-bin-explained-v1.webp",
+    "video": "assets/videos/sol-bin-explained-v3.mp4",
+    "poster": "assets/videos/sol-bin-explained-v3.webp",
     "chapters": [
       {
         "seconds": 0.0,
@@ -123,67 +123,66 @@
         "seconds": 19.5,
         "title": "Sol checks the failed attempt",
         "source_frame": 345,
-        "explanation_hold_seconds": 6
+        "explanation_hold_seconds": 5
       },
       {
-        "seconds": 30.5,
+        "seconds": 29.5,
         "title": "15-second deadline: G0.5 -> Sol",
         "source_frame": 495,
-        "explanation_hold_seconds": 9
+        "explanation_hold_seconds": 5
       },
       {
-        "seconds": 43.067,
+        "seconds": 38.067,
         "title": "SAM3 helps Sol plan a manual recovery",
         "source_frame": 602,
-        "explanation_hold_seconds": 6
+        "explanation_hold_seconds": 5
       },
       {
-        "seconds": 54.967,
+        "seconds": 48.967,
         "title": "Battery placed: Sol -> G0.5",
         "source_frame": 779,
-        "explanation_hold_seconds": 6
+        "explanation_hold_seconds": 5
       },
       {
-        "seconds": 68.567,
+        "seconds": 61.567,
         "title": "Remote in: two objects remain",
         "source_frame": 1007,
         "explanation_hold_seconds": 5
       },
       {
-        "seconds": 83.567,
+        "seconds": 76.567,
         "title": "Sol monitors each completed drop",
         "source_frame": 1307,
         "explanation_hold_seconds": 5
       },
       {
-        "seconds": 93.8,
+        "seconds": 86.8,
         "title": "All four objects are visibly in the bin",
         "source_frame": 1464,
-        "explanation_hold_seconds": 6
+        "explanation_hold_seconds": 5
       },
       {
-        "seconds": 104.2,
+        "seconds": 96.2,
         "title": "Native benchmark: 4 / 4, SUCCESS",
         "source_frame": 1596,
         "explanation_hold_seconds": 4
       }
     ],
-    "chapter_track": "assets/videos/sol-bin-explained-v1-chapters.vtt",
-    "captions": "assets/videos/sol-bin-explained-v1-captions.vtt",
-    "trace": "data/sol-bin-explained-v1.json",
+    "chapter_track": "assets/videos/sol-bin-explained-v3-chapters.vtt",
+    "captions": "assets/videos/sol-bin-explained-v3-captions.vtt",
+    "trace": "data/sol-bin-explained-v3.json",
     "width": 1920,
     "height": 1080,
-    "duration_seconds": 108.2,
+    "duration_seconds": 100.2,
     "source_duration_seconds": 53.2,
     "source_frames": 1596,
-    "output_frames": 3246,
-    "added_hold_seconds": 55,
-    "output_sha256": "d61f4c2c942467e3eec014b0a8bb8566be0fedd5fb9b716e56fc818a0d145723",
-    "bytes": 9236642,
+    "output_frames": 3006,
+    "added_hold_seconds": 47,
+    "output_sha256": "911bfe6d68c30e758bbaa0f45981058e2d7391632f9e340fb476e9daac2c09a8",
+    "bytes": 8658884,
     "verification": "Every source frame included exactly once in order; only labeled still holds added. Public objects allowlisted, actor spans reconciled to call and cell step counts. 1080p H.264, 30fps, faststart.",
     "timing": "Complete 1x simulation motion, with explicitly labeled added explanation holds. Not wall-clock playback.",
     "planning_note": "Task-level plans are editorial summaries. Quotes are recorded public assistant messages.",
-    "sam3_note": "Masks replayed on recorded RGB using the original checkpoint. Sol originally received geometry and confidence, not these colored explanatory overlays. Calibrated RGB geometry; no depth image.",
-    "restoration_note": "Original episode-81 rendered assets retained and restored; no re-encoding. SAM3 replay feedback is retained in the original public trace. Renderer and replay cache currently target the later episode-18 variant; they are not claimed as sources of this archived render."
+    "sam3_note": "Masks replayed on recorded RGB using the original checkpoint. Sol originally received geometry and confidence, not these colored explanatory overlays. Calibrated RGB geometry; no depth image."
   }
 ]

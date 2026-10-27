@@ -14,6 +14,7 @@
    if (!record) return;
    const video = card.querySelector('video');
    const chapters = card.querySelector('.explainer-chapters');
+   if (!chapters) return;
    const buttons = record.chapters.map(chapter => {
     const button = document.createElement('button');
     button.type = 'button';
