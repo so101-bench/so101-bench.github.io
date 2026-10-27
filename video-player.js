@@ -107,7 +107,7 @@
   const speed=document.createElement('select');speed.className='media-speed';speed.setAttribute('aria-label','Playback speed');
   const defaultRate=Number(video.dataset.defaultPlaybackRate)||1;
  video.defaultPlaybackRate=defaultRate;video.playbackRate=defaultRate;
- [.5,.75,1,1.25,1.5,2,5,10].forEach(rate=>{const option=document.createElement('option');option.value=String(rate);option.textContent=`${rate}×`;option.selected=rate===defaultRate;speed.append(option);});
+ [.5,.75,1,1.25,1.5,2,4,5,10].forEach(rate=>{const option=document.createElement('option');option.value=String(rate);option.textContent=`${rate}×`;option.selected=rate===defaultRate;speed.append(option);});
   const captions=button('captions','Show captions','media-captions');captions.setAttribute('aria-pressed','false');
   captions.hidden=!video.querySelector('track[kind="captions"]');
   const enlarge=button('expand','Expand video (T)','media-expand');
