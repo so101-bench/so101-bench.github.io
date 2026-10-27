@@ -3,10 +3,10 @@
   "author": "Truman Hickok",
   "affiliation": "Independent",
   "tex_source": "release/paper/main.tex",
-  "tex_sha256": "6586e155d66090fa23ca5560acefe371f4a81dc3b54bf40038235fae70de7cad",
+  "tex_sha256": "439b46cf95b201a5bb4bb3598e77f32c9084694141396e6cd1f16994853fbcee",
   "pdf_source": "release/paper/main.pdf",
-  "pdf_asset": "assets/paper-a114e17f28.pdf",
-  "pdf_sha256": "a114e17f280ca61b464bcd1e45f10f52b30fee9e6951bc5c6e82f088229672fc",
+  "pdf_asset": "assets/paper-9eb0bad2dd.pdf",
+  "pdf_sha256": "9eb0bad2ddc6609937b084fb8d8e02f2d63d23df66a50b3a4f6272e7c74bf9d8",
   "figures": [
     {
       "id": "summary",
