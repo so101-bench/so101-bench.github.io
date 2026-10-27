@@ -1,0 +1,1485 @@
+{
+  "trial_id": 22,
+  "instruction": "Place the bowl next to the screwdriver",
+  "objects": [
+    "blue pen",
+    "white bowl",
+    "blue screwdriver",
+    "brown wires"
+  ],
+  "native_success": true,
+  "timing": "Complete 1x simulation motion, with explicitly labeled added explanation holds. Not wall-clock playback.",
+  "source_frames": 965,
+  "output_frames": 2405,
+  "source_duration_seconds": 32.166666666666664,
+  "duration_seconds": 80.167,
+  "controller_spans": [
+    {
+      "actor": "HOLD",
+      "start": 0,
+      "end": 45,
+      "tool": "initial settling"
+    },
+    {
+      "actor": "SOL",
+      "start": 45,
+      "end": 82,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.068,
+          0.085,
+          0.17
+        ],
+        "gripper": 0,
+        "path": "auto",
+        "pitch": 65.0
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0034,
+        "orientation_error_deg": 0.4,
+        "final_xyz": [
+          -0.0671,
+          0.0855,
+          0.1667
+        ],
+        "path": "line",
+        "steps_used": 37,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 82,
+      "end": 100,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.0645,
+          0.1462,
+          0.145
+        ],
+        "gripper": 0,
+        "path": "line",
+        "pitch": 65.0
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0033,
+        "orientation_error_deg": 1.2,
+        "final_xyz": [
+          -0.0631,
+          0.1463,
+          0.142
+        ],
+        "path": "line",
+        "steps_used": 18,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 100,
+      "end": 219,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0,
+        "neutral_roll": true,
+        "hover_check": true
+      },
+      "feedback": {
+        "steps_used": 119
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 219,
+      "end": 280,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 61
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 280,
+      "end": 340,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 60
+      }
+    },
+    {
+      "actor": "G0.5",
+      "start": 340,
+      "end": 400,
+      "tool": "vla_run",
+      "kwargs": {
+        "max_seconds": 5.0
+      },
+      "feedback": {
+        "steps_used": 60
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 400,
+      "end": 417,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.05721354215183583,
+          0.18788587234288784,
+          0.10192732146368966
+        ],
+        "gripper": -1,
+        "path": "line",
+        "step_rad": 0.015
+      },
+      "feedback": {
+        "reached": false,
+        "dist_to_target_m": 0.0022,
+        "orientation_error_deg": 6.6,
+        "final_xyz": [
+          -0.0592,
+          0.1883,
+          0.101
+        ],
+        "path": "line",
+        "steps_used": 17,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 417,
+      "end": 465,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.064,
+          0.2,
+          0.092
+        ],
+        "gripper": -1,
+        "path": "line",
+        "pitch": 85.0,
+        "yaw": 90.0,
+        "step_rad": 0.015
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0035,
+        "orientation_error_deg": 1.2,
+        "final_xyz": [
+          -0.0619,
+          0.1994,
+          0.0892
+        ],
+        "path": "line",
+        "steps_used": 48,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 465,
+      "end": 475,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.064,
+          0.2,
+          0.08
+        ],
+        "gripper": -1,
+        "path": "line",
+        "pitch": 85.0,
+        "yaw": 90.0
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0037,
+        "orientation_error_deg": 1.2,
+        "final_xyz": [
+          -0.0617,
+          0.1993,
+          0.0772
+        ],
+        "path": "line",
+        "steps_used": 10,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 475,
+      "end": 485,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.064,
+          0.2,
+          0.07
+        ],
+        "gripper": -1,
+        "path": "line",
+        "pitch": 85.0,
+        "yaw": 90.0
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0038,
+        "orientation_error_deg": 1.2,
+        "final_xyz": [
+          -0.0615,
+          0.1993,
+          0.0672
+        ],
+        "path": "line",
+        "steps_used": 10,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 485,
+      "end": 498,
+      "tool": "grip",
+      "kwargs": {
+        "gripper": 1
+      },
+      "feedback": {
+        "steps_used": 13,
+        "holding": true,
+        "opening": 0.134,
+        "width_m": 0.0108
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 498,
+      "end": 518,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.064,
+          0.2,
+          0.14
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 65.0,
+        "yaw": 90.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0034,
+        "orientation_error_deg": 1.2,
+        "final_xyz": [
+          -0.0626,
+          0.1996,
+          0.1369
+        ],
+        "path": "line",
+        "steps_used": 20,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 518,
+      "end": 567,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.065,
+          0.09,
+          0.1
+        ],
+        "gripper": -1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 90.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0036,
+        "orientation_error_deg": 1.3,
+        "final_xyz": [
+          -0.0632,
+          0.0909,
+          0.097
+        ],
+        "path": "line",
+        "steps_used": 49,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 567,
+      "end": 578,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.065,
+          0.09,
+          0.087
+        ],
+        "gripper": -1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 90.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0038,
+        "orientation_error_deg": 1.3,
+        "final_xyz": [
+          -0.0629,
+          0.091,
+          0.084
+        ],
+        "path": "line",
+        "steps_used": 11,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 578,
+      "end": 588,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.065,
+          0.09,
+          0.077
+        ],
+        "gripper": -1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 90.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.004,
+        "orientation_error_deg": 1.3,
+        "final_xyz": [
+          -0.0627,
+          0.0911,
+          0.074
+        ],
+        "path": "line",
+        "steps_used": 10,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 588,
+      "end": 601,
+      "tool": "grip",
+      "kwargs": {
+        "gripper": 1
+      },
+      "feedback": {
+        "steps_used": 13,
+        "holding": true,
+        "opening": 0.1,
+        "width_m": 0.0081
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 601,
+      "end": 620,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.065,
+          0.09,
+          0.125
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 90.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": false,
+        "dist_to_target_m": 0.0041,
+        "orientation_error_deg": 5.8,
+        "final_xyz": [
+          -0.0638,
+          0.0906,
+          0.1203
+        ],
+        "path": "line",
+        "steps_used": 19,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 620,
+      "end": 632,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.065,
+          0.1,
+          0.1
+        ],
+        "gripper": -1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 90.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0035,
+        "orientation_error_deg": 1.3,
+        "final_xyz": [
+          -0.0632,
+          0.1008,
+          0.0971
+        ],
+        "path": "line",
+        "steps_used": 12,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 632,
+      "end": 643,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.065,
+          0.1,
+          0.09
+        ],
+        "gripper": -1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 90.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0037,
+        "orientation_error_deg": 1.3,
+        "final_xyz": [
+          -0.063,
+          0.1009,
+          0.0871
+        ],
+        "path": "line",
+        "steps_used": 11,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 643,
+      "end": 653,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.065,
+          0.1,
+          0.08
+        ],
+        "gripper": -1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 90.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0038,
+        "orientation_error_deg": 1.3,
+        "final_xyz": [
+          -0.0628,
+          0.101,
+          0.0771
+        ],
+        "path": "line",
+        "steps_used": 10,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 653,
+      "end": 663,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.065,
+          0.1,
+          0.07
+        ],
+        "gripper": -1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 90.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0039,
+        "orientation_error_deg": 1.3,
+        "final_xyz": [
+          -0.0626,
+          0.101,
+          0.0671
+        ],
+        "path": "line",
+        "steps_used": 10,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 663,
+      "end": 673,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.065,
+          0.1,
+          0.06
+        ],
+        "gripper": -1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 90.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0041,
+        "orientation_error_deg": 1.3,
+        "final_xyz": [
+          -0.0624,
+          0.1011,
+          0.0571
+        ],
+        "path": "line",
+        "steps_used": 10,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 673,
+      "end": 684,
+      "tool": "grip",
+      "kwargs": {
+        "gripper": 1
+      },
+      "feedback": {
+        "steps_used": 11,
+        "holding": true,
+        "opening": 0.176,
+        "width_m": 0.0143
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 684,
+      "end": 702,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.065,
+          0.1,
+          0.1
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 90.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0039,
+        "orientation_error_deg": 1.4,
+        "final_xyz": [
+          -0.0631,
+          0.1008,
+          0.0967
+        ],
+        "path": "line",
+        "steps_used": 18,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 702,
+      "end": 733,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          -0.065,
+          0.04,
+          0.18
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 60.0,
+        "yaw": 90.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0052,
+        "orientation_error_deg": 1.9,
+        "final_xyz": [
+          -0.064,
+          0.0408,
+          0.175
+        ],
+        "path": "line",
+        "steps_used": 31,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 733,
+      "end": 778,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.16,
+          0.04,
+          0.15
+        ],
+        "gripper": 1,
+        "path": "auto",
+        "pitch": 65.0,
+        "yaw": 90.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0043,
+        "orientation_error_deg": 1.6,
+        "final_xyz": [
+          0.159,
+          0.0415,
+          0.1461
+        ],
+        "path": "joint",
+        "steps_used": 45,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 778,
+      "end": 798,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.16,
+          0.04,
+          0.1
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 90.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0019,
+        "orientation_error_deg": 0.1,
+        "final_xyz": [
+          0.1607,
+          0.039,
+          0.0986
+        ],
+        "path": "line",
+        "steps_used": 20,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 798,
+      "end": 809,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.16,
+          0.04,
+          0.09
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 90.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0021,
+        "orientation_error_deg": 0.4,
+        "final_xyz": [
+          0.161,
+          0.0385,
+          0.089
+        ],
+        "path": "line",
+        "steps_used": 11,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 809,
+      "end": 812,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.16,
+          0.04,
+          0.08
+        ],
+        "gripper": 1,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 90.0,
+        "slow": true
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0011,
+        "orientation_error_deg": 0.1,
+        "final_xyz": [
+          0.1604,
+          0.0394,
+          0.0791
+        ],
+        "path": "line",
+        "steps_used": 3,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 812,
+      "end": 822,
+      "tool": "grip",
+      "kwargs": {
+        "gripper": -1,
+        "opening": 0.5
+      },
+      "feedback": {
+        "steps_used": 10,
+        "holding": false,
+        "opening": 0.464,
+        "width_m": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 822,
+      "end": 837,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.16,
+          0.04,
+          0.12
+        ],
+        "gripper": 0,
+        "path": "line",
+        "pitch": 90.0,
+        "yaw": 90.0
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0038,
+        "orientation_error_deg": 4.6,
+        "final_xyz": [
+          0.1592,
+          0.0411,
+          0.1157
+        ],
+        "path": "line",
+        "steps_used": 15,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 837,
+      "end": 862,
+      "tool": "home",
+      "kwargs": {},
+      "feedback": {
+        "reached": true,
+        "steps_used": 25,
+        "max_joint_error_rad": 0.0148
+      }
+    },
+    {
+      "actor": "SOL",
+      "start": 862,
+      "end": 891,
+      "tool": "move_pose",
+      "kwargs": {
+        "xyz": [
+          0.02,
+          0.01,
+          0.15
+        ],
+        "gripper": 0,
+        "path": "line",
+        "pitch": 60.0
+      },
+      "feedback": {
+        "reached": true,
+        "dist_to_target_m": 0.0039,
+        "orientation_error_deg": 1.3,
+        "final_xyz": [
+          0.0205,
+          0.0114,
+          0.1464
+        ],
+        "path": "line",
+        "steps_used": 29,
+        "ik_error": null
+      }
+    },
+    {
+      "actor": "HARNESS CLEARANCE",
+      "start": 891,
+      "end": 900,
+      "tool": "grip",
+      "kwargs": {
+        "gripper": -1
+      },
+      "feedback": {
+        "steps_used": 9,
+        "holding": false,
+        "opening": 0.902,
+        "width_m": null
+      }
+    },
+    {
+      "actor": "HOLD",
+      "start": 900,
+      "end": 965,
+      "tool": "native goal confirmation"
+    }
+  ],
+  "controller_steps": {
+    "HOLD": 110,
+    "SOL": 546,
+    "G0.5": 300,
+    "HARNESS CLEARANCE": 9
+  },
+  "chapters": [
+    {
+      "seconds": 0.0,
+      "title": "Recorded trace",
+      "source_frame": 0,
+      "explanation_hold_seconds": 3
+    },
+    {
+      "seconds": 4.5,
+      "title": "Recorded trace",
+      "source_frame": 45,
+      "explanation_hold_seconds": 4
+    },
+    {
+      "seconds": 9.733,
+      "title": "Recorded trace",
+      "source_frame": 82,
+      "explanation_hold_seconds": 4
+    },
+    {
+      "seconds": 20.333,
+      "title": "Recorded trace",
+      "source_frame": 280,
+      "explanation_hold_seconds": 3
+    },
+    {
+      "seconds": 27.333,
+      "title": "Recorded trace",
+      "source_frame": 400,
+      "explanation_hold_seconds": 4
+    },
+    {
+      "seconds": 31.9,
+      "title": "Recorded trace",
+      "source_frame": 417,
+      "explanation_hold_seconds": 3
+    },
+    {
+      "seconds": 36.5,
+      "title": "Recorded trace",
+      "source_frame": 465,
+      "explanation_hold_seconds": 4
+    },
+    {
+      "seconds": 41.5,
+      "title": "Recorded trace",
+      "source_frame": 495,
+      "explanation_hold_seconds": 3
+    },
+    {
+      "seconds": 46.9,
+      "title": "Recorded trace",
+      "source_frame": 567,
+      "explanation_hold_seconds": 3
+    },
+    {
+      "seconds": 55.433,
+      "title": "Recorded trace",
+      "source_frame": 733,
+      "explanation_hold_seconds": 3
+    },
+    {
+      "seconds": 61.9,
+      "title": "Recorded trace",
+      "source_frame": 837,
+      "explanation_hold_seconds": 4
+    },
+    {
+      "seconds": 66.733,
+      "title": "Recorded trace",
+      "source_frame": 862,
+      "explanation_hold_seconds": 4
+    },
+    {
+      "seconds": 72.0,
+      "title": "Recorded trace",
+      "source_frame": 900,
+      "explanation_hold_seconds": 3
+    },
+    {
+      "seconds": 77.167,
+      "title": "Placement confirmed",
+      "source_frame": 965,
+      "explanation_hold_seconds": 3
+    }
+  ],
+  "public_messages": [
+    {
+      "frame": 45,
+      "text": "I\u2019ll locate the bowl and screwdriver, let the grasping policy pick up the bowl, then place it beside the screwdriver with a small gap."
+    },
+    {
+      "frame": 280,
+      "text": "The bowl is about 7 cm tall. The policy has approached its rim but is hovering without grasping; I\u2019m monitoring it before taking over if needed."
+    },
+    {
+      "frame": 417,
+      "text": "I\u2019ve taken control. I\u2019ll pinch the bowl\u2019s rim, lift it clear, and carry it to the open space just forward of the screwdriver."
+    },
+    {
+      "frame": 567,
+      "text": "The first pinch slipped as I tilted the gripper. I\u2019m trying the opposite rim so I can lift straight up before carrying the bowl."
+    },
+    {
+      "frame": 733,
+      "text": "The deeper pinch is holding, and the bowl is clear of the table. I\u2019ll place it diagonally in front of the screwdriver, where there\u2019s room for a small gap without crowding the other objects."
+    },
+    {
+      "frame": 862,
+      "text": "The bowl is released beside the screwdriver, and the other objects appear undisturbed. I\u2019m clearing the gripper and ending the episode for the benchmark\u2019s final check."
+    },
+    {
+      "frame": 900,
+      "text": "Placed the bowl beside the screwdriver and moved the gripper clear. The episode ended at the action limit; benchmark confirmation wasn\u2019t reported."
+    }
+  ],
+  "localization": [
+    {
+      "frame": 45,
+      "prompt": "the gray bowl",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.1247,
+        "found": true,
+        "score": 0.496,
+        "centroid_rc": [
+          260,
+          279
+        ],
+        "center_xyz": [
+          -0.0681,
+          0.166,
+          0.0131
+        ],
+        "top_z": 0.0261,
+        "grasp_yaw": 8.3,
+        "views": 1
+      }
+    },
+    {
+      "frame": 45,
+      "prompt": "the blue handled screwdriver",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.0338,
+        "found": true,
+        "score": 0.852,
+        "centroid_rc": [
+          282,
+          487
+        ],
+        "center_xyz": [
+          0.2363,
+          0.1378,
+          0.0031
+        ],
+        "top_z": 0.0061,
+        "grasp_yaw": 52.9,
+        "views": 1
+      }
+    },
+    {
+      "frame": 82,
+      "prompt": "the gray bowl",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.1159,
+        "found": true,
+        "score": 0.598,
+        "centroid_rc": [
+          260,
+          279
+        ],
+        "center_xyz": [
+          -0.0645,
+          0.1462,
+          0.0361
+        ],
+        "top_z": 0.0721,
+        "grasp_yaw": -70.0,
+        "views": 2
+      }
+    },
+    {
+      "frame": 400,
+      "prompt": "the gray bowl",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.1217,
+        "found": true,
+        "score": 0.457,
+        "centroid_rc": [
+          262,
+          279
+        ],
+        "center_xyz": [
+          -0.0671,
+          0.1574,
+          0.0161
+        ],
+        "top_z": 0.0321,
+        "grasp_yaw": 9.3,
+        "views": 1
+      }
+    },
+    {
+      "frame": 400,
+      "prompt": "the blue handled screwdriver",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.0336,
+        "found": true,
+        "score": 0.949,
+        "centroid_rc": [
+          283,
+          488
+        ],
+        "center_xyz": [
+          0.2396,
+          0.1356,
+          0.0031
+        ],
+        "top_z": 0.0061,
+        "grasp_yaw": 52.9,
+        "views": 1
+      }
+    },
+    {
+      "frame": 465,
+      "prompt": "the gray bowl",
+      "camera": "wrist",
+      "summary": {
+        "found": false
+      }
+    },
+    {
+      "frame": 837,
+      "prompt": "the gray bowl",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.1166,
+        "found": true,
+        "score": 0.66,
+        "centroid_rc": [
+          295,
+          450
+        ],
+        "center_xyz": [
+          0.181,
+          0.084,
+          0.0361
+        ],
+        "top_z": 0.0721,
+        "grasp_yaw": 68.3,
+        "views": 1
+      }
+    },
+    {
+      "frame": 837,
+      "prompt": "the blue handled screwdriver",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.0149,
+        "found": true,
+        "score": 0.361,
+        "centroid_rc": [
+          378,
+          342
+        ],
+        "center_xyz": [
+          0.0261,
+          -0.0381,
+          0.0041
+        ],
+        "top_z": 0.0081,
+        "grasp_yaw": 3.5,
+        "views": 2
+      }
+    },
+    {
+      "frame": 862,
+      "prompt": "the gray bowl",
+      "camera": "overhead",
+      "summary": {
+        "width_m": 0.1103,
+        "found": true,
+        "score": 0.361,
+        "centroid_rc": [
+          295,
+          456
+        ],
+        "center_xyz": [
+          0.1775,
+          0.0912,
+          0.0361
+        ],
+        "top_z": 0.0721,
+        "grasp_yaw": 19.5,
+        "views": 1
+      }
+    },
+    {
+      "frame": 862,
+      "prompt": "the screwdriver with a blue handle on the right",
+      "camera": "overhead",
+      "summary": {
+        "found": false
+      }
+    }
+  ],
+  "verdicts": [
+    {
+      "frame": 100,
+      "verdict": null,
+      "decision": "first_handoff",
+      "in_bin": 0
+    },
+    {
+      "frame": 219,
+      "verdict": "progress",
+      "object": null,
+      "attempts": 0,
+      "stuck_s": 0.0,
+      "in_bin": 0,
+      "clock_s": 3.97,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 280,
+      "verdict": "stuck",
+      "object": "the gray bowl",
+      "attempts": 0,
+      "stuck_s": 2.03,
+      "in_bin": 0,
+      "clock_s": 6.0,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 340,
+      "verdict": "stuck",
+      "object": "the gray bowl",
+      "attempts": 0,
+      "stuck_s": 4.03,
+      "in_bin": 0,
+      "clock_s": 8.0,
+      "decision": "continue",
+      "reason": null
+    },
+    {
+      "frame": 400,
+      "verdict": "stuck",
+      "object": "the gray bowl",
+      "attempts": 0,
+      "stuck_s": 6.03,
+      "in_bin": 0,
+      "clock_s": 10.0,
+      "decision": "takeover",
+      "reason": "6 s stuck"
+    }
+  ],
+  "sam3_replay": [
+    {
+      "native_step": 45,
+      "prompt": "the gray bowl",
+      "logged_feedback": {
+        "width_m": 0.1247,
+        "found": true,
+        "score": 0.496,
+        "centroid_rc": [
+          260,
+          279
+        ],
+        "center_xyz": [
+          -0.0681,
+          0.166,
+          0.0131
+        ],
+        "top_z": 0.0261,
+        "grasp_yaw": 8.3,
+        "views": 1
+      },
+      "replayed_segmentation": {
+        "found": true
+      }
+    },
+    {
+      "native_step": 45,
+      "prompt": "the blue handled screwdriver",
+      "logged_feedback": {
+        "width_m": 0.0338,
+        "found": true,
+        "score": 0.852,
+        "centroid_rc": [
+          282,
+          487
+        ],
+        "center_xyz": [
+          0.2363,
+          0.1378,
+          0.0031
+        ],
+        "top_z": 0.0061,
+        "grasp_yaw": 52.9,
+        "views": 1
+      },
+      "replayed_segmentation": {
+        "found": true
+      }
+    },
+    {
+      "native_step": 82,
+      "prompt": "the gray bowl",
+      "logged_feedback": {
+        "width_m": 0.1159,
+        "found": true,
+        "score": 0.598,
+        "centroid_rc": [
+          260,
+          279
+        ],
+        "center_xyz": [
+          -0.0645,
+          0.1462,
+          0.0361
+        ],
+        "top_z": 0.0721,
+        "grasp_yaw": -70.0,
+        "views": 2
+      },
+      "replayed_segmentation": {
+        "found": true
+      }
+    },
+    {
+      "native_step": 400,
+      "prompt": "the gray bowl",
+      "logged_feedback": {
+        "width_m": 0.1217,
+        "found": true,
+        "score": 0.457,
+        "centroid_rc": [
+          262,
+          279
+        ],
+        "center_xyz": [
+          -0.0671,
+          0.1574,
+          0.0161
+        ],
+        "top_z": 0.0321,
+        "grasp_yaw": 9.3,
+        "views": 1
+      },
+      "replayed_segmentation": {
+        "found": true
+      }
+    },
+    {
+      "native_step": 400,
+      "prompt": "the blue handled screwdriver",
+      "logged_feedback": {
+        "width_m": 0.0336,
+        "found": true,
+        "score": 0.949,
+        "centroid_rc": [
+          283,
+          488
+        ],
+        "center_xyz": [
+          0.2396,
+          0.1356,
+          0.0031
+        ],
+        "top_z": 0.0061,
+        "grasp_yaw": 52.9,
+        "views": 1
+      },
+      "replayed_segmentation": {
+        "found": true
+      }
+    },
+    {
+      "native_step": 465,
+      "prompt": "the gray bowl",
+      "logged_feedback": {
+        "found": false
+      },
+      "replayed_segmentation": {
+        "found": false
+      }
+    },
+    {
+      "native_step": 837,
+      "prompt": "the gray bowl",
+      "logged_feedback": {
+        "width_m": 0.1166,
+        "found": true,
+        "score": 0.66,
+        "centroid_rc": [
+          295,
+          450
+        ],
+        "center_xyz": [
+          0.181,
+          0.084,
+          0.0361
+        ],
+        "top_z": 0.0721,
+        "grasp_yaw": 68.3,
+        "views": 1
+      },
+      "replayed_segmentation": {
+        "found": true
+      }
+    },
+    {
+      "native_step": 837,
+      "prompt": "the blue handled screwdriver",
+      "logged_feedback": {
+        "width_m": 0.0149,
+        "found": true,
+        "score": 0.361,
+        "centroid_rc": [
+          378,
+          342
+        ],
+        "center_xyz": [
+          0.0261,
+          -0.0381,
+          0.0041
+        ],
+        "top_z": 0.0081,
+        "grasp_yaw": 3.5,
+        "views": 2
+      },
+      "replayed_segmentation": {
+        "found": true
+      }
+    },
+    {
+      "native_step": 862,
+      "prompt": "the gray bowl",
+      "logged_feedback": {
+        "width_m": 0.1103,
+        "found": true,
+        "score": 0.361,
+        "centroid_rc": [
+          295,
+          456
+        ],
+        "center_xyz": [
+          0.1775,
+          0.0912,
+          0.0361
+        ],
+        "top_z": 0.0721,
+        "grasp_yaw": 19.5,
+        "views": 1
+      },
+      "replayed_segmentation": {
+        "found": true
+      }
+    },
+    {
+      "native_step": 862,
+      "prompt": "the screwdriver with a blue handle on the right",
+      "logged_feedback": {
+        "found": false
+      },
+      "replayed_segmentation": {
+        "found": false
+      }
+    }
+  ],
+  "sam3_note": "Masks replayed on recorded RGB using the original checkpoint. Sol originally received geometry and confidence, not these colored explanatory overlays. Calibrated RGB geometry; no depth image.",
+  "planning_note": "Task-level plans are editorial summaries. Quotes are recorded public assistant messages."
+}
