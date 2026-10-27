@@ -1,0 +1,31 @@
+WEBVTT
+
+00:00:04.500 --> 00:00:19.500
+Sol: I’ll let the policy handle the grasps and bin drops, checking each placement and taking over if it gets stuck.
+
+00:00:19.500 --> 00:00:29.500
+Sol: The policy is working on the small green object near the base. I’m checking whether it has a secure hold before letting it continue.
+
+00:00:29.500 --> 00:00:38.067
+Sol: The policy has spent 15 simulated seconds without lifting an object. I’ll take over when the harness hands back control.
+
+00:00:38.067 --> 00:00:52.967
+Sol: I have control now, and all four objects are still on the table. I’m starting with the battery, then I’ll return control to the policy after placing it.
+
+00:00:52.967 --> 00:01:05.567
+Sol: The battery is in the bin, and the gripper is clear. The pliers, candy cane, and remote remain on the table.
+
+00:01:05.567 --> 00:01:20.567
+Sol: The policy lifted the remote and released it inside the bin. Two objects remain.
+
+00:01:20.567 --> 00:01:30.567
+Sol: The candy cane is held off the table. I’m letting the policy carry it to the bin while watching for the release.
+
+00:01:30.567 --> 00:01:30.800
+Sol: The candy cane is in the bin. The policy is now working on the blue pliers, the last object.
+
+00:01:30.800 --> 00:01:37.533
+Sol: All four objects are visible inside the bin. I’ll withdraw the arm so it touches none of them and allow the required five-second hold.
+
+00:01:37.533 --> 00:01:44.200
+Sol: All four objects are in the plastic bin. The gripper is open and the arm is clear.

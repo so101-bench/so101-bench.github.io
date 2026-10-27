@@ -17,3 +17,6 @@
 .explainer-links a{text-decoration:underline;text-underline-offset:3px;color:var(--muted)}
 @media(max-width:760px){.hybrid-explainer{padding:10px}.hybrid-explainer header{gap:10px}.hybrid-explainer h4{font-size:17px}.hybrid-explainers>.explainer-note,.hybrid-explainer>p{font-size:11px}.explainer-chapters button{font-size:9px}.explainer-outcome{font-size:10px}.explainer-chapters{gap:5px}}
 @media(prefers-reduced-motion:reduce){.hybrid-explainer *{scroll-behavior:auto!important}}
+
+/* Let the camera-led films fill their cards without a second padded frame. */
+.hybrid-explainer,.sol-recovery-standalone{padding:0;border:0;background:transparent}
