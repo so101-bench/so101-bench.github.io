@@ -40,7 +40,7 @@ function metricValue(row,key){return key==='score'?row.score:(row.rates[key]?.ra
 function element(tag,className,text){const el=document.createElement(tag);if(className)el.className=className;if(text!==undefined)el.textContent=text;return el;}
 function cellBreakdown(row,id){
  const detail=element('tr','cell-breakdown');detail.id=id;detail.hidden=!expandedPolicies.has(row.policy);
- const container=element('td');container.colSpan=10;
+ const container=element('td');container.colSpan=11;
  const panel=element('div','cell-panel'),table=element('table','cell-matrix');
  table.append(element('caption','',row.policy+' · 15 task × object-split cells'));
  const head=element('thead'),header=element('tr');header.append(element('th','','Object split / task'));
@@ -85,7 +85,7 @@ function renderResults(){
   };
   toggle.setAttribute('aria-controls',detailId);toggle.setAttribute('aria-label','Show or hide 15 task by object-split cells for '+fullName);
   toggle.addEventListener('click',()=>{if(expandedPolicies.has(r.policy))expandedPolicies.delete(r.policy);else expandedPolicies.add(r.policy);syncToggle();});syncToggle();policy.append(toggle);tr.append(policy);
-  const progress=element('td','completion-cell',`${r.n}/${r.total}`);progress.title=r.complete?'Complete':'In progress';tr.append(progress);
+  tr.append(element('td','finetuning-cell','36 hrs'),element('td','finetuning-cell','4×A100'));
   const score=element('td','score-cell'+(metric==='score'?' current':''));
   score.append(element('strong','',r.score==null?'—':r.score.toFixed(1)),element('small','',r.ci_lo==null?'':`[${r.ci_lo.toFixed(1)}, ${r.ci_hi.toFixed(1)}]`));
   const track=element('div','score-track'),fill=element('span');fill.style.width=(r.score??0)+'%';track.append(fill);score.append(track);tr.append(score);
@@ -119,7 +119,7 @@ async function refreshUpdates(){
 async function refreshResults(){
  if(refreshing)return;refreshing=true;const button=$('#refresh-results');button.disabled=true;
  try{const response=await fetch('/data/live-leaderboard.json',{cache:'no-store'});if(!response.ok)throw Error('Results unavailable');const data=await response.json();results=data.rows;renderResults();$('#live-updated').textContent=`${results.length} policies · ${data.episodes} episodes · Updated ${data.updated}`;}
- catch{if(!results.length)$('#leaderboard-body').innerHTML='<tr><td colspan="10">Results could not be loaded. Try Refresh or download the CSV.</td></tr>';$('#live-updated').textContent='Could not refresh published results. Displayed data is retained.';}
+ catch{if(!results.length)$('#leaderboard-body').innerHTML='<tr><td colspan="11">Results could not be loaded. Try Refresh or download the CSV.</td></tr>';$('#live-updated').textContent='Could not refresh published results. Displayed data is retained.';}
  finally{await refreshUpdates();refreshing=false;button.disabled=false;}
 }
 $('#refresh-results').addEventListener('click',refreshResults);refreshResults();setInterval(()=>{if(!document.hidden)refreshResults();},60000);
